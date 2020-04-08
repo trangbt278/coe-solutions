@@ -30,7 +30,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://vox-solutions.kms-technology.com:8000/graphql/</restUrl>
+   <restUrl>${url}/graphql/</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -49,6 +49,13 @@
       <id>cfc2d921-16a5-436e-8e66-cfee65861316</id>
       <masked>false</masked>
       <name>id</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.url</defaultValue>
+      <description></description>
+      <id>e840d0e4-12e6-443e-a4ae-553bc256b8d3</id>
+      <masked>false</masked>
+      <name>url</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

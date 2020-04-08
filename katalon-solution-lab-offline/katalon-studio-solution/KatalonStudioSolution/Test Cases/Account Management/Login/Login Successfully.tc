@@ -6,16 +6,16 @@
    <comment></comment>
    <testCaseGuid>6229ba2f-a462-4c5b-8a74-249414f1c5b1</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>GlobalVariable.userAdmin</defaultValue>
       <description></description>
-      <id>4cb28a6f-1527-4daa-9228-90f4e2944df1</id>
+      <id>491bd8f1-b72b-4970-a64b-1508640f961b</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>GlobalVariable.passwordAdmin</defaultValue>
       <description></description>
-      <id>2aa0d4df-a845-41ae-9e91-0ad79610d974</id>
+      <id>4d5c16dd-ed02-4726-b85f-507f0db35b43</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
