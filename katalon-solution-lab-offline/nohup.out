@@ -1,0 +1,50 @@
+Mar 25, 2020 10:21:40 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /vagrant/katalon-solution-lab-offline/workspace/remoting as a remoting work directory
+Mar 25, 2020 10:21:40 AM org.jenkinsci.remoting.engine.WorkDirManager setupLogging
+INFO: Both error and output logs will be printed to /vagrant/katalon-solution-lab-offline/workspace/remoting
+Failing to obtain http://127.0.0.1:8080/computer/vox/slave-agent.jnlp?encrypt=true
+java.io.IOException: Failed to load http://127.0.0.1:8080/computer/vox/slave-agent.jnlp?encrypt=true: 503 Service Unavailable
+	at hudson.remoting.Launcher.parseJnlpArguments(Launcher.java:521)
+	at hudson.remoting.Launcher.run(Launcher.java:347)
+	at hudson.remoting.Launcher.main(Launcher.java:298)
+Waiting 10 seconds before retry
+Mar 25, 2020 10:22:17 AM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: vox
+Mar 25, 2020 10:22:17 AM hudson.remoting.jnlp.Main$CuiListener <init>
+INFO: Jenkins agent is running in headless mode.
+Mar 25, 2020 10:22:17 AM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3.36.1
+Mar 25, 2020 10:22:17 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /vagrant/katalon-solution-lab-offline/workspace/remoting as a remoting work directory
+Mar 25, 2020 10:22:17 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://127.0.0.1:8080/]
+Mar 25, 2020 10:22:18 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Mar 25, 2020 10:22:18 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 127.0.0.1
+  Agent port:    5000
+  Identity:      88:f5:fc:be:b9:6b:b0:5d:70:d6:60:72:7b:e3:a6:3c
+Mar 25, 2020 10:22:18 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+Mar 25, 2020 10:22:18 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 127.0.0.1:5000
+Mar 25, 2020 10:22:18 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Mar 25, 2020 10:22:18 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: 88:f5:fc:be:b9:6b:b0:5d:70:d6:60:72:7b:e3:a6:3c
+Mar 25, 2020 10:22:20 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Mar 25, 2020 10:25:19 AM org.jenkinsci.remoting.util.AnonymousClassWarnings warn
+WARNING: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.durabletask.FileMonitoringTask$FileMonitoringController$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+Exception in thread "main" java.nio.file.FileSystemException: /vagrant: Read-only file system
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.createDirectory(UnixFileSystemProvider.java:389)
+	at java.base/java.nio.file.Files.createDirectory(Files.java:693)
+	at java.base/java.nio.file.Files.createAndCheckIsDirectory(Files.java:800)
+	at java.base/java.nio.file.Files.createDirectories(Files.java:786)
+	at org.jenkinsci.remoting.engine.WorkDirManager.initializeWorkDir(WorkDirManager.java:210)
+	at hudson.remoting.Launcher.run(Launcher.java:322)
+	at hudson.remoting.Launcher.main(Launcher.java:298)

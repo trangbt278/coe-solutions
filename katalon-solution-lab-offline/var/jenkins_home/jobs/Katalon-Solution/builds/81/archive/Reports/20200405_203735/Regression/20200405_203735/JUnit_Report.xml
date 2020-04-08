@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="545.319" tests="13" failures="0" errors="0">
+   <testsuite name="Regression" tests="13" failures="0" errors="0" time="545.319" timestamp="2020-04-05 20:38:23" hostname="root - vagrant.vm" id="Test Suites/Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/project/Reports/20200405_203735/Regression/20200405_203735"/>
+         <property name="logFiles" value="/tmp/project/Reports/20200405_203735/Regression/20200405_203735/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="root - vagrant.vm"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="5901eafdee21324dd3e85f25a3e772b9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged" time="221.005" classname="Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:38:29 - [TEST_CASE][PASSED] - Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged: Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged
+
+2020-04-05 20:38:40 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:39:10 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:39:11 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-05 20:40:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:40:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["username":userAdmin, "password":passwordAdmin], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2020-04-05 20:40:21 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2020-04-05 20:40:24 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/linkLogIn")): Object: 'Object Repository/HomePage/linkLogIn' is clicked on
+
+2020-04-05 20:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/linkLogIn' is clicked on
+
+2020-04-05 20:40:30 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/inputEmail"), username): Text 'admin@example.com' is set on object 'Object Repository/LoginPage/inputEmail'
+
+2020-04-05 20:40:33 - [MESSAGE][PASSED] - Text 'admin@example.com' is set on object 'Object Repository/LoginPage/inputEmail'
+
+2020-04-05 20:40:33 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/inputPassword"), password): Text 'admin' is set on object 'Object Repository/LoginPage/inputPassword'
+
+2020-04-05 20:40:37 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginPage/inputPassword'
+
+2020-04-05 20:40:37 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/btnLogIn")): Object: 'Object Repository/LoginPage/btnLogIn' is clicked on
+
+2020-04-05 20:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/btnLogIn' is clicked on
+
+2020-04-05 20:40:42 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-04-05 20:40:42 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-04-05 20:40:42 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-04-05 20:40:42 - [MESSAGE][INFO] - ===============================================================
+
+2020-04-05 20:40:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2020-04-05 20:40:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Add an Item to Cart"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Add an Item to Cart' successfully
+
+2020-04-05 20:40:44 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Add an Item to Cart: Test Cases/Common Test Cases/Add an Item to Cart
+
+2020-04-05 20:40:48 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:40:49 - [TEST_STEP][PASSED] - category = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:40:49 - [TEST_STEP][PASSED] - preXpath = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:40:49 - [TEST_STEP][PASSED] - numRandom = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:40:49 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:40:49 - [TEST_STEP][PASSED] - listItem = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:40:49 - [TEST_STEP][PASSED] - countList = 0: null
+
+2020-04-05 20:40:49 - [TEST_STEP][PASSED] - rowCount = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:40:49 - [TEST_STEP][PASSED] - rowNum = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:40:49 - [TEST_STEP][PASSED] - index = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:40:49 - [TEST_STEP][PASSED] - listCategory = findTestData("Data Files/extdata_categoryfilter"): null
+
+2020-04-05 20:40:59 - [TEST_STEP][PASSED] - rowCount = listCategory.getRowNumbers(): null
+
+2020-04-05 20:40:59 - [TEST_STEP][PASSED] - while (countList == 0): Object: 'Object Repository/ProductPage/btnAddtoCart' is clicked on
+
+2020-04-05 20:40:59 - [TEST_STEP][PASSED] - rowNum = rand.nextInt(rowCount - 1) + 1: null
+
+2020-04-05 20:40:59 - [TEST_STEP][PASSED] - category = listCategory.getValue("category", rowNum): null
+
+2020-04-05 20:40:59 - [TEST_STEP][PASSED] - preXpath = listCategory.getValue("preXpath", rowNum): null
+
+2020-04-05 20:41:00 - [TEST_STEP][PASSED] - numRandom = listCategory.getValue("numRandom", rowNum): null
+
+2020-04-05 20:41:00 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:41:00 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:41:00 - [TEST_STEP][PASSED] - case "Accessories":: null
+
+2020-04-05 20:41:00 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkAccessories")): Object: 'Object Repository/SaleorPage/linkAccessories' is clicked on
+
+2020-04-05 20:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkAccessories' is clicked on
+
+2020-04-05 20:41:05 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:41:05 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:41:06 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:41:06 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:41:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:41:11 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:41:11 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:41:12 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list")): null
+
+2020-04-05 20:41:12 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:41:12 - [TEST_STEP][PASSED] - if (countList != 0): null
+
+2020-04-05 20:41:12 - [TEST_STEP][PASSED] - rowNum = rand.nextInt(rowCount - 1) + 1: null
+
+2020-04-05 20:41:12 - [TEST_STEP][PASSED] - category = listCategory.getValue("category", rowNum): null
+
+2020-04-05 20:41:13 - [TEST_STEP][PASSED] - preXpath = listCategory.getValue("preXpath", rowNum): null
+
+2020-04-05 20:41:13 - [TEST_STEP][PASSED] - numRandom = listCategory.getValue("numRandom", rowNum): null
+
+2020-04-05 20:41:13 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:41:13 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:41:13 - [TEST_STEP][PASSED] - case "Groceries":: null
+
+2020-04-05 20:41:13 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkGroceries")): Object: 'Object Repository/SaleorPage/linkGroceries' is clicked on
+
+2020-04-05 20:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkGroceries' is clicked on
+
+2020-04-05 20:41:17 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:41:17 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:41:18 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:41:18 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:41:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:41:25 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:41:25 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:41:25 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list")): null
+
+2020-04-05 20:41:25 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:41:25 - [TEST_STEP][PASSED] - if (countList != 0): Object: 'Object Repository/ProductPage/btnAddtoCart' is clicked on
+
+2020-04-05 20:41:25 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:41:25 - [TEST_STEP][PASSED] - get(index).click(): null
+
+2020-04-05 20:41:27 - [TEST_STEP][PASSED] - click(findTestObject("ProductPage/btnAddtoCart")): Object: 'Object Repository/ProductPage/btnAddtoCart' is clicked on
+
+2020-04-05 20:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductPage/btnAddtoCart' is clicked on
+
+2020-04-05 20:41:30 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-04-05 20:41:30 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-04-05 20:41:30 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-04-05 20:41:30 - [MESSAGE][INFO] - ===============================================================
+
+2020-04-05 20:41:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Add an Item to Cart' successfully
+
+2020-04-05 20:41:30 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/linkYourCart")): Object: 'Object Repository/AccountPage/linkYourCart' is clicked on
+
+2020-04-05 20:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/linkYourCart' is clicked on
+
+2020-04-05 20:41:35 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/btnCheckOut")): Object: 'Object Repository/AccountPage/btnCheckOut' is clicked on
+
+2020-04-05 20:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/btnCheckOut' is clicked on
+
+2020-04-05 20:41:39 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/btnContinue")): Object: 'Object Repository/AccountPage/btnContinue' is clicked on
+
+2020-04-05 20:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/btnContinue' is clicked on
+
+2020-04-05 20:41:44 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/btnContinue")): Object: 'Object Repository/AccountPage/btnContinue' is clicked on
+
+2020-04-05 20:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/btnContinue' is clicked on
+
+2020-04-05 20:41:50 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/btnOrder")): Object: 'Object Repository/AccountPage/btnOrder' is clicked on
+
+2020-04-05 20:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/btnOrder' is clicked on
+
+2020-04-05 20:41:54 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/chkPaymentMethod")): Object: 'Object Repository/AccountPage/chkPaymentMethod' is clicked on
+
+2020-04-05 20:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/chkPaymentMethod' is clicked on
+
+2020-04-05 20:41:56 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/btnProceedPayment")): Object: 'Object Repository/AccountPage/btnProceedPayment' is clicked on
+
+2020-04-05 20:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/btnProceedPayment' is clicked on
+
+2020-04-05 20:42:00 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/chkFullChargeOption")): Object: 'Object Repository/AccountPage/chkFullChargeOption' is clicked on
+
+2020-04-05 20:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/chkFullChargeOption' is clicked on
+
+2020-04-05 20:42:03 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/btnMakePayment")): Object: 'Object Repository/AccountPage/btnMakePayment' is clicked on
+
+2020-04-05 20:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/btnMakePayment' is clicked on
+
+2020-04-05 20:42:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("AccountPage/imgCheckOutPirate")): Object 'Object Repository/AccountPage/imgCheckOutPirate' is visible
+
+2020-04-05 20:42:09 - [MESSAGE][PASSED] - Object 'Object Repository/AccountPage/imgCheckOutPirate' is visible
+
+2020-04-05 20:42:09 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:42:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:42:10 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:42:10 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="41.606" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:42:12 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:42:18 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:42:18 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:42:18 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:42:18 - [TEST_STEP][PASSED] - filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:42:18 - [TEST_STEP][PASSED] - filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:42:18 - [TEST_STEP][PASSED] - apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:42:18 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:42:18 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:42:26 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:42:26 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:42:26 - [TEST_STEP][PASSED] - case "Accessories":: null
+
+2020-04-05 20:42:26 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkAccessories")): Object: 'Object Repository/SaleorPage/linkAccessories' is clicked on
+
+2020-04-05 20:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkAccessories' is clicked on
+
+2020-04-05 20:42:34 - [TEST_STEP][PASSED] - apiID = apiAccessoriesID: null
+
+2020-04-05 20:42:34 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:42:34 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index): utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:42:34 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:42:34 - [TEST_STEP][PASSED] - filterValue = trim().toLowerCase(): Attribute 'outerText' of object '' is: ' Cotton'
+
+2020-04-05 20:42:36 - [MESSAGE][PASSED] - Attribute 'outerText' of object '' is: ' Cotton'
+
+2020-04-05 20:42:36 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(".", ""): null
+
+2020-04-05 20:42:36 - [TEST_STEP][PASSED] - filterValue = filterValue.replace("%", ""): null
+
+2020-04-05 20:42:36 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(", ", "-"): null
+
+2020-04-05 20:42:36 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(" ", "-"): null
+
+2020-04-05 20:42:37 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:42:37 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:42:37 - [TEST_STEP][PASSED] - filterName = getAttribute(chkFilter, "name").toLowerCase(): Attribute 'name' of object '' is: 'material'
+
+2020-04-05 20:42:37 - [MESSAGE][PASSED] - Attribute 'name' of object '' is: 'material'
+
+2020-04-05 20:42:37 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:42:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:42:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:42:43 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:42:43 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:42:43 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name")): null
+
+2020-04-05 20:42:44 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:42:44 - [TEST_STEP][PASSED] - if (countList == 0): null
+
+2020-04-05 20:42:44 - [TEST_STEP][PASSED] - else: null
+
+2020-04-05 20:42:44 - [TEST_STEP][PASSED] - listProductUI = ["product"]: null
+
+2020-04-05 20:42:44 - [TEST_STEP][PASSED] - for (def i : (0..(countList - 1))): null
+
+2020-04-05 20:42:44 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:42:45 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:42:45 - [TEST_STEP][PASSED] - filterAttribute = """ + filterName + ":" + filterValue + """: null
+
+2020-04-05 20:42:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID])): Send request successfully
+
+2020-04-05 20:42:52 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/0.har
+
+2020-04-05 20:42:53 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - responseText = response.getResponseText(): null
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - listProductAPI = ["product"]: null
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:42:53 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:42:53 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="22.008" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:42:54 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:42:54 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:42:54 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:42:54 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:42:54 - [TEST_STEP][PASSED] - filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:42:54 - [TEST_STEP][PASSED] - filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:42:54 - [TEST_STEP][PASSED] - apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:42:54 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:42:54 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:43:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:43:00 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:43:01 - [TEST_STEP][PASSED] - case "Accessories":: null
+
+2020-04-05 20:43:01 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkAccessories")): Object: 'Object Repository/SaleorPage/linkAccessories' is clicked on
+
+2020-04-05 20:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkAccessories' is clicked on
+
+2020-04-05 20:43:04 - [TEST_STEP][PASSED] - apiID = apiAccessoriesID: null
+
+2020-04-05 20:43:04 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:43:04 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index): utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:43:04 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:43:04 - [TEST_STEP][PASSED] - filterValue = trim().toLowerCase(): Attribute 'outerText' of object '' is: ' 5l'
+
+2020-04-05 20:43:05 - [MESSAGE][PASSED] - Attribute 'outerText' of object '' is: ' 5l'
+
+2020-04-05 20:43:05 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(".", ""): null
+
+2020-04-05 20:43:05 - [TEST_STEP][PASSED] - filterValue = filterValue.replace("%", ""): null
+
+2020-04-05 20:43:05 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(", ", "-"): null
+
+2020-04-05 20:43:05 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(" ", "-"): null
+
+2020-04-05 20:43:05 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:43:05 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:43:05 - [TEST_STEP][PASSED] - filterName = getAttribute(chkFilter, "name").toLowerCase(): Attribute 'name' of object '' is: 'bucket-size'
+
+2020-04-05 20:43:06 - [MESSAGE][PASSED] - Attribute 'name' of object '' is: 'bucket-size'
+
+2020-04-05 20:43:06 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:43:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:43:10 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:43:10 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:43:10 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name")): null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - if (countList == 0): null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - else: null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - listProductUI = ["product"]: null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - for (def i : (0..(countList - 1))): null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - filterAttribute = """ + filterName + ":" + filterValue + """: null
+
+2020-04-05 20:43:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID])): Send request successfully
+
+2020-04-05 20:43:15 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/1.har
+
+2020-04-05 20:43:15 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - responseText = response.getResponseText(): null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - listProductAPI = ["product"]: null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:43:16 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:43:16 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="28.09" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:43:17 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:43:18 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:43:18 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:43:18 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:43:18 - [TEST_STEP][PASSED] - filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:43:18 - [TEST_STEP][PASSED] - filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:43:18 - [TEST_STEP][PASSED] - apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:43:18 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:43:18 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:43:26 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:43:26 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:43:26 - [TEST_STEP][PASSED] - case "Accessories":: null
+
+2020-04-05 20:43:26 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkAccessories")): Object: 'Object Repository/SaleorPage/linkAccessories' is clicked on
+
+2020-04-05 20:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkAccessories' is clicked on
+
+2020-04-05 20:43:30 - [TEST_STEP][PASSED] - apiID = apiAccessoriesID: null
+
+2020-04-05 20:43:31 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:43:31 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index): utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:43:31 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:43:31 - [TEST_STEP][PASSED] - filterValue = trim().toLowerCase(): Attribute 'outerText' of object '' is: ' 55cm x 55cm'
+
+2020-04-05 20:43:32 - [MESSAGE][PASSED] - Attribute 'outerText' of object '' is: ' 55cm x 55cm'
+
+2020-04-05 20:43:32 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(".", ""): null
+
+2020-04-05 20:43:32 - [TEST_STEP][PASSED] - filterValue = filterValue.replace("%", ""): null
+
+2020-04-05 20:43:32 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(", ", "-"): null
+
+2020-04-05 20:43:32 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(" ", "-"): null
+
+2020-04-05 20:43:32 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:43:32 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:43:32 - [TEST_STEP][PASSED] - filterName = getAttribute(chkFilter, "name").toLowerCase(): Attribute 'name' of object '' is: 'cushion-size'
+
+2020-04-05 20:43:33 - [MESSAGE][PASSED] - Attribute 'name' of object '' is: 'cushion-size'
+
+2020-04-05 20:43:33 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:43:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:43:38 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:43:38 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:43:38 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name")): null
+
+2020-04-05 20:43:40 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:43:40 - [TEST_STEP][PASSED] - if (countList == 0): null
+
+2020-04-05 20:43:40 - [TEST_STEP][PASSED] - else: null
+
+2020-04-05 20:43:40 - [TEST_STEP][PASSED] - listProductUI = ["product"]: null
+
+2020-04-05 20:43:40 - [TEST_STEP][PASSED] - for (def i : (0..(countList - 1))): null
+
+2020-04-05 20:43:40 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:43:40 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:43:40 - [TEST_STEP][PASSED] - filterAttribute = """ + filterName + ":" + filterValue + """: null
+
+2020-04-05 20:43:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID])): Send request successfully
+
+2020-04-05 20:43:44 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/2.har
+
+2020-04-05 20:43:44 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-05 20:43:44 - [TEST_STEP][PASSED] - responseText = response.getResponseText(): null
+
+2020-04-05 20:43:44 - [TEST_STEP][PASSED] - listProductAPI = ["product"]: null
+
+2020-04-05 20:43:44 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-05 20:43:44 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:43:44 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:43:44 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:43:44 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:43:44 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:43:44 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:43:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:43:45 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:43:45 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="27.326" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:43:45 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:43:46 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:43:46 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:43:46 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:43:46 - [TEST_STEP][PASSED] - filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:43:46 - [TEST_STEP][PASSED] - filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:43:47 - [TEST_STEP][PASSED] - apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:43:47 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:43:47 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:43:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:43:57 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:43:57 - [TEST_STEP][PASSED] - case "Groceries":: null
+
+2020-04-05 20:43:57 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkGroceries")): Object: 'Object Repository/SaleorPage/linkGroceries' is clicked on
+
+2020-04-05 20:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkGroceries' is clicked on
+
+2020-04-05 20:44:03 - [TEST_STEP][PASSED] - apiID = apiGroceriesID: null
+
+2020-04-05 20:44:03 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:44:03 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index): utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:44:03 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:44:03 - [TEST_STEP][PASSED] - filterValue = trim().toLowerCase(): Attribute 'outerText' of object '' is: ' 6.7%'
+
+2020-04-05 20:44:05 - [MESSAGE][PASSED] - Attribute 'outerText' of object '' is: ' 6.7%'
+
+2020-04-05 20:44:05 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(".", ""): null
+
+2020-04-05 20:44:05 - [TEST_STEP][PASSED] - filterValue = filterValue.replace("%", ""): null
+
+2020-04-05 20:44:05 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(", ", "-"): null
+
+2020-04-05 20:44:05 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(" ", "-"): null
+
+2020-04-05 20:44:05 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:44:05 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:44:05 - [TEST_STEP][PASSED] - filterName = getAttribute(chkFilter, "name").toLowerCase(): Attribute 'name' of object '' is: 'abv'
+
+2020-04-05 20:44:05 - [MESSAGE][PASSED] - Attribute 'name' of object '' is: 'abv'
+
+2020-04-05 20:44:05 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:44:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:44:09 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:44:09 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:44:09 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name")): null
+
+2020-04-05 20:44:09 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:44:09 - [TEST_STEP][PASSED] - if (countList == 0): null
+
+2020-04-05 20:44:09 - [TEST_STEP][PASSED] - else: null
+
+2020-04-05 20:44:09 - [TEST_STEP][PASSED] - listProductUI = ["product"]: null
+
+2020-04-05 20:44:09 - [TEST_STEP][PASSED] - for (def i : (0..(countList - 1))): null
+
+2020-04-05 20:44:09 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:44:09 - [TEST_STEP][PASSED] - filterAttribute = """ + filterName + ":" + filterValue + """: null
+
+2020-04-05 20:44:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID])): Send request successfully
+
+2020-04-05 20:44:12 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/3.har
+
+2020-04-05 20:44:12 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - responseText = response.getResponseText(): null
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - listProductAPI = ["product"]: null
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:44:13 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:44:13 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="24.934" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:44:14 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:44:15 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:44:15 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:44:15 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:44:15 - [TEST_STEP][PASSED] - filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:44:15 - [TEST_STEP][PASSED] - filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:44:15 - [TEST_STEP][PASSED] - apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:44:15 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:44:15 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:44:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:44:21 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:44:22 - [TEST_STEP][PASSED] - case "Groceries":: null
+
+2020-04-05 20:44:22 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkGroceries")): Object: 'Object Repository/SaleorPage/linkGroceries' is clicked on
+
+2020-04-05 20:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkGroceries' is clicked on
+
+2020-04-05 20:44:26 - [TEST_STEP][PASSED] - apiID = apiGroceriesID: null
+
+2020-04-05 20:44:26 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:44:26 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index): utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:44:26 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:44:26 - [TEST_STEP][PASSED] - filterValue = trim().toLowerCase(): Attribute 'outerText' of object '' is: ' Sprouty'
+
+2020-04-05 20:44:27 - [MESSAGE][PASSED] - Attribute 'outerText' of object '' is: ' Sprouty'
+
+2020-04-05 20:44:27 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(".", ""): null
+
+2020-04-05 20:44:27 - [TEST_STEP][PASSED] - filterValue = filterValue.replace("%", ""): null
+
+2020-04-05 20:44:27 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(", ", "-"): null
+
+2020-04-05 20:44:27 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(" ", "-"): null
+
+2020-04-05 20:44:27 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:44:27 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:44:27 - [TEST_STEP][PASSED] - filterName = getAttribute(chkFilter, "name").toLowerCase(): Attribute 'name' of object '' is: 'flavor'
+
+2020-04-05 20:44:27 - [MESSAGE][PASSED] - Attribute 'name' of object '' is: 'flavor'
+
+2020-04-05 20:44:27 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:44:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:44:32 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:44:32 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:44:32 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name")): null
+
+2020-04-05 20:44:34 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:44:34 - [TEST_STEP][PASSED] - if (countList == 0): null
+
+2020-04-05 20:44:34 - [TEST_STEP][PASSED] - else: null
+
+2020-04-05 20:44:34 - [TEST_STEP][PASSED] - listProductUI = ["product"]: null
+
+2020-04-05 20:44:34 - [TEST_STEP][PASSED] - for (def i : (0..(countList - 1))): null
+
+2020-04-05 20:44:34 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:44:34 - [TEST_STEP][PASSED] - filterAttribute = """ + filterName + ":" + filterValue + """: null
+
+2020-04-05 20:44:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID])): Send request successfully
+
+2020-04-05 20:44:39 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/4.har
+
+2020-04-05 20:44:39 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - responseText = response.getResponseText(): null
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - listProductAPI = ["product"]: null
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:44:39 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:44:39 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="21.8" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:44:40 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:44:40 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:44:40 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:44:40 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:44:40 - [TEST_STEP][PASSED] - filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:44:40 - [TEST_STEP][PASSED] - filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:44:40 - [TEST_STEP][PASSED] - apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:44:40 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:44:40 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:44:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:44:46 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:44:46 - [TEST_STEP][PASSED] - case "Groceries":: null
+
+2020-04-05 20:44:46 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkGroceries")): Object: 'Object Repository/SaleorPage/linkGroceries' is clicked on
+
+2020-04-05 20:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkGroceries' is clicked on
+
+2020-04-05 20:44:52 - [TEST_STEP][PASSED] - apiID = apiGroceriesID: null
+
+2020-04-05 20:44:52 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:44:52 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index): utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:44:52 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:44:52 - [TEST_STEP][PASSED] - filterValue = trim().toLowerCase(): Attribute 'outerText' of object '' is: ' 700ml'
+
+2020-04-05 20:44:52 - [MESSAGE][PASSED] - Attribute 'outerText' of object '' is: ' 700ml'
+
+2020-04-05 20:44:52 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(".", ""): null
+
+2020-04-05 20:44:52 - [TEST_STEP][PASSED] - filterValue = filterValue.replace("%", ""): null
+
+2020-04-05 20:44:52 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(", ", "-"): null
+
+2020-04-05 20:44:52 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(" ", "-"): null
+
+2020-04-05 20:44:52 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:44:52 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:44:52 - [TEST_STEP][PASSED] - filterName = getAttribute(chkFilter, "name").toLowerCase(): Attribute 'name' of object '' is: 'volume'
+
+2020-04-05 20:44:52 - [MESSAGE][PASSED] - Attribute 'name' of object '' is: 'volume'
+
+2020-04-05 20:44:52 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:44:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:44:56 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:44:56 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:44:56 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name")): null
+
+2020-04-05 20:44:56 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:44:56 - [TEST_STEP][PASSED] - if (countList == 0): null
+
+2020-04-05 20:44:56 - [TEST_STEP][PASSED] - else: null
+
+2020-04-05 20:44:56 - [TEST_STEP][PASSED] - listProductUI = ["product"]: null
+
+2020-04-05 20:44:56 - [TEST_STEP][PASSED] - for (def i : (0..(countList - 1))): null
+
+2020-04-05 20:44:56 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:44:56 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:44:57 - [TEST_STEP][PASSED] - filterAttribute = """ + filterName + ":" + filterValue + """: null
+
+2020-04-05 20:44:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID])): Send request successfully
+
+2020-04-05 20:45:01 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/5.har
+
+2020-04-05 20:45:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - responseText = response.getResponseText(): null
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - listProductAPI = ["product"]: null
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:45:02 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:45:02 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="30.582" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:45:03 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:45:03 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:45:03 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:45:03 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:45:03 - [TEST_STEP][PASSED] - filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:45:03 - [TEST_STEP][PASSED] - filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:45:03 - [TEST_STEP][PASSED] - apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:45:03 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:45:03 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:45:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:45:11 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:45:11 - [TEST_STEP][PASSED] - case "Groceries":: null
+
+2020-04-05 20:45:11 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkGroceries")): Object: 'Object Repository/SaleorPage/linkGroceries' is clicked on
+
+2020-04-05 20:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkGroceries' is clicked on
+
+2020-04-05 20:45:16 - [TEST_STEP][PASSED] - apiID = apiGroceriesID: null
+
+2020-04-05 20:45:16 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:45:16 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index): utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:45:16 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:45:16 - [TEST_STEP][PASSED] - filterValue = trim().toLowerCase(): Attribute 'outerText' of object '' is: ' 1l'
+
+2020-04-05 20:45:17 - [MESSAGE][PASSED] - Attribute 'outerText' of object '' is: ' 1l'
+
+2020-04-05 20:45:17 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(".", ""): null
+
+2020-04-05 20:45:17 - [TEST_STEP][PASSED] - filterValue = filterValue.replace("%", ""): null
+
+2020-04-05 20:45:17 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(", ", "-"): null
+
+2020-04-05 20:45:17 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(" ", "-"): null
+
+2020-04-05 20:45:18 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:45:18 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:45:18 - [TEST_STEP][PASSED] - filterName = getAttribute(chkFilter, "name").toLowerCase(): Attribute 'name' of object '' is: 'bottle-size'
+
+2020-04-05 20:45:19 - [MESSAGE][PASSED] - Attribute 'name' of object '' is: 'bottle-size'
+
+2020-04-05 20:45:19 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:45:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:45:24 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:45:24 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:45:24 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name")): null
+
+2020-04-05 20:45:25 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:45:25 - [TEST_STEP][PASSED] - if (countList == 0): null
+
+2020-04-05 20:45:25 - [TEST_STEP][PASSED] - else: null
+
+2020-04-05 20:45:25 - [TEST_STEP][PASSED] - listProductUI = ["product"]: null
+
+2020-04-05 20:45:25 - [TEST_STEP][PASSED] - for (def i : (0..(countList - 1))): null
+
+2020-04-05 20:45:25 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:25 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:25 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:26 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:26 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:26 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:26 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:26 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:27 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:27 - [TEST_STEP][PASSED] - filterAttribute = """ + filterName + ":" + filterValue + """: null
+
+2020-04-05 20:45:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID])): Send request successfully
+
+2020-04-05 20:45:33 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/6.har
+
+2020-04-05 20:45:33 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - responseText = response.getResponseText(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - listProductAPI = ["product"]: null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:45:33 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:45:33 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="24.074" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:45:34 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:45:35 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:45:35 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:45:35 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:45:35 - [TEST_STEP][PASSED] - filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:45:35 - [TEST_STEP][PASSED] - filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:45:35 - [TEST_STEP][PASSED] - apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:45:35 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:45:35 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:45:41 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:45:41 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:45:41 - [TEST_STEP][PASSED] - case "Apparel":: null
+
+2020-04-05 20:45:41 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkApparel")): Object: 'Object Repository/SaleorPage/linkApparel' is clicked on
+
+2020-04-05 20:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkApparel' is clicked on
+
+2020-04-05 20:45:44 - [TEST_STEP][PASSED] - apiID = apiApparelID: null
+
+2020-04-05 20:45:44 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:45:44 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index): utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:45:44 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:45:44 - [TEST_STEP][PASSED] - filterValue = trim().toLowerCase(): Attribute 'outerText' of object '' is: ' Cotton'
+
+2020-04-05 20:45:46 - [MESSAGE][PASSED] - Attribute 'outerText' of object '' is: ' Cotton'
+
+2020-04-05 20:45:46 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(".", ""): null
+
+2020-04-05 20:45:46 - [TEST_STEP][PASSED] - filterValue = filterValue.replace("%", ""): null
+
+2020-04-05 20:45:46 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(", ", "-"): null
+
+2020-04-05 20:45:46 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(" ", "-"): null
+
+2020-04-05 20:45:46 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:45:46 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:45:46 - [TEST_STEP][PASSED] - filterName = getAttribute(chkFilter, "name").toLowerCase(): Attribute 'name' of object '' is: 'shirt-material'
+
+2020-04-05 20:45:46 - [MESSAGE][PASSED] - Attribute 'name' of object '' is: 'shirt-material'
+
+2020-04-05 20:45:46 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:45:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:45:51 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:45:51 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:45:51 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name")): null
+
+2020-04-05 20:45:51 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:45:51 - [TEST_STEP][PASSED] - if (countList == 0): null
+
+2020-04-05 20:45:51 - [TEST_STEP][PASSED] - else: null
+
+2020-04-05 20:45:51 - [TEST_STEP][PASSED] - listProductUI = ["product"]: null
+
+2020-04-05 20:45:51 - [TEST_STEP][PASSED] - for (def i : (0..(countList - 1))): null
+
+2020-04-05 20:45:51 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:52 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:52 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:52 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:52 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:53 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:53 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:53 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:53 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:53 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:53 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:53 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:54 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:45:54 - [TEST_STEP][PASSED] - filterAttribute = """ + filterName + ":" + filterValue + """: null
+
+2020-04-05 20:45:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID])): Send request successfully
+
+2020-04-05 20:45:58 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/7.har
+
+2020-04-05 20:45:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - responseText = response.getResponseText(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI = ["product"]: null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:45:58 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:45:58 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="21.947" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:45:59 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:46:00 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:46:00 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:46:00 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:46:00 - [TEST_STEP][PASSED] - filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:00 - [TEST_STEP][PASSED] - filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:00 - [TEST_STEP][PASSED] - apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:00 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:46:00 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:46:07 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:46:07 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:46:08 - [TEST_STEP][PASSED] - case "Apparel":: null
+
+2020-04-05 20:46:08 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkApparel")): Object: 'Object Repository/SaleorPage/linkApparel' is clicked on
+
+2020-04-05 20:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkApparel' is clicked on
+
+2020-04-05 20:46:12 - [TEST_STEP][PASSED] - apiID = apiApparelID: null
+
+2020-04-05 20:46:12 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:46:12 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index): utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:46:12 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:46:12 - [TEST_STEP][PASSED] - filterValue = trim().toLowerCase(): Attribute 'outerText' of object '' is: ' 41'
+
+2020-04-05 20:46:12 - [MESSAGE][PASSED] - Attribute 'outerText' of object '' is: ' 41'
+
+2020-04-05 20:46:12 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(".", ""): null
+
+2020-04-05 20:46:12 - [TEST_STEP][PASSED] - filterValue = filterValue.replace("%", ""): null
+
+2020-04-05 20:46:12 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(", ", "-"): null
+
+2020-04-05 20:46:12 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(" ", "-"): null
+
+2020-04-05 20:46:12 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:46:12 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:46:12 - [TEST_STEP][PASSED] - filterName = getAttribute(chkFilter, "name").toLowerCase(): Attribute 'name' of object '' is: 'shoe-size'
+
+2020-04-05 20:46:13 - [MESSAGE][PASSED] - Attribute 'name' of object '' is: 'shoe-size'
+
+2020-04-05 20:46:13 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:46:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:46:16 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:46:16 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:46:16 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name")): null
+
+2020-04-05 20:46:17 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:46:17 - [TEST_STEP][PASSED] - if (countList == 0): null
+
+2020-04-05 20:46:17 - [TEST_STEP][PASSED] - else: null
+
+2020-04-05 20:46:17 - [TEST_STEP][PASSED] - listProductUI = ["product"]: null
+
+2020-04-05 20:46:17 - [TEST_STEP][PASSED] - for (def i : (0..(countList - 1))): null
+
+2020-04-05 20:46:17 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:17 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:18 - [TEST_STEP][PASSED] - filterAttribute = """ + filterName + ":" + filterValue + """: null
+
+2020-04-05 20:46:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID])): Send request successfully
+
+2020-04-05 20:46:21 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/8.har
+
+2020-04-05 20:46:21 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - responseText = response.getResponseText(): null
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - listProductAPI = ["product"]: null
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:46:21 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:46:21 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="26.751" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:46:22 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:46:23 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:46:23 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:46:23 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:46:23 - [TEST_STEP][PASSED] - filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:23 - [TEST_STEP][PASSED] - filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:23 - [TEST_STEP][PASSED] - apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:23 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:46:23 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:46:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:46:30 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:46:30 - [TEST_STEP][PASSED] - case "Apparel":: null
+
+2020-04-05 20:46:30 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkApparel")): Object: 'Object Repository/SaleorPage/linkApparel' is clicked on
+
+2020-04-05 20:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkApparel' is clicked on
+
+2020-04-05 20:46:34 - [TEST_STEP][PASSED] - apiID = apiApparelID: null
+
+2020-04-05 20:46:34 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:46:34 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index): utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:46:34 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterLabel is PASSED
+
+2020-04-05 20:46:34 - [TEST_STEP][PASSED] - filterValue = trim().toLowerCase(): Attribute 'outerText' of object '' is: ' L'
+
+2020-04-05 20:46:34 - [MESSAGE][PASSED] - Attribute 'outerText' of object '' is: ' L'
+
+2020-04-05 20:46:34 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(".", ""): null
+
+2020-04-05 20:46:34 - [TEST_STEP][PASSED] - filterValue = filterValue.replace("%", ""): null
+
+2020-04-05 20:46:34 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(", ", "-"): null
+
+2020-04-05 20:46:34 - [TEST_STEP][PASSED] - filterValue = filterValue.replace(" ", "-"): null
+
+2020-04-05 20:46:35 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:46:35 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:46:35 - [TEST_STEP][PASSED] - filterName = getAttribute(chkFilter, "name").toLowerCase(): Attribute 'name' of object '' is: 'size'
+
+2020-04-05 20:46:35 - [MESSAGE][PASSED] - Attribute 'name' of object '' is: 'size'
+
+2020-04-05 20:46:35 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:46:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:46:40 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:46:40 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:46:40 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name")): null
+
+2020-04-05 20:46:41 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:46:41 - [TEST_STEP][PASSED] - if (countList == 0): null
+
+2020-04-05 20:46:41 - [TEST_STEP][PASSED] - else: null
+
+2020-04-05 20:46:41 - [TEST_STEP][PASSED] - listProductUI = ["product"]: null
+
+2020-04-05 20:46:42 - [TEST_STEP][PASSED] - for (def i : (0..(countList - 1))): null
+
+2020-04-05 20:46:42 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:42 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:42 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:42 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:42 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:42 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:42 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:43 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:43 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:43 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:43 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:43 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:43 - [TEST_STEP][PASSED] - listProductUI = listProductUI << getText().toLowerCase(): null
+
+2020-04-05 20:46:43 - [TEST_STEP][PASSED] - filterAttribute = """ + filterName + ":" + filterValue + """: null
+
+2020-04-05 20:46:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID])): Send request successfully
+
+2020-04-05 20:46:48 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/9.har
+
+2020-04-05 20:46:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - responseText = response.getResponseText(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI = ["product"]: null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - listProductAPI << name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:46:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:46:49 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:46:49 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Add to Cart" time="28.763" classname="Test Cases/Category/Add to Cart" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:46:49 - [TEST_CASE][PASSED] - Test Cases/Category/Add to Cart: Test Cases/Category/Add to Cart
+
+2020-04-05 20:46:51 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:46:51 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-05 20:46:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:8000'
+
+2020-04-05 20:46:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Add an Item to Cart"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Add an Item to Cart' successfully
+
+2020-04-05 20:46:59 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Add an Item to Cart: Test Cases/Common Test Cases/Add an Item to Cart
+
+2020-04-05 20:46:59 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:46:59 - [TEST_STEP][PASSED] - category = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:59 - [TEST_STEP][PASSED] - preXpath = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:59 - [TEST_STEP][PASSED] - numRandom = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:59 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:46:59 - [TEST_STEP][PASSED] - listItem = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:46:59 - [TEST_STEP][PASSED] - countList = 0: null
+
+2020-04-05 20:46:59 - [TEST_STEP][PASSED] - rowCount = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:59 - [TEST_STEP][PASSED] - rowNum = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:59 - [TEST_STEP][PASSED] - index = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-04-05 20:46:59 - [TEST_STEP][PASSED] - listCategory = findTestData("Data Files/extdata_categoryfilter"): null
+
+2020-04-05 20:47:00 - [TEST_STEP][PASSED] - rowCount = listCategory.getRowNumbers(): null
+
+2020-04-05 20:47:00 - [TEST_STEP][PASSED] - while (countList == 0): Object: 'Object Repository/ProductPage/btnAddtoCart' is clicked on
+
+2020-04-05 20:47:00 - [TEST_STEP][PASSED] - rowNum = rand.nextInt(rowCount - 1) + 1: null
+
+2020-04-05 20:47:00 - [TEST_STEP][PASSED] - category = listCategory.getValue("category", rowNum): null
+
+2020-04-05 20:47:00 - [TEST_STEP][PASSED] - preXpath = listCategory.getValue("preXpath", rowNum): null
+
+2020-04-05 20:47:00 - [TEST_STEP][PASSED] - numRandom = listCategory.getValue("numRandom", rowNum): null
+
+2020-04-05 20:47:01 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:47:01 - [TEST_STEP][PASSED] - switch (category): null
+
+2020-04-05 20:47:01 - [TEST_STEP][PASSED] - case "Accessories":: null
+
+2020-04-05 20:47:01 - [TEST_STEP][PASSED] - click(findTestObject("SaleorPage/linkAccessories")): Object: 'Object Repository/SaleorPage/linkAccessories' is clicked on
+
+2020-04-05 20:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SaleorPage/linkAccessories' is clicked on
+
+2020-04-05 20:47:04 - [TEST_STEP][PASSED] - break: null
+
+2020-04-05 20:47:04 - [TEST_STEP][PASSED] - chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index): utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:47:04 - [MESSAGE][PASSED] - utilities.WebUtils.parameterizedFilterInput is PASSED
+
+2020-04-05 20:47:04 - [TEST_STEP][PASSED] - utilities.WebUtils.filterOneCriteria(chkFilter): utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:47:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-05 20:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryPage/btnUpdate' is clicked on
+
+2020-04-05 20:47:10 - [MESSAGE][PASSED] - utilities.WebUtils.filterOneCriteria is PASSED
+
+2020-04-05 20:47:10 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-05 20:47:10 - [TEST_STEP][PASSED] - list = driver.findElements(By.cssSelector(".product-list__header .row .product-list")): null
+
+2020-04-05 20:47:11 - [TEST_STEP][PASSED] - countList = list.size(): null
+
+2020-04-05 20:47:11 - [TEST_STEP][PASSED] - if (countList != 0): Object: 'Object Repository/ProductPage/btnAddtoCart' is clicked on
+
+2020-04-05 20:47:11 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:47:11 - [TEST_STEP][PASSED] - get(index).click(): null
+
+2020-04-05 20:47:13 - [TEST_STEP][PASSED] - click(findTestObject("ProductPage/btnAddtoCart")): Object: 'Object Repository/ProductPage/btnAddtoCart' is clicked on
+
+2020-04-05 20:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductPage/btnAddtoCart' is clicked on
+
+2020-04-05 20:47:15 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-04-05 20:47:15 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-04-05 20:47:15 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-04-05 20:47:15 - [MESSAGE][INFO] - ===============================================================
+
+2020-04-05 20:47:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Add an Item to Cart' successfully
+
+2020-04-05 20:47:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("AccountPage/objOneItemCart")): Object 'Object Repository/AccountPage/objOneItemCart' is visible
+
+2020-04-05 20:47:17 - [MESSAGE][PASSED] - Object 'Object Repository/AccountPage/objOneItemCart' is visible
+
+2020-04-05 20:47:17 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2020-04-05 20:47:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:47:18 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:47:18 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web Service/Accessories - Search with Material" time="4.382" classname="Test Cases/Web Service/Accessories - Search with Material" status="PASSED">
+         <system-out><![CDATA[2020-04-05 20:47:18 - [TEST_CASE][PASSED] - Test Cases/Web Service/Accessories - Search with Material: Test Cases/Web Service/Accessories - Search with Material
+
+2020-04-05 20:47:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":""cushion-size:45cm-x-45cm""])): Send request successfully
+
+2020-04-05 20:47:22 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/10.har
+
+2020-04-05 20:47:22 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - responseText = response.getResponseText(): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - productName = name.toLowerCase(): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - if (!(productName.contains("cushion"))): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - productName = name.toLowerCase(): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - if (!(productName.contains("cushion"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-05 20:38:23 - [TEST_SUITE][PASSED] - Regression: Test Cases/Web Service/Accessories - Search with Material]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

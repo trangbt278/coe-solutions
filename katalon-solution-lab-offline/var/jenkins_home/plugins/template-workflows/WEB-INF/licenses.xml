@@ -1,0 +1,15 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins.plugin.templateWorkflows' artifactId='template-workflows' version='1.2'>
+  <l:dependency name='Template Workflows' groupId='org.jenkins.plugin.templateWorkflows' artifactId='template-workflows' version='1.2' url='https://wiki.jenkins-ci.org/display/JENKINS/Template+Workflows+Plugin'>
+    <l:description />
+  </l:dependency>
+  <l:dependency name='Commons IO' groupId='commons-io' artifactId='commons-io' version='1.4' url='http://commons.apache.org/io/'>
+    <l:description>Commons-IO contains utility classes, stream implementations, file filters, file comparators and endian classes.</l:description>
+    <l:license name='The Apache Software License, Version 2.0' url='http://www.apache.org/licenses/LICENSE-2.0.txt' />
+  </l:dependency>
+  <l:dependency name='Lang' groupId='commons-lang' artifactId='commons-lang' version='2.3' url='http://jakarta.apache.org/commons/lang/'>
+    <l:description>Commons.Lang, a package of Java utility classes for the
+        classes that are in java.lang's hierarchy, or are considered to be so
+        standard as to justify existence in java.lang.</l:description>
+    <l:license name='The Apache Software License, Version 2.0' url='/LICENSE.txt' />
+  </l:dependency>
+</l:dependencies>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search with Criteria</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73d43d25-1426-4130-90b5-ec11c521e4d3</testCaseGuid>
+   <variable>
+      <defaultValue>'Accessories'</defaultValue>
+      <description></description>
+      <id>8b14c809-47fe-47ac-b3a3-0ce063a2fee0</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>'id_material_'</defaultValue>
+      <description></description>
+      <id>5221e692-5fb3-4026-91f8-8476a8c957fe</id>
+      <masked>false</masked>
+      <name>preXpath</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>d5914673-fb3c-4d51-a31b-168d39972b47</id>
+      <masked>false</masked>
+      <name>numRandom</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dc0813e6-b83b-49e5-a0a2-c0e789c61405</id>
+      <masked>false</masked>
+      <name>filterAttribute</name>
+   </variable>
+</TestCaseEntity>

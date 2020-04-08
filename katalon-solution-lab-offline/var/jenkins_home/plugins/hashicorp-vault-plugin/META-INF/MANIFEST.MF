@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: joseph
+Build-Jdk: 1.8.0_242
+Extension-Name: hashicorp-vault-plugin
+Specification-Title: Reading secrets from HashiCorp Vault for a Pipeli
+ ne or as a Secret Source for JCasC
+Specification-Vendor: Datapipe, Inc.
+Implementation-Vendor: Datapipe, Inc.
+Implementation-Title: hashicorp-vault-plugin
+Implementation-Version: 3.2.0
+Group-Id: com.datapipe.jenkins.plugins
+Short-Name: hashicorp-vault-plugin
+Long-Name: HashiCorp Vault Plugin
+Url: https://github.com/jenkinsci/hashicorp-vault-plugin
+Compatible-Since-Version: 2.0.0
+Minimum-Java-Version: 1.8
+Plugin-Version: 3.2.0
+Hudson-Version: 2.138.4
+Jenkins-Version: 2.138.4
+Plugin-Dependencies: configuration-as-code:1.35;resolution:=optional,c
+ loudbees-folder:6.9,credentials-binding:1.18,credentials:2.3.0,struct
+ s:1.20
+Plugin-Developers: Joseph Petersen:casz:,Peter A. Tierno:ptierno:ptier
+ no@datapipe.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: http://opensource.org/licenses/MIT
+Plugin-ScmUrl: http://github.com/jenkinsci/hashicorp-vault-plugin
+

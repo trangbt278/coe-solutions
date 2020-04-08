@@ -1,0 +1,530 @@
++ docker-compose -f docker-compose.staging.yml -p staging_saleor up -d
+Creating network "stagingsaleor_saleor-backend-tier" with driver "bridge"
+Creating volume "stagingsaleor_saleor-db" with local driver
+Creating volume "stagingsaleor_saleor-redis" with local driver
+Creating volume "stagingsaleor_saleor-media" with default driver
+Building celery
+Step 1/33 : FROM python:3.7 as build-python
+ ---> 859d8ec7db6a
+Step 2/33 : RUN apt-get -y update   && apt-get install -y gettext   && apt-get clean   && rm -rf /var/lib/apt/lists/*
+ ---> Running in 34a6946b97e6
+Get:1 http://security.debian.org/debian-security buster/updates InRelease [65.4 kB]
+Get:2 http://deb.debian.org/debian buster InRelease [122 kB]
+Get:3 http://deb.debian.org/debian buster-updates InRelease [49.3 kB]
+Get:4 http://security.debian.org/debian-security buster/updates/main amd64 Packages [186 kB]
+Get:5 http://deb.debian.org/debian buster/main amd64 Packages [7907 kB]
+Get:6 http://deb.debian.org/debian buster-updates/main amd64 Packages [7380 B]
+Fetched 8336 kB in 32s (263 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  gettext-base
+Suggested packages:
+  gettext-doc autopoint libasprintf-dev libgettextpo-dev
+The following NEW packages will be installed:
+  gettext gettext-base
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1426 kB of archives.
+After this operation, 7514 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian buster/main amd64 gettext-base amd64 0.19.8.1-9 [123 kB]
+Get:2 http://deb.debian.org/debian buster/main amd64 gettext amd64 0.19.8.1-9 [1303 kB]
+[91mdebconf: delaying package configuration, since apt-utils is not installed
+[0mFetched 1426 kB in 3s (428 kB/s)
+Selecting previously unselected package gettext-base.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 24594 files and directories currently installed.)
+Preparing to unpack .../gettext-base_0.19.8.1-9_amd64.deb ...
+Unpacking gettext-base (0.19.8.1-9) ...
+Selecting previously unselected package gettext.
+Preparing to unpack .../gettext_0.19.8.1-9_amd64.deb ...
+Unpacking gettext (0.19.8.1-9) ...
+Setting up gettext-base (0.19.8.1-9) ...
+Setting up gettext (0.19.8.1-9) ...
+Processing triggers for libc-bin (2.28-10) ...
+Removing intermediate container 34a6946b97e6
+ ---> 1c768f16b9c0
+Step 3/33 : COPY requirements_dev.txt /app/
+ ---> 528622a3bc41
+Step 4/33 : WORKDIR /app
+ ---> Running in c784d633feb8
+Removing intermediate container c784d633feb8
+ ---> 50bae1a3d5b6
+Step 5/33 : RUN pip install -r requirements_dev.txt
+ ---> Running in f55ae9530189
+Ignoring dataclasses: markers 'python_version < "3.7"' don't match your environment
+Collecting amqp==2.5.1
+  Downloading amqp-2.5.1-py2.py3-none-any.whl (49 kB)
+Collecting aniso8601==7.0.0
+  Downloading aniso8601-7.0.0-py2.py3-none-any.whl (42 kB)
+Collecting apipkg==1.5
+  Downloading apipkg-1.5-py2.py3-none-any.whl (4.9 kB)
+Collecting appdirs==1.4.3
+  Downloading appdirs-1.4.3-py2.py3-none-any.whl (12 kB)
+Collecting aspy.yaml==1.3.0
+  Downloading aspy.yaml-1.3.0-py2.py3-none-any.whl (3.5 kB)
+Collecting astroid==2.3.1
+  Downloading astroid-2.3.1-py3-none-any.whl (205 kB)
+Collecting atomicwrites==1.3.0
+  Downloading atomicwrites-1.3.0-py2.py3-none-any.whl (5.9 kB)
+Collecting attrs==19.2.0
+  Downloading attrs-19.2.0-py2.py3-none-any.whl (40 kB)
+Collecting autopep8==1.4.4
+  Downloading autopep8-1.4.4.tar.gz (114 kB)
+Collecting babel==2.7.0
+  Downloading Babel-2.7.0-py2.py3-none-any.whl (8.4 MB)
+Collecting beautifulsoup4==4.7.1
+  Downloading beautifulsoup4-4.7.1-py3-none-any.whl (94 kB)
+Collecting beautifultable==0.7.0
+  Downloading beautifultable-0.7.0-py2.py3-none-any.whl (22 kB)
+Collecting billiard==3.6.1.0
+  Downloading billiard-3.6.1.0-py3-none-any.whl (89 kB)
+Collecting black==19.3b0
+  Downloading black-19.3b0-py36-none-any.whl (89 kB)
+Collecting bleach==2.1.4
+  Downloading bleach-2.1.4-py2.py3-none-any.whl (22 kB)
+Collecting boto3==1.9.247
+  Downloading boto3-1.9.247-py2.py3-none-any.whl (128 kB)
+Collecting botocore==1.12.247
+  Downloading botocore-1.12.247-py2.py3-none-any.whl (5.7 MB)
+Collecting braintree==3.49.0
+  Downloading braintree-3.49.0-py2.py3-none-any.whl (122 kB)
+Collecting cachetools==3.1.1
+  Downloading cachetools-3.1.1-py2.py3-none-any.whl (11 kB)
+Collecting cairocffi==1.1.0
+  Downloading cairocffi-1.1.0.tar.gz (68 kB)
+Collecting cairosvg==2.4.2
+  Downloading CairoSVG-2.4.2-py3-none-any.whl (50 kB)
+Collecting celery==4.3.0
+  Downloading celery-4.3.0-py2.py3-none-any.whl (413 kB)
+Collecting certifi==2019.9.11
+  Downloading certifi-2019.9.11-py2.py3-none-any.whl (154 kB)
+Collecting cffi==1.12.3
+  Downloading cffi-1.12.3-cp37-cp37m-manylinux1_x86_64.whl (430 kB)
+Collecting cfgv==2.0.1
+  Downloading cfgv-2.0.1-py2.py3-none-any.whl (7.4 kB)
+Collecting chardet==3.0.4
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting click==7.0
+  Downloading Click-7.0-py2.py3-none-any.whl (81 kB)
+Collecting codecov==2.0.15
+  Downloading codecov-2.0.15-py2.py3-none-any.whl (11 kB)
+Collecting colorama==0.4.1
+  Downloading colorama-0.4.1-py2.py3-none-any.whl (15 kB)
+Collecting coverage==4.5.4
+  Downloading coverage-4.5.4-cp37-cp37m-manylinux1_x86_64.whl (205 kB)
+Collecting cssselect2==0.2.2
+  Downloading cssselect2-0.2.2-py2.py3-none-any.whl (31 kB)
+Collecting defusedxml==0.6.0
+  Downloading defusedxml-0.6.0-py2.py3-none-any.whl (23 kB)
+Collecting dj-database-url==0.5.0
+  Downloading dj_database_url-0.5.0-py2.py3-none-any.whl (5.5 kB)
+Collecting dj-email-url==0.2.0
+  Downloading dj_email_url-0.2.0-py2.py3-none-any.whl (6.5 kB)
+Collecting django==2.2.6
+  Downloading Django-2.2.6-py3-none-any.whl (7.5 MB)
+Collecting django-appconf==1.0.3
+  Downloading django_appconf-1.0.3-py2.py3-none-any.whl (6.4 kB)
+Collecting django-babel==0.6.2
+  Downloading django_babel-0.6.2-py2.py3-none-any.whl (15 kB)
+Collecting django-bootstrap4==1.0.1
+  Downloading django-bootstrap4-1.0.1.tar.gz (6.8 MB)
+Collecting django-cache-url==3.0.0
+  Downloading django_cache_url-3.0.0-py2.py3-none-any.whl (3.0 kB)
+Collecting django-countries==5.5
+  Downloading django_countries-5.5-py2.py3-none-any.whl (764 kB)
+Collecting django-debug-toolbar==2.0
+  Downloading django_debug_toolbar-2.0-py3-none-any.whl (198 kB)
+Collecting django-debug-toolbar-request-history==0.1.0
+  Downloading django_debug_toolbar_request_history-0.1.0-py2.py3-none-any.whl (7.7 kB)
+Collecting django-elasticsearch-dsl==0.5.1
+  Downloading django_elasticsearch_dsl-0.5.1-py2.py3-none-any.whl (20 kB)
+Collecting django-extensions==2.2.3
+  Downloading django_extensions-2.2.3-py2.py3-none-any.whl (223 kB)
+Collecting django-filter==2.2.0
+  Downloading django_filter-2.2.0-py3-none-any.whl (69 kB)
+Collecting django-graphql-jwt==0.2.1
+  Downloading django-graphql-jwt-0.2.1.tar.gz (14 kB)
+Collecting django-impersonate==1.4.1
+  Downloading django-impersonate-1.4.1.tar.gz (22 kB)
+Collecting django-js-asset==1.2.2
+  Downloading django_js_asset-1.2.2-py2.py3-none-any.whl (5.8 kB)
+Collecting django-measurement==3.0.0
+  Downloading django-measurement-3.0.0.tar.gz (17 kB)
+Collecting django-mptt==0.10.0
+  Downloading django_mptt-0.10.0-py2.py3-none-any.whl (105 kB)
+Collecting django-phonenumber-field==2.4.0
+  Downloading django_phonenumber_field-2.4.0-py2.py3-none-any.whl (46 kB)
+Collecting django-prices==2.1.0
+  Downloading django-prices-2.1.0.tar.gz (7.3 kB)
+Collecting django-prices-openexchangerates==1.0.1
+  Downloading django-prices-openexchangerates-1.0.1.tar.gz (10 kB)
+Collecting django-prices-vatlayer==1.0.2
+  Downloading django-prices-vatlayer-1.0.2.tar.gz (4.5 kB)
+Collecting django-recaptcha==1.5.0
+  Downloading django_recaptcha-1.5.0-py2.py3-none-any.whl (19 kB)
+Collecting django-redis==4.10.0
+  Downloading django_redis-4.10.0-py2.py3-none-any.whl (19 kB)
+Collecting django-render-block==0.6
+  Downloading django_render_block-0.6-py2.py3-none-any.whl (10 kB)
+Collecting django-silk==2.0.0
+  Downloading django_silk-2.0.0-py2.py3-none-any.whl (1.8 MB)
+Collecting django-storages==1.7.2
+  Downloading django_storages-1.7.2-py2.py3-none-any.whl (45 kB)
+Collecting django-templated-email==2.3.0
+  Downloading django-templated-email-2.3.0.tar.gz (18 kB)
+Collecting django-versatileimagefield==1.10
+  Downloading django_versatileimagefield-1.10-py2.py3-none-any.whl (54 kB)
+Collecting django-webpack-loader==0.6.0
+  Downloading django_webpack_loader-0.6.0-py2.py3-none-any.whl (17 kB)
+Collecting docutils==0.15.2
+  Downloading docutils-0.15.2-py3-none-any.whl (547 kB)
+Collecting draftjs-sanitizer==1.0.0
+  Downloading draftjs-sanitizer-1.0.0.tar.gz (6.1 kB)
+Collecting elasticsearch==6.3.1
+  Downloading elasticsearch-6.3.1-py2.py3-none-any.whl (119 kB)
+Collecting elasticsearch-dsl==6.0.1
+  Downloading elasticsearch_dsl-6.0.1-py2.py3-none-any.whl (46 kB)
+Collecting entrypoints==0.3
+  Downloading entrypoints-0.3-py2.py3-none-any.whl (11 kB)
+Collecting execnet==1.7.1
+  Downloading execnet-1.7.1-py2.py3-none-any.whl (39 kB)
+Collecting faker==2.0.2
+  Downloading Faker-2.0.2-py2.py3-none-any.whl (879 kB)
+Collecting filelock==3.0.12
+  Downloading filelock-3.0.12-py3-none-any.whl (7.6 kB)
+Collecting flake8==3.7.8
+  Downloading flake8-3.7.8-py2.py3-none-any.whl (70 kB)
+Collecting freezegun==0.3.12
+  Downloading freezegun-0.3.12-py2.py3-none-any.whl (12 kB)
+Collecting google-api-core==1.14.3
+  Downloading google_api_core-1.14.3-py2.py3-none-any.whl (68 kB)
+Collecting google-auth==1.6.3
+  Downloading google_auth-1.6.3-py2.py3-none-any.whl (73 kB)
+Collecting google-cloud-core==1.0.3
+  Downloading google_cloud_core-1.0.3-py2.py3-none-any.whl (26 kB)
+Collecting google-cloud-storage==1.20.0
+  Downloading google_cloud_storage-1.20.0-py2.py3-none-any.whl (70 kB)
+Collecting google-i18n-address==2.3.5
+  Downloading google_i18n_address-2.3.5-py2.py3-none-any.whl (773 kB)
+Collecting google-measurement-protocol==1.0.0
+  Downloading google-measurement-protocol-1.0.0.tar.gz (2.8 kB)
+Collecting google-resumable-media==0.4.1
+  Downloading google_resumable_media-0.4.1-py2.py3-none-any.whl (38 kB)
+Collecting googleapis-common-protos==1.6.0
+  Downloading googleapis-common-protos-1.6.0.tar.gz (35 kB)
+Collecting gprof2dot==2016.10.13
+  Downloading gprof2dot-2016.10.13.tar.gz (22 kB)
+Collecting graphene==2.1.8
+  Downloading graphene-2.1.8-py2.py3-none-any.whl (107 kB)
+Collecting graphene-django==2.6.0
+  Downloading graphene_django-2.6.0-py2.py3-none-any.whl (68 kB)
+Collecting graphene-django-optimizer==0.6.1
+  Downloading graphene-django-optimizer-0.6.1.tar.gz (9.7 kB)
+Collecting graphene-federation==0.0.3
+  Downloading graphene-federation-0.0.3.tar.gz (4.5 kB)
+Collecting graphql-core==2.2.1
+  Downloading graphql_core-2.2.1-py2.py3-none-any.whl (250 kB)
+Collecting graphql-relay==2.0.0
+  Downloading graphql_relay-2.0.0-py3-none-any.whl (20 kB)
+Collecting html-to-draftjs==1.0.1
+  Downloading html-to-draftjs-1.0.1.tar.gz (6.7 kB)
+Collecting html5lib==1.0.1
+  Downloading html5lib-1.0.1-py2.py3-none-any.whl (117 kB)
+Collecting identify==1.4.7
+  Downloading identify-1.4.7-py2.py3-none-any.whl (97 kB)
+Collecting idna==2.8
+  Downloading idna-2.8-py2.py3-none-any.whl (58 kB)
+Collecting importlib-metadata==0.23
+  Downloading importlib_metadata-0.23-py2.py3-none-any.whl (28 kB)
+Collecting ipaddress==1.0.22
+  Downloading ipaddress-1.0.22-py2.py3-none-any.whl (18 kB)
+Collecting isort==4.3.21
+  Downloading isort-4.3.21-py2.py3-none-any.whl (42 kB)
+Collecting jinja2==2.10.3
+  Downloading Jinja2-2.10.3-py2.py3-none-any.whl (125 kB)
+Collecting jmespath==0.9.4
+  Downloading jmespath-0.9.4-py2.py3-none-any.whl (24 kB)
+Collecting jsonfield==2.0.2
+  Downloading jsonfield-2.0.2-py2.py3-none-any.whl (13 kB)
+Collecting kombu==4.6.5
+  Downloading kombu-4.6.5-py2.py3-none-any.whl (182 kB)
+Collecting lazy-object-proxy==1.4.2
+  Downloading lazy_object_proxy-1.4.2-cp37-cp37m-manylinux1_x86_64.whl (49 kB)
+Collecting lxml==4.4.1
+  Downloading lxml-4.4.1-cp37-cp37m-manylinux1_x86_64.whl (5.7 MB)
+Collecting markdown==3.1.1
+  Downloading Markdown-3.1.1-py2.py3-none-any.whl (87 kB)
+Collecting markupsafe==1.1.1
+  Downloading MarkupSafe-1.1.1-cp37-cp37m-manylinux1_x86_64.whl (27 kB)
+Collecting maxminddb==1.5.1
+  Downloading maxminddb-1.5.1.tar.gz (272 kB)
+Collecting maxminddb-geolite2==2018.703
+  Downloading maxminddb-geolite2-2018.703.tar.gz (26.1 MB)
+Collecting mccabe==0.6.1
+  Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting measurement==3.0.0
+  Downloading measurement-3.0.0.tar.gz (11 kB)
+Collecting more-itertools==7.2.0
+  Downloading more_itertools-7.2.0-py3-none-any.whl (57 kB)
+Collecting mpmath==1.1.0
+  Downloading mpmath-1.1.0.tar.gz (512 kB)
+Collecting multidict==4.5.2
+  Downloading multidict-4.5.2-cp37-cp37m-manylinux1_x86_64.whl (309 kB)
+Collecting nodeenv==1.3.3
+  Downloading nodeenv-1.3.3.tar.gz (34 kB)
+Collecting oauthlib==3.1.0
+  Downloading oauthlib-3.1.0-py2.py3-none-any.whl (147 kB)
+Collecting packaging==19.2
+  Downloading packaging-19.2-py2.py3-none-any.whl (30 kB)
+Collecting phonenumberslite==8.10.20
+  Downloading phonenumberslite-8.10.20-py2.py3-none-any.whl (442 kB)
+Collecting pillow==5.4.1
+  Downloading Pillow-5.4.1-cp37-cp37m-manylinux1_x86_64.whl (2.0 MB)
+Collecting pluggy==0.13.0
+  Downloading pluggy-0.13.0-py2.py3-none-any.whl (17 kB)
+Collecting pre-commit==1.18.3
+  Downloading pre_commit-1.18.3-py2.py3-none-any.whl (154 kB)
+Collecting prices==1.0.0
+  Downloading prices-1.0.0.tar.gz (6.0 kB)
+Collecting promise==2.2.1
+  Downloading promise-2.2.1.tar.gz (19 kB)
+Collecting protobuf==3.10.0
+  Downloading protobuf-3.10.0-cp37-cp37m-manylinux1_x86_64.whl (1.3 MB)
+Collecting psycopg2-binary==2.8.3
+  Downloading psycopg2_binary-2.8.3-cp37-cp37m-manylinux1_x86_64.whl (2.9 MB)
+Collecting purl==1.5
+  Downloading purl-1.5-py2.py3-none-any.whl (10 kB)
+Collecting py==1.8.0
+  Downloading py-1.8.0-py2.py3-none-any.whl (83 kB)
+Collecting pyasn1==0.4.7
+  Downloading pyasn1-0.4.7-py2.py3-none-any.whl (76 kB)
+Collecting pyasn1-modules==0.2.7
+  Downloading pyasn1_modules-0.2.7-py2.py3-none-any.whl (131 kB)
+Collecting pycodestyle==2.5.0
+  Downloading pycodestyle-2.5.0-py2.py3-none-any.whl (51 kB)
+Collecting pycparser==2.19
+  Downloading pycparser-2.19.tar.gz (158 kB)
+Collecting pydocstyle==4.0.1
+  Downloading pydocstyle-4.0.1-py3-none-any.whl (33 kB)
+Collecting pyflakes==2.1.1
+  Downloading pyflakes-2.1.1-py2.py3-none-any.whl (59 kB)
+Collecting pygments==2.4.2
+  Downloading Pygments-2.4.2-py2.py3-none-any.whl (883 kB)
+Collecting pyjwt==1.7.1
+  Downloading PyJWT-1.7.1-py2.py3-none-any.whl (18 kB)
+Collecting pylint==2.4.2
+  Downloading pylint-2.4.2-py3-none-any.whl (302 kB)
+Collecting pylint-celery==0.3
+  Downloading pylint-celery-0.3.tar.gz (1.9 kB)
+Collecting pylint-django==2.0.11
+  Downloading pylint_django-2.0.11-py3-none-any.whl (67 kB)
+Collecting pylint-plugin-utils==0.6
+  Downloading pylint_plugin_utils-0.6-py3-none-any.whl (10 kB)
+Collecting pyparsing==2.4.2
+  Downloading pyparsing-2.4.2-py2.py3-none-any.whl (65 kB)
+Collecting pyphen==0.9.5
+  Downloading Pyphen-0.9.5-py2.py3-none-any.whl (3.0 MB)
+Collecting pytest==5.2.1
+  Downloading pytest-5.2.1-py3-none-any.whl (226 kB)
+Collecting pytest-cov==2.8.1
+  Downloading pytest_cov-2.8.1-py2.py3-none-any.whl (18 kB)
+Collecting pytest-django==3.5.1
+  Downloading pytest_django-3.5.1-py2.py3-none-any.whl (18 kB)
+Collecting pytest-django-queries==1.1.0
+  Downloading pytest-django-queries-1.1.0.tar.gz (13 kB)
+Collecting pytest-forked==1.1.1
+  Downloading pytest-forked-1.1.1.tar.gz (7.2 kB)
+Collecting pytest-mock==1.11.1
+  Downloading pytest_mock-1.11.1-py2.py3-none-any.whl (10 kB)
+Collecting pytest-vcr==1.0.2
+  Downloading pytest_vcr-1.0.2-py2.py3-none-any.whl (4.1 kB)
+Collecting pytest-xdist==1.30.0
+  Downloading pytest_xdist-1.30.0-py2.py3-none-any.whl (35 kB)
+Collecting python-dateutil==2.8.0
+  Downloading python_dateutil-2.8.0-py2.py3-none-any.whl (226 kB)
+Collecting python-slugify==3.0.6
+  Downloading python-slugify-3.0.6.tar.gz (8.7 kB)
+Collecting python3-openid==3.1.0
+  Downloading python3_openid-3.1.0-py3-none-any.whl (130 kB)
+Collecting pytz==2019.3
+  Using cached pytz-2019.3-py2.py3-none-any.whl (509 kB)
+Collecting pyyaml==5.1.2
+  Downloading PyYAML-5.1.2.tar.gz (265 kB)
+Collecting razorpay==1.2.0
+  Downloading razorpay-1.2.0-py3-none-any.whl (162 kB)
+Collecting redis==3.3.10
+  Downloading redis-3.3.10-py2.py3-none-any.whl (66 kB)
+Collecting requests==2.22.0
+  Downloading requests-2.22.0-py2.py3-none-any.whl (57 kB)
+Collecting requests-oauthlib==1.2.0
+  Downloading requests_oauthlib-1.2.0-py2.py3-none-any.whl (22 kB)
+Collecting rsa==4.0
+  Downloading rsa-4.0-py2.py3-none-any.whl (38 kB)
+Collecting rx==1.6.1
+  Downloading Rx-1.6.1-py2.py3-none-any.whl (179 kB)
+Collecting s3transfer==0.2.1
+  Downloading s3transfer-0.2.1-py2.py3-none-any.whl (70 kB)
+Collecting sentry-sdk==0.12.3
+  Downloading sentry_sdk-0.12.3-py2.py3-none-any.whl (87 kB)
+Collecting singledispatch==3.4.0.3
+  Downloading singledispatch-3.4.0.3-py2.py3-none-any.whl (12 kB)
+Collecting six==1.12.0
+  Downloading six-1.12.0-py2.py3-none-any.whl (10 kB)
+Collecting snowballstemmer==2.0.0
+  Using cached snowballstemmer-2.0.0-py2.py3-none-any.whl (97 kB)
+Collecting social-auth-app-django==3.1.0
+  Downloading social_auth_app_django-3.1.0-py3-none-any.whl (23 kB)
+Collecting social-auth-core==3.2.0
+  Downloading social_auth_core-3.2.0-py3-none-any.whl (315 kB)
+Collecting soupsieve==1.9.4
+  Downloading soupsieve-1.9.4-py2.py3-none-any.whl (33 kB)
+Collecting sqlparse==0.3.0
+  Downloading sqlparse-0.3.0-py2.py3-none-any.whl (39 kB)
+Collecting stripe==2.37.2
+  Downloading stripe-2.37.2-py2.py3-none-any.whl (200 kB)
+Collecting sympy==1.4
+  Downloading sympy-1.4-py2.py3-none-any.whl (5.3 MB)
+Collecting text-unidecode==1.3
+  Downloading text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+Collecting tinycss2==1.0.2
+  Downloading tinycss2-1.0.2-py3-none-any.whl (61 kB)
+Collecting toml==0.10.0
+  Downloading toml-0.10.0-py2.py3-none-any.whl (25 kB)
+Collecting tox==3.14.0
+  Downloading tox-3.14.0-py2.py3-none-any.whl (80 kB)
+Collecting tqdm==4.36.1
+  Downloading tqdm-4.36.1-py2.py3-none-any.whl (52 kB)
+Collecting transifex-client==0.13.4
+  Downloading transifex-client-0.13.4.tar.gz (254 kB)
+Collecting typed-ast==1.4.0
+  Downloading typed_ast-1.4.0-cp37-cp37m-manylinux1_x86_64.whl (736 kB)
+Collecting typing==3.7.4.1
+  Downloading typing-3.7.4.1-py3-none-any.whl (25 kB)
+Collecting urllib3==1.25.6
+  Downloading urllib3-1.25.6-py2.py3-none-any.whl (125 kB)
+Collecting uwsgi==2.0.18
+  Downloading uwsgi-2.0.18.tar.gz (801 kB)
+Collecting vcrpy==2.1.0
+  Downloading vcrpy-2.1.0-py2.py3-none-any.whl (37 kB)
+Collecting vine==1.3.0
+  Downloading vine-1.3.0-py2.py3-none-any.whl (14 kB)
+Collecting virtualenv==16.7.5
+  Downloading virtualenv-16.7.5-py2.py3-none-any.whl (3.3 MB)
+Collecting wcwidth==0.1.7
+  Downloading wcwidth-0.1.7-py2.py3-none-any.whl (21 kB)
+Collecting weasyprint==50
+  Downloading WeasyPrint-50-py3-none-any.whl (356 kB)
+Collecting webencodings==0.5.1
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting wrapt==1.11.2
+  Downloading wrapt-1.11.2.tar.gz (27 kB)
+Collecting yapf==0.28.0
+  Downloading yapf-0.28.0-py2.py3-none-any.whl (180 kB)
+Collecting yarl==1.3.0
+  Downloading yarl-1.3.0.tar.gz (159 kB)
+Collecting zipp==0.6.0
+  Downloading zipp-0.6.0-py2.py3-none-any.whl (4.1 kB)
+Requirement already satisfied: setuptools>=39.2.0 in /usr/local/lib/python3.7/site-packages (from cairocffi==1.1.0->-r requirements_dev.txt (line 20)) (46.1.3)
+Building wheels for collected packages: autopep8, cairocffi, django-bootstrap4, django-graphql-jwt, django-impersonate, django-measurement, django-prices, django-prices-openexchangerates, django-prices-vatlayer, django-templated-email, draftjs-sanitizer, google-measurement-protocol, googleapis-common-protos, gprof2dot, graphene-django-optimizer, graphene-federation, html-to-draftjs, maxminddb, maxminddb-geolite2, measurement, mpmath, nodeenv, prices, promise, pycparser, pylint-celery, pytest-django-queries, pytest-forked, python-slugify, pyyaml, transifex-client, uwsgi, wrapt, yarl
+  Building wheel for autopep8 (setup.py): started
+  Building wheel for autopep8 (setup.py): finished with status 'done'
+  Created wheel for autopep8: filename=autopep8-1.4.4-py2.py3-none-any.whl size=42631 sha256=6422a49bd27c7ca7eb794e1ceba2b8e344b0b4899f349d74840c733d38f4e040
+  Stored in directory: /root/.cache/pip/wheels/05/e3/42/88a3f1bdd1f9af71117f5d5f96593c5c845c150322384125ce
+  Building wheel for cairocffi (setup.py): started
+  Building wheel for cairocffi (setup.py): finished with status 'done'
+  Created wheel for cairocffi: filename=cairocffi-1.1.0-py3-none-any.whl size=88588 sha256=97a579dada8682ccb6c8f16a730ea812e4959955cae9ff5ab4a09d5681209627
+  Stored in directory: /root/.cache/pip/wheels/04/7d/d9/68956b3da44dbef65b150faff8a9810209588de332ebe1fa63
+  Building wheel for django-bootstrap4 (setup.py): started
+  Building wheel for django-bootstrap4 (setup.py): finished with status 'done'
+  Created wheel for django-bootstrap4: filename=django_bootstrap4-1.0.1-py3-none-any.whl size=158259 sha256=28ce51f8351cbc6d68c36858dab04b726fb1d0a7cd8103a563bebefec04592e8
+  Stored in directory: /root/.cache/pip/wheels/0b/c1/78/46559cbfe167349e7f31043f0ec5a40eb827de2450d367cf62
+  Building wheel for django-graphql-jwt (setup.py): started
+  Building wheel for django-graphql-jwt (setup.py): finished with status 'done'
+  Created wheel for django-graphql-jwt: filename=django_graphql_jwt-0.2.1-py2.py3-none-any.whl size=23631 sha256=f1a484ddb0c77ff7cdc910574226ae79d36e0a10ec78e19bfda4709da6279008
+  Stored in directory: /root/.cache/pip/wheels/51/ec/56/6b08a04ef26ec89cf657b20bad14ad53242d8ea1ab46141ee6
+  Building wheel for django-impersonate (setup.py): started
+  Building wheel for django-impersonate (setup.py): finished with status 'done'
+  Created wheel for django-impersonate: filename=django_impersonate-1.4.1-py3-none-any.whl size=24508 sha256=5c7c82832f19b5466947d3661e0cd33ff3dd964b6e2091cb0d08db5ff86c0df8
+  Stored in directory: /root/.cache/pip/wheels/6e/62/fa/172e85378630f9b68ae03443277480c1d4e3e69907b6b1d363
+  Building wheel for django-measurement (setup.py): started
+  Building wheel for django-measurement (setup.py): finished with status 'done'
+  Created wheel for django-measurement: filename=django_measurement-3.0.0-py3-none-any.whl size=7519 sha256=2741aa4b2df9dbc75f1321e24196caca6b377f78a27f823c529c8487de8205ac
+  Stored in directory: /root/.cache/pip/wheels/02/b7/06/57d0293b38335b05ebf4243200a5d918948bc24a3667648351
+  Building wheel for django-prices (setup.py): started
+  Building wheel for django-prices (setup.py): finished with status 'done'
+  Created wheel for django-prices: filename=django_prices-2.1.0-py3-none-any.whl size=8466 sha256=1863a73ac82a71ffb202e35192a5dd3287319be64eff03dc0d6f2b6edc084844
+  Stored in directory: /root/.cache/pip/wheels/95/21/eb/f5859f5cd956a138bc7816fd2c53eb9fe3870765a89f83a243
+  Building wheel for django-prices-openexchangerates (setup.py): started
+  Building wheel for django-prices-openexchangerates (setup.py): finished with status 'done'
+  Created wheel for django-prices-openexchangerates: filename=django_prices_openexchangerates-1.0.1-py3-none-any.whl size=18543 sha256=00d7ba232839dc7ba7a2fc3dddb40e20fc6b257ca63c0cef736f79a15ab5943a
+  Stored in directory: /root/.cache/pip/wheels/60/2d/50/81f683df17256b80d53eab836a9867175befbb0311ef189075
+  Building wheel for django-prices-vatlayer (setup.py): started
+  Building wheel for django-prices-vatlayer (setup.py): finished with status 'done'
+  Created wheel for django-prices-vatlayer: filename=django_prices_vatlayer-1.0.2-py3-none-any.whl size=6572 sha256=0dd8b50fe3368cc1e1044f51329ba517af2afb08d4d3bfc2918b8c767f3f5279
+  Stored in directory: /root/.cache/pip/wheels/d9/42/20/cd44cf1f556d9a0bf101822fc69686b3ec732e9c1e517bf4d2
+  Building wheel for django-templated-email (setup.py): started
+  Building wheel for django-templated-email (setup.py): finished with status 'done'
+  Created wheel for django-templated-email: filename=django_templated_email-2.3.0-py3-none-any.whl size=15589 sha256=d3b2913fc6b26d520eade6cc132895185df50686fb3f19a24fd6621be6bb06b5
+  Stored in directory: /root/.cache/pip/wheels/b4/28/d1/0272fa09dfa29ced835a24b727c24dfb9d04a8bba6a43987b8
+  Building wheel for draftjs-sanitizer (setup.py): started
+  Building wheel for draftjs-sanitizer (setup.py): finished with status 'done'
+  Created wheel for draftjs-sanitizer: filename=draftjs_sanitizer-1.0.0-py3-none-any.whl size=6330 sha256=d4369b87d13d13dbee9fcc4da1115082db79cc23baf0b1b893e2b8d707fdd857
+  Stored in directory: /root/.cache/pip/wheels/fb/33/3d/236808eeafca8f7887eab53599d3d5e12b4e40c5f607859e54
+  Building wheel for google-measurement-protocol (setup.py): started
+  Building wheel for google-measurement-protocol (setup.py): finished with status 'done'
+  Created wheel for google-measurement-protocol: filename=google_measurement_protocol-1.0.0-py3-none-any.whl size=4959 sha256=7ce254fe94de29268d6658ca818dd448fe640467f1209d062e236be9a08de0eb
+  Stored in directory: /root/.cache/pip/wheels/32/a9/51/819284da1564c4d8238c8f55238c569483618061b38ce0f533
+  Building wheel for googleapis-common-protos (setup.py): started
+  Building wheel for googleapis-common-protos (setup.py): finished with status 'done'
+  Created wheel for googleapis-common-protos: filename=googleapis_common_protos-1.6.0-py3-none-any.whl size=77574 sha256=988c358c11973e9cec0c9c5374fd78468e4bb72b4b452fdfa18a30d278682bec
+  Stored in directory: /root/.cache/pip/wheels/d4/8f/f8/0aa82958144f10d13972768e6fa7a1e4960d7f9e492a7e31f5
+  Building wheel for gprof2dot (setup.py): started
+  Building wheel for gprof2dot (setup.py): finished with status 'done'
+  Created wheel for gprof2dot: filename=gprof2dot-2016.10.13-py3-none-any.whl size=23171 sha256=a92a33183f8a3219677e411d635c055f03efd18ee1fdce1876df73a7630edb06
+  Stored in directory: /root/.cache/pip/wheels/e9/8b/c6/f5602fea49a3c632fd51349335aea8e3eae93465ba3052b2e1
+  Building wheel for graphene-django-optimizer (setup.py): started
+  Building wheel for graphene-django-optimizer (setup.py): finished with status 'done'
+  Created wheel for graphene-django-optimizer: filename=graphene_django_optimizer-0.6.1-py2.py3-none-any.whl size=9262 sha256=1ac5eb84701ef50b0d11107f57ef7d04fe34d42005d784cd70fe90205b95e787
+  Stored in directory: /root/.cache/pip/wheels/7f/49/1d/38b3fee0328ab19c4b86e198658e7252a2350604a77fb6f918
+  Building wheel for graphene-federation (setup.py): started
+  Building wheel for graphene-federation (setup.py): finished with status 'done'
+  Created wheel for graphene-federation: filename=graphene_federation-0.0.3-py3-none-any.whl size=5835 sha256=e792038f05508730fd42b9f3342b49d994de39b3d69fdb87dfbb67755a03ca44
+  Stored in directory: /root/.cache/pip/wheels/86/5c/fb/263aa7bf6cff9d4aba5477baa0df82ec9d4f3d61ec7f8b1ccc
+  Building wheel for html-to-draftjs (setup.py): started
+  Building wheel for html-to-draftjs (setup.py): finished with status 'done'
+  Created wheel for html-to-draftjs: filename=html_to_draftjs-1.0.1-py3-none-any.whl size=6618 sha256=11f188107d8759538fb80aa90a35987b1ea892537c8269172c513261b5144c5f
+  Stored in directory: /root/.cache/pip/wheels/eb/14/f6/56c8d89d4199c5ef18f4fb0ef8c7d0b88c9810643dcb500bf5
+  Building wheel for maxminddb (setup.py): started
+  Building wheel for maxminddb (setup.py): finished with status 'done'
+  Created wheel for maxminddb: filename=maxminddb-1.5.1-cp37-cp37m-linux_x86_64.whl size=44488 sha256=1aa5739cd7374583b96552ac9e50f279b1a8d81d436d0b34a5379800da441e65
+  Stored in directory: /root/.cache/pip/wheels/90/73/c0/d8c1e4552a71cbe720570a43716ac29dc0e8c542718bb81611
+  Building wheel for maxminddb-geolite2 (setup.py): started
+  Building wheel for maxminddb-geolite2 (setup.py): finished with status 'done'
+  Created wheel for maxminddb-geolite2: filename=maxminddb_geolite2-2018.703-py3-none-any.whl size=26407039 sha256=222bf6231557d166740186c1da16ea216e6e235ef53b7d6bc13a3e9b905f398e
+  Stored in directory: /root/.cache/pip/wheels/21/f8/f5/c3d091f638042b802aa461ae6087b6f4106df7bf9a46ad4114
+  Building wheel for measurement (setup.py): started
+  Building wheel for measurement (setup.py): finished with status 'done'
+  Created wheel for measurement: filename=measurement-3.0.0-py2.py3-none-any.whl size=15715 sha256=14d92125e8e1ef2b1933d26f2c740fbb4b91439a75ceecd616e606d2e449690d
+  Stored in directory: /root/.cache/pip/wheels/2f/6a/f3/72018179594151c4741d812bce44f68d7f739635c35f4b7d04
+  Building wheel for mpmath (setup.py): started
+  Building wheel for mpmath (setup.py): finished with status 'done'
+  Created wheel for mpmath: filename=mpmath-1.1.0-py3-none-any.whl size=532239 sha256=89d106cd7b6b45d4732c1e37e20dec2c82b3dbd9b954d75ae2550a86ef89aff5
+  Stored in directory: /root/.cache/pip/wheels/e2/46/78/e78f76c356bca9277368f1f97a31b37a8cb937176d9511af31
+  Building wheel for nodeenv (setup.py): started
+  Building wheel for nodeenv (setup.py): finished with status 'done'
+  Created wheel for nodeenv: filename=nodeenv-1.3.3-py3-none-any.whl size=21346 sha256=fe013a5d13c61531ab1b65c2e1b28a7de4d32d79a974f18044494535b9db3894
+  Stored in directory: /root/.cache/pip/wheels/13/d3/6f/0e01c0c62414f74a97916cc97047c088f6acc8ce617d1b37ff
+  Building wheel for prices (setup.py): started
+  Building wheel for prices (setup.py): finished with status 'done'
+  Created wheel for prices: filename=prices-1.0.0-py3-none-any.whl size=8816 sha256=c3fb45d3743428ce6625da48347bec4aeab9a7ba4a9efecc63e428d09c7a8568
+  Stored in directory: /root/.cache/pip/wheels/97/ff/7f/3138d81a0b0331404b58407f58235302da10ce7ccb8d79d335
+  Building wheel for promise (setup.py): started
+  Building wheel for promise (setup.py): finished with status 'done'
+  Created wheel for promise: filename=promise-2.2.1-py3-none-any.whl size=21291 sha256=94c3e0b08b53264360f0021b4eea4739915ad2c733c5fa38959e33207b9ca6d4
+  Stored in directory: /root/.cache/pip/wheels/26/ab/f1/b59406f102f915e2adcf1e26ef9ada6e72469a61b29f3f60cf
+  Building wheel for pycparser (setup.py): started
+  Building wheel for pycparser (setup.py): finished with status 'done'
+  Created wheel for pycparser: filename=pycparser-2.19-py2.py3-none-any.whl size=111031 sha256=034b65d38e70113e180e9af5c3876c489e97f81dd8499e91cf65f720024e8263
+  Stored in directory: /root/.cache/pip/wheels/0e/53/27/fee7fd9562e10dd046caccfc0340b8cf789b46846e660f3380
+  Building wheel for pylint-celery (setup.py): started

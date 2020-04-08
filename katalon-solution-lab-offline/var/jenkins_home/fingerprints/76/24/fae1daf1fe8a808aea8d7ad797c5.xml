@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-03-25 03:52:16.73 UTC</timestamp>
+  <original>
+    <name>Katalon-Solution</name>
+    <number>66</number>
+  </original>
+  <md5sum>7624fae1daf1fe8a808aea8d7ad797c5</md5sum>
+  <fileName>20200325_035044.html</fileName>
+  <usages>
+    <entry>
+      <string>Katalon-Solution</string>
+      <ranges>66-67</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

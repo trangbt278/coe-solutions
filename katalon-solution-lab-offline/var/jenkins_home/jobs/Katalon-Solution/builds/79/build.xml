@@ -1,0 +1,353 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.36">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.BooleanParameterValue>
+          <name>IS_DEPLOY_TO_PRODUCTION</name>
+          <description>Deploy to production if all tests pass</description>
+          <value>true</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>IS_COLLECTION</name>
+          <description>Run suite collection</description>
+          <value>false</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>PROFILE</name>
+          <description>Execution Profile</description>
+          <value>default</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>RETRY</name>
+          <description>Retry</description>
+          <value>0</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>BROWSER</name>
+          <description>Browser</description>
+          <value>Chrome (headless)</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>SUITES</name>
+          <description>Paths to suites. Each is separated by a semicolon</description>
+          <value>Regression</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>KATALON_API_KEY</name>
+          <description>Katalon API key</description>
+          <value>f9faa583-d0ea-48a9-b7dd-3b15fbb7e690</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>COLLECTION</name>
+          <description>Path to suite collection</description>
+          <value>RegressionSuite</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>IS_COLLECTION</string>
+        <string>IS_DEPLOY_TO_PRODUCTION</string>
+        <string>PROFILE</string>
+        <string>RETRY</string>
+        <string>BROWSER</string>
+        <string>SUITES</string>
+        <string>KATALON_API_KEY</string>
+        <string>COLLECTION</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.15">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.80">
+      <env class="tree-map">
+        <entry>
+          <string>BASE_URL</string>
+          <string>localhost</string>
+        </entry>
+        <entry>
+          <string>BUILD_SOURCE</string>
+          <string>saleor</string>
+        </entry>
+        <entry>
+          <string>KATALON_API_KEY</string>
+          <string>f9faa583-d0ea-48a9-b7dd-3b15fbb7e690</string>
+        </entry>
+        <entry>
+          <string>SUT_PORT</string>
+          <string>8000</string>
+        </entry>
+        <entry>
+          <string>TEST_SOURCE</string>
+          <string>katalon-studio-solution/KatalonStudioSolution</string>
+        </entry>
+      </env>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>Reports/20200403_174237/Regression/20200403_174238/20200403_174238.csv</string>
+          <string>a100735651cd2414a823af5319e5059e</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_174237/Regression/20200403_174238/JUnit_Report.xml</string>
+          <string>7e9106142a5bb0b8d7b7a543f8763321</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_174237/Regression/20200403_174238/1585935976692.png</string>
+          <string>9a9dccf51079807bc81ce1e572ff31e2</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_174237/Regression/20200403_174238/execution0.log</string>
+          <string>17ef587a0520ab943cb44f7fc1571bdc</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_174237/Regression/20200403_174238/1585935979886.png</string>
+          <string>9a9dccf51079807bc81ce1e572ff31e2</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_174237/Regression/20200403_174238/execution.properties</string>
+          <string>9e54655fd198ad2d63b267a10833dbc6</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_174237/Regression/20200403_174238/20200403_174238.html</string>
+          <string>b285d62c08f986b31ebc42ad11650d07</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_174237/Regression/20200403_174238/execution.uuid</string>
+          <string>0a2b1c483ffc7ec325b69f269084208d</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.tasks.junit.TestResultAction plugin="junit@1.28">
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>1</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>2</totalCount>
+      <healthScaleFactor>1.0</healthScaleFactor>
+      <testData/>
+    </hudson.tasks.junit.TestResultAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>44</queueId>
+  <timestamp>1585935245709</timestamp>
+  <startTime>1585935245739</startTime>
+  <result>ABORTED</result>
+  <duration>2464864</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>def isFailed = false
+
+properties([
+  parameters(
+      [
+        booleanParam(name: &apos;IS_COLLECTION&apos;, defaultValue: false, description: &apos;Run suite collection&apos;),
+        booleanParam(name: &apos;IS_DEPLOY_TO_PRODUCTION&apos;, defaultValue: false, description: &apos;Deploy to production if all tests pass&apos;),
+        string(name: &apos;PROFILE&apos;, defaultValue: &apos;default&apos;, description: &apos;Execution Profile&apos;),
+        string(name: &apos;RETRY&apos;, defaultValue: &apos;0&apos;, description: &apos;Retry&apos;),
+        string(name: &apos;BROWSER&apos;, defaultValue: &apos;Chrome (headless)&apos;, description: &apos;Browser&apos;),
+        string(name: &apos;SUITES&apos;, defaultValue: &apos;Regression&apos;, description: &apos;Paths to suites. Each is separated by a semicolon&apos;),
+        string(name: &apos;KATALON_API_KEY&apos;, defaultValue: &apos;&apos;, description: &apos;Katalon API key&apos;),
+        string(name: &apos;COLLECTION&apos;, defaultValue: &apos;RegressionSuite&apos;, description: &apos;Path to suite collection&apos;)
+      ]
+    )
+  ])
+
+def waitForWebsiteDeployed() {
+    timeout(time: 300, unit: &apos;SECONDS&apos;) {    
+        waitUntil {      
+            try {
+                def isAvailable = sh (
+                    script: &quot;curl -s --head  --request GET  ${env.BASE_URL}:${env.SUT_PORT} | grep &apos;302&apos;&quot;,
+                    returnStdout: true
+                ).trim()
+                return true
+            }
+            catch(error) {
+                return false
+            }
+        }
+    }
+}
+
+env.BUILD_SOURCE = &quot;saleor&quot;
+env.TEST_SOURCE = &quot;katalon-studio-solution/KatalonStudioSolution&quot;
+env.BASE_URL = &quot;localhost&quot;
+env.SUT_PORT = 8000
+env.KATALON_API_KEY = KATALON_API_KEY
+
+node(&apos;vox&apos;) {
+    stage(&apos;Deploy SUT&apos;) {
+      dir(&quot;$PWD/${env.BUILD_SOURCE}&quot;) {
+        step([$class: &apos;DockerComposeBuilder&apos;, dockerComposeFile: &apos;docker-compose.yml&apos;, option: [$class: &apos;StartAllServices&apos;], useCustomDockerComposeFile: true])
+        waitForWebsiteDeployed()
+      }
+    }
+    
+    try {
+      stage(&apos;Execute Tests&apos;) {
+        dir(&quot;$PWD/${env.TEST_SOURCE}&quot;){
+          if (params.IS_COLLECTION) {
+            sh &quot;&quot;&quot;
+              docker run --network=&quot;host&quot; -t --rm \
+              -v &quot;${pwd()}/license&quot;:/root/.katalon/license \
+              -v &quot;${pwd()}&quot;:/tmp/project katalonstudio/katalon:7.2.1  katalonc.sh -projectPath=/tmp/project -retry=${RETRY} -testSuiteCollectionPath=&quot;Test Suites/${COLLECTION}&quot; -apiKey=&apos;${KATALON_API_KEY}&apos;
+            &quot;&quot;&quot;
+          }
+          else {
+            def suites = &quot;${params.SUITES}&quot;.split(&quot;;&quot;)
+            suites.each { path -&gt;
+              try {
+                sh &quot;&quot;&quot;
+                  docker run --network=&quot;host&quot; -t --rm \
+                  -v &quot;${pwd()}/license&quot;:/root/.katalon/license \
+                  -v &quot;${pwd()}&quot;:/tmp/project katalonstudio/katalon:7.2.1  katalonc.sh -projectPath=/tmp/project -retry=${RETRY} -testSuitePath=&quot;Test Suites/${path}&quot; -executionProfile=&apos;${PROFILE}&apos; -browserType=&apos;${BROWSER}&apos; -apiKey=&apos;${KATALON_API_KEY}&apos;
+                &quot;&quot;&quot;
+              }
+              catch(error) {
+                //Log errors
+                err = error
+                isFailed = false
+              }
+            }
+            if (isFailed) throw err
+          }    
+        }
+      }
+    }
+    catch(error) {
+      //Log errors
+      isFailed = false
+      throw error
+    }
+    finally {
+      stage(&apos;Publish Results&apos;) {
+        dir(&quot;$PWD/${env.TEST_SOURCE}&quot;){
+          archiveArtifacts artifacts: &apos;Reports/**/*.*&apos;, fingerprint: true
+          junit &apos;Reports/**/JUnit_Report.xml&apos;
+        }
+      }
+      
+      if (params.IS_DEPLOY_TO_PRODUCTION &amp;&amp; !isFailed) {
+        stage(&apos;Deploy to production&apos;) {
+            dir(&quot;$PWD/${env.BUILD_SOURCE}&quot;) {
+                 sh &apos;docker-compose -f docker-compose.staging.yml -p staging_saleor up -d&apos;
+            }
+        }
+      }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>25415050790</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>78852063160</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>110439130066</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>41959209350</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>34739532112</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>56</iota>
+    <head>1:56</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

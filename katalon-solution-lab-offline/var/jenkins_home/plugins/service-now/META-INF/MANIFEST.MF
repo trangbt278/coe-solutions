@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: pdkreidermacher
+Build-Jdk: 1.8.0_202
+Extension-Name: service-now
+Specification-Title: Provides an interface to the Service Now API in J
+ enkins workflow steps
+Implementation-Title: service-now
+Implementation-Version: 0.0.4
+Group-Id: org.jenkins-ci.plugins
+Short-Name: service-now
+Long-Name: Service Now Plugin
+Url: https://wiki.jenkins.io/display/JENKINS/Service+Now+Plugin
+Plugin-Version: 0.0.4
+Hudson-Version: 2.60.1
+Jenkins-Version: 2.60.1
+Plugin-Dependencies: hashicorp-vault-plugin:2.2.0,workflow-basic-steps
+ :2.4,workflow-cps:2.21,apache-httpcomponents-client-4-api:4.5.3-2.0,s
+ cript-security:1.28
+Plugin-Developers: James McShane:jmcshane:jmcshan1@gmail.com,Peter Kre
+ idermacher:pdkreid:pdkreid@gmail.com
+

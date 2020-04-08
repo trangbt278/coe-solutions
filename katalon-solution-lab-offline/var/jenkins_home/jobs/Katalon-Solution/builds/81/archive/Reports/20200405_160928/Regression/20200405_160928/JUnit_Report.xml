@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="68.406" tests="2" failures="0" errors="0">
+   <testsuite name="Regression" tests="2" failures="0" errors="0" time="68.406" timestamp="2020-04-05 16:09:38" hostname="trangbui - 192.168.0.12" id="Test Suites/Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/trangbui/Documents/ProjectWork/KMSSolution/katalon_automation/katalon-studio-solution/KatalonStudioSolution/Reports/20200405_160928/Regression/20200405_160928"/>
+         <property name="logFiles" value="/Users/trangbui/Documents/ProjectWork/KMSSolution/katalon_automation/katalon-studio-solution/KatalonStudioSolution/Reports/20200405_160928/Regression/20200405_160928/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="trangbui - 192.168.0.12"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Chrome 80.0.3987.163"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="b2cd8a9fdff525c08454b841f1dc64e3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged" time="62.764" classname="Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:09:40 - [TEST_CASE][PASSED] - Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged: Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web Service/Accessories - Search with Material" time="4.102" classname="Test Cases/Web Service/Accessories - Search with Material" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:10:42 - [TEST_CASE][PASSED] - Test Cases/Web Service/Accessories - Search with Material: Test Cases/Web Service/Accessories - Search with Material]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-05 16:09:38 - [TEST_SUITE][PASSED] - Regression: Test Cases/Web Service/Accessories - Search with Material]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

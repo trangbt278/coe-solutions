@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,Chrome 79.0.3945.88,,,2020-04-03 18:27:44,2020-04-03 18:30:23,2m - 39.250s,FAILED
+,,,,,,,
+Test Cases/Login_PASS,Chrome 79.0.3945.88,,,2020-04-03 18:27:51,2020-04-03 18:29:25,1m - 34.307s,PASSED
+"openBrowser(""http://localhost:8000"")",Chrome 79.0.3945.88,,,2020-04-03 18:27:57,2020-04-03 18:28:47,49.588s,PASSED
+"click(findTestObject(""HomePage/linkLogIn""))",Chrome 79.0.3945.88,,,2020-04-03 18:28:47,2020-04-03 18:28:56,9.081s,PASSED
+"setText(findTestObject(""LoginPage/inputEmail""), ""admin@example.com"")",Chrome 79.0.3945.88,,,2020-04-03 18:28:56,2020-04-03 18:29:02,6.036s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/inputPassword""), ""RAIVpflpDOg="")",Chrome 79.0.3945.88,,,2020-04-03 18:29:02,2020-04-03 18:29:06,4.030s,PASSED
+"sendKeys(findTestObject(""LoginPage/inputPassword""), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2020-04-03 18:29:06,2020-04-03 18:29:16,9.973s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/HomePage/linkYourAccount""))",Chrome 79.0.3945.88,,,2020-04-03 18:29:16,2020-04-03 18:29:24,8.210s,PASSED
+Start tear down : tearDown,Chrome 79.0.3945.88,,,2020-04-03 18:29:24,2020-04-03 18:29:25,0.660s,PASSED
+,,,,,,,
+Test Cases/Login_FAILED,Chrome 79.0.3945.88,,,2020-04-03 18:29:26,2020-04-03 18:30:23,57.570s,FAILED
+"openBrowser(""http://localhost:8000"")",Chrome 79.0.3945.88,,,2020-04-03 18:29:30,2020-04-03 18:29:45,15.237s,PASSED
+"click(findTestObject(""HomePage/linkLogIn""))",Chrome 79.0.3945.88,,,2020-04-03 18:29:45,2020-04-03 18:29:51,6.523s,PASSED
+"setText(findTestObject(""LoginPage/inputEmail""), ""admin@example.com"")",Chrome 79.0.3945.88,,,2020-04-03 18:29:51,2020-04-03 18:29:58,6.541s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/inputPassword""), ""RAIVpflpDOg="")",Chrome 79.0.3945.88,,,2020-04-03 18:29:58,2020-04-03 18:30:01,2.902s,PASSED
+"sendKeys(findTestObject(""LoginPage/inputPassword""), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2020-04-03 18:30:01,2020-04-03 18:30:09,8.568s,PASSED
+"verifyElementNotVisible(findTestObject(""Object Repository/HomePage/linkYourAccount""))",Chrome 79.0.3945.88,,,2020-04-03 18:30:09,2020-04-03 18:30:21,11.819s,FAILED
+Start tear down : tearDown,Chrome 79.0.3945.88,,,2020-04-03 18:30:22,2020-04-03 18:30:23,1.449s,PASSED

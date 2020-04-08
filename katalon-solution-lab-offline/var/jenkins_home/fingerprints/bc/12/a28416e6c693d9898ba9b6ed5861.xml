@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-03-11 14:30:10.153 UTC</timestamp>
+  <md5sum>bc12a28416e6c693d9898ba9b6ed5861</md5sum>
+  <fileName>Credential id=katalonAPIKey name=Katalon API key</fileName>
+  <usages>
+    <entry>
+      <string>Katalon-Solution</string>
+      <ranges>61</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

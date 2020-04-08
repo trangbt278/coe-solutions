@@ -1,0 +1,1 @@
+docker-compose -f docker-compose.staging.yml -p staging_saleor up -d

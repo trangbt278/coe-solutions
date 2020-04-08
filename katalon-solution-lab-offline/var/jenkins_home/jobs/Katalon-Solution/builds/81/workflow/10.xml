@@ -1,0 +1,47 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.4">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.80">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.CoreStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.80">
+      <arguments>
+        <entry>
+          <string>delegate</string>
+          <linked-hash-map>
+            <entry>
+              <string>$class</string>
+              <string>DockerComposeBuilder</string>
+            </entry>
+            <entry>
+              <string>dockerComposeFile</string>
+              <string>docker-compose.yml</string>
+            </entry>
+            <entry>
+              <string>option</string>
+              <linked-hash-map>
+                <entry>
+                  <string>$class</string>
+                  <string>StartAllServices</string>
+                </entry>
+              </linked-hash-map>
+            </entry>
+            <entry>
+              <string>useCustomDockerComposeFile</string>
+              <boolean>true</boolean>
+            </entry>
+          </linked-hash-map>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1586118658765</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

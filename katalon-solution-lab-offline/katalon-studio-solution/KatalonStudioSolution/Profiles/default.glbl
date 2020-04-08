@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>dynamic object - prefix xpath for ABV filter</description>
+      <initValue>'id_abv_'</initValue>
+      <name>xpathAbv</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>dynamic object - prefix xpath for FLAVOR filter</description>
+      <initValue>'id_flavor_'</initValue>
+      <name>xpathFlavor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&quot;Q2F0ZWdvcnk6Nw==&quot;'</initValue>
+      <name>apiAccessoriesID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&quot;Q2F0ZWdvcnk6OA==&quot;'</initValue>
+      <name>apiGroceriesID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&quot;Q2F0ZWdvcnk6OQ==&quot;'</initValue>
+      <name>apiApparelID</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

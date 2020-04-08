@@ -1,0 +1,89 @@
+version: "2"
+
+services:
+  # storefront:
+  #   ports:
+  #     - 80:3000
+  #   restart: unless-stopped
+  #   networks:
+  #     - saleor-backend-tier
+  #   build:
+  #     context: ./saleor-storefront
+  #     dockerfile: ./Dockerfile
+  #   depends_on:
+  #     - web
+  
+
+  web:
+    ports:
+      - 80:8000
+    command: bash -c "sleep 30 && python manage.py migrate && cat <(echo "yes") - | python manage.py collectstatic && python manage.py populatedb --createsuperuser && python manage.py runserver 0.0.0.0:8000"
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        STATIC_URL: "/static/"
+    restart: unless-stopped
+    networks:
+      - saleor-backend-tier
+    env_file: common.env
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./saleor/:/app/saleor:Z
+      - ./templates/:/app/templates:Z
+      - ./tests/:/app/tests
+      # prevents overshadowing of build-time assets
+      - /app/saleor/static/assets
+      - /app/templates/templated_email/compiled
+      # shared volume between celery and web for media
+      - saleor-media:/app/media
+
+  db:
+    ports:
+      - 5433:5432
+    image: library/postgres:11.1-alpine
+    restart: unless-stopped
+    networks:
+      - saleor-backend-tier
+    volumes:
+      - saleor-db:/var/lib/postgresql
+    environment:
+      - POSTGRES_USER=saleor
+      - POSTGRES_PASSWORD=saleor
+
+  redis:
+    ports:
+      - 6380:6379
+    image: library/redis:5.0-alpine
+    restart: unless-stopped
+    networks:
+      - saleor-backend-tier
+    volumes:
+      - saleor-redis:/data
+
+  celery:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        STATIC_URL: "/static/"
+    command: celery -A saleor worker --app=saleor.celeryconf:app --loglevel=info
+    restart: unless-stopped
+    networks:
+      - saleor-backend-tier
+    env_file: common.env
+    depends_on:
+      - redis
+
+volumes:
+  saleor-db:
+    driver: local
+  saleor-redis:
+    driver: local
+  saleor-media:
+
+networks:
+  saleor-backend-tier:
+    driver: bridge

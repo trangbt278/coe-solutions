@@ -1,0 +1,475 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.36">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.BooleanParameterValue>
+          <name>IS_DEPLOY_TO_PRODUCTION</name>
+          <description>Deploy to production if all tests pass</description>
+          <value>true</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>IS_COLLECTION</name>
+          <description>Run suite collection</description>
+          <value>false</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>PROFILE</name>
+          <description>Execution Profile</description>
+          <value>local</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>RETRY</name>
+          <description>Retry</description>
+          <value>0</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>BROWSER</name>
+          <description>Browser</description>
+          <value>Chrome (headless)</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>SUITES</name>
+          <description>Paths to suites. Each is separated by a semicolon</description>
+          <value>Regression</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>KATALON_API_KEY</name>
+          <description>Katalon API key</description>
+          <value>f9faa583-d0ea-48a9-b7dd-3b15fbb7e690</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>COLLECTION</name>
+          <description>Path to suite collection</description>
+          <value>RegressionSuite</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>IS_COLLECTION</string>
+        <string>IS_DEPLOY_TO_PRODUCTION</string>
+        <string>PROFILE</string>
+        <string>RETRY</string>
+        <string>BROWSER</string>
+        <string>SUITES</string>
+        <string>KATALON_API_KEY</string>
+        <string>COLLECTION</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.15">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.80">
+      <env class="tree-map">
+        <entry>
+          <string>BASE_URL</string>
+          <string>localhost</string>
+        </entry>
+        <entry>
+          <string>BUILD_SOURCE</string>
+          <string>saleor</string>
+        </entry>
+        <entry>
+          <string>KATALON_API_KEY</string>
+          <string>f9faa583-d0ea-48a9-b7dd-3b15fbb7e690</string>
+        </entry>
+        <entry>
+          <string>SUT_PORT</string>
+          <string>8000</string>
+        </entry>
+        <entry>
+          <string>TEST_SOURCE</string>
+          <string>katalon-studio-solution/KatalonStudioSolution</string>
+        </entry>
+      </env>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/requests/main/7.har</string>
+          <string>b4a83c2397f89025889d73f5ecf456bd</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/requests/main/9.har</string>
+          <string>805026b656fcd79d3320ffd9bdd7c6ce</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/requests/main/1.har</string>
+          <string>fccca3a2e2dd51ae4867c8281742ee00</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/katalon-analytics-tmp/hars-4179538461692052015.zip</string>
+          <string>42d1cf87c88547d8acb0a0a9e958352a</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/requests/main/10.har</string>
+          <string>5eb31d7852d121278324a42e05b50c6f</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/requests/main/2.har</string>
+          <string>b50d04fb6923b8f57ab36a5aef0e04e2</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/requests/main/0.har</string>
+          <string>96c00568734ffa13e54644c7c387275c</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/execution.uuid</string>
+          <string>10287a0d55a38da025f8f7b73c1c87ed</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/requests/main/8.har</string>
+          <string>8c683d2962bfd8f12b1dacc601e6e860</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/requests/main/0.har</string>
+          <string>d1c9f0c390221b9e9d89b14c427f3638</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/requests/main/6.har</string>
+          <string>276516a454121c8103dff1197fc8042f</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/requests/main/9.har</string>
+          <string>a28f79385804eb7b152af6e6e5a38c66</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/requests/main/2.har</string>
+          <string>618a82c1d6106bc78d05933a2e09d400</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/JUnit_Report.xml</string>
+          <string>bd37ee9721a186b5ac203fe0ef45ccb5</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/20200405_203735.html</string>
+          <string>1330e1eadffd387caf210b7a03c0ede1</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/requests/main/4.har</string>
+          <string>def0e34b9e8e37541d87de84b14b2d75</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/requests/main/5.har</string>
+          <string>49ad0bf065b79e8e2fdad093a856b8a3</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_160928/Regression/20200405_160928/JUnit_Report.xml</string>
+          <string>5539c8e7623e66910454b90079fc9d34</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/requests/main/4.har</string>
+          <string>39fb0322ae2617e9c8ff05321e445631</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/JUnit_Report.xml</string>
+          <string>d52b859806e2578ab13c64835fdd31cf</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/requests/main/1.har</string>
+          <string>896f73ab2a9408986eddf789d7236e99</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/execution.uuid</string>
+          <string>319814c214ed10cafd4647ee3cf9af82</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/requests/main/3.har</string>
+          <string>74d1e45752097fe0f1f0593610444a9e</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/20200405_203735.csv</string>
+          <string>7d2330006d4f66cb772bc32b9920c133</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/requests/main/3.har</string>
+          <string>159da352587049daa8d1dbe4d3c5c002</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/1586117869448.png</string>
+          <string>8393aec3f8c9c79679d90073589f9aca</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/katalon-analytics-tmp/hars-2917930295906428482.zip</string>
+          <string>be5384a354910817a947bb52939c7f7a</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/execution.uuid</string>
+          <string>0c456bb0a66a4b523d57c422d77b15e4</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/requests/main/2.har</string>
+          <string>fc77cf84ce66c5c1b1c349abbc4e529f</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/requests/main/4.har</string>
+          <string>4ba98e8625b85157bf46a0eace7250c7</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/requests/main/5.har</string>
+          <string>3f21972c78239d4ffe0f7ce78a6f1f3b</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/requests/main/6.har</string>
+          <string>f7de52d7edc6603aeee2682c672cb8fb</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/1586117870599.png</string>
+          <string>f09ae6969a1db8ace05fbbbd4387a09b</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/execution0.log</string>
+          <string>73217c67563b92fb362e05a912b87af7</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/requests/main/1.har</string>
+          <string>b6fb3ae55d365700804a1b520dad4703</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/requests/main/3.har</string>
+          <string>aaee8cfd2a94fbec93c60fb073b20ea0</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/JUnit_Report.xml</string>
+          <string>53fced3693ad854692e488660809d333</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/execution0.log</string>
+          <string>a1e273afb9e3e95118ead255ec2ab52d</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_160928/Regression/20200405_160928/requests/main/0.har</string>
+          <string>103763348d271d6a463b16d375593f1c</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/execution.properties</string>
+          <string>77f4e37b38af8ff74fa47ecf95d02998</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/requests/main/5.har</string>
+          <string>035491910f7127ab4dbe237bba517b59</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/execution.properties</string>
+          <string>fda326b00b5dccd2b4bf73bbc50bc77e</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/requests/main/7.har</string>
+          <string>3e31ce6dabe002091e52c3aa1a47b7dc</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/execution0.log</string>
+          <string>b44b11c02f0e3d57e5697f9a07ee3418</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/requests/main/8.har</string>
+          <string>48e7791748ebc2444d06858a3b17cbba</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/requests/main/0.har</string>
+          <string>b42e6c6d3286257eeece57c6c4c67d9d</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/execution.properties</string>
+          <string>9f635c4db4c5456442ffbffddc805d84</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/requests/main/9.har</string>
+          <string>42159eaf6afe6e3358412d8bd2ec7c7b</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_160928/Regression/20200405_160928/execution.uuid</string>
+          <string>8053bb9e7a08d0aa53b6d6e72b3830c2</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_160928/Regression/20200405_160928/execution.properties</string>
+          <string>a0e3e5b6a17ec92e8a3b5a2a7ac14839</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_160928/Regression/20200405_160928/execution0.log</string>
+          <string>60a9c61dfaf2370544782928903fc9a5</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/requests/main/8.har</string>
+          <string>18e9e65ba2de57e8653e08f507dcfacf</string>
+        </entry>
+        <entry>
+          <string>Reports/20200403_041451/Regression/20200403_041451/katalon-analytics-tmp/hars-1958445113283560326.zip</string>
+          <string>ce7959832d759963f5778ed16cdf44b5</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_161253/Regression/20200405_161253/requests/main/6.har</string>
+          <string>ec1f3582025656b515b3356848f572a7</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_160928/Regression/20200405_160928/katalon-analytics-tmp/hars-8259217875989766369.zip</string>
+          <string>64c50ef61347efd5801570fd8492d5f5</string>
+        </entry>
+        <entry>
+          <string>Reports/20200405_203735/Regression/20200405_203735/requests/main/7.har</string>
+          <string>50e249f679aeab5eae75862fd4f7c206</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.tasks.junit.TestResultAction plugin="junit@1.28">
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>0</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>13</totalCount>
+      <healthScaleFactor>1.0</healthScaleFactor>
+      <testData/>
+    </hudson.tasks.junit.TestResultAction>
+  </actions>
+  <queueId>48</queueId>
+  <timestamp>1586118494391</timestamp>
+  <startTime>1586118494464</startTime>
+  <result>SUCCESS</result>
+  <duration>1299745</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>def isFailed = false
+
+properties([
+  parameters(
+      [
+        booleanParam(name: &apos;IS_COLLECTION&apos;, defaultValue: false, description: &apos;Run suite collection&apos;),
+        booleanParam(name: &apos;IS_DEPLOY_TO_PRODUCTION&apos;, defaultValue: false, description: &apos;Deploy to production if all tests pass&apos;),
+        string(name: &apos;PROFILE&apos;, defaultValue: &apos;default&apos;, description: &apos;Execution Profile&apos;),
+        string(name: &apos;RETRY&apos;, defaultValue: &apos;0&apos;, description: &apos;Retry&apos;),
+        string(name: &apos;BROWSER&apos;, defaultValue: &apos;Chrome (headless)&apos;, description: &apos;Browser&apos;),
+        string(name: &apos;SUITES&apos;, defaultValue: &apos;Regression&apos;, description: &apos;Paths to suites. Each is separated by a semicolon&apos;),
+        string(name: &apos;KATALON_API_KEY&apos;, defaultValue: &apos;&apos;, description: &apos;Katalon API key&apos;),
+        string(name: &apos;COLLECTION&apos;, defaultValue: &apos;RegressionSuite&apos;, description: &apos;Path to suite collection&apos;)
+      ]
+    )
+  ])
+
+def waitForWebsiteDeployed() {
+    timeout(time: 300, unit: &apos;SECONDS&apos;) {    
+        waitUntil {      
+            try {
+                def isAvailable = sh (
+                    script: &quot;curl -s --head  --request GET  ${env.BASE_URL}:${env.SUT_PORT} | grep &apos;302&apos;&quot;,
+                    returnStdout: true
+                ).trim()
+                return true
+            }
+            catch(error) {
+                return false
+            }
+        }
+    }
+}
+
+env.BUILD_SOURCE = &quot;saleor&quot;
+env.TEST_SOURCE = &quot;katalon-studio-solution/KatalonStudioSolution&quot;
+env.BASE_URL = &quot;localhost&quot;
+env.SUT_PORT = 8000
+env.KATALON_API_KEY = KATALON_API_KEY
+
+node(&apos;vox&apos;) {
+    stage(&apos;Deploy SUT&apos;) {
+      dir(&quot;$PWD/${env.BUILD_SOURCE}&quot;) {
+        step([$class: &apos;DockerComposeBuilder&apos;, dockerComposeFile: &apos;docker-compose.yml&apos;, option: [$class: &apos;StartAllServices&apos;], useCustomDockerComposeFile: true])
+        waitForWebsiteDeployed()
+      }
+    }
+    
+    try {
+      stage(&apos;Execute Tests&apos;) {
+        dir(&quot;$PWD/${env.TEST_SOURCE}&quot;){
+          if (params.IS_COLLECTION) {
+            sh &quot;&quot;&quot;
+              docker run --network=&quot;host&quot; -t --rm \
+              -v &quot;${pwd()}/license&quot;:/root/.katalon/license \
+              -v &quot;${pwd()}&quot;:/tmp/project katalonstudio/katalon:7.2.1  katalonc.sh -projectPath=/tmp/project -retry=${RETRY} -testSuiteCollectionPath=&quot;Test Suites/${COLLECTION}&quot; -apiKey=&apos;${KATALON_API_KEY}&apos;
+            &quot;&quot;&quot;
+          }
+          else {
+            def suites = &quot;${params.SUITES}&quot;.split(&quot;;&quot;)
+            suites.each { path -&gt;
+              try {
+                sh &quot;&quot;&quot;
+                  docker run --network=&quot;host&quot; -t --rm \
+                  -v &quot;${pwd()}/license&quot;:/root/.katalon/license \
+                  -v &quot;${pwd()}&quot;:/tmp/project katalonstudio/katalon:7.2.1  katalonc.sh -projectPath=/tmp/project -retry=${RETRY} -testSuitePath=&quot;Test Suites/${path}&quot; -executionProfile=&apos;${PROFILE}&apos; -browserType=&apos;${BROWSER}&apos; -apiKey=&apos;${KATALON_API_KEY}&apos;
+                &quot;&quot;&quot;
+              }
+              catch(error) {
+                //Log errors
+                err = error
+                isFailed = false
+              }
+            }
+            if (isFailed) throw err
+          }    
+        }
+      }
+    }
+    catch(error) {
+      //Log errors
+      isFailed = false
+      throw error
+    }
+    finally {
+      stage(&apos;Publish Results&apos;) {
+        dir(&quot;$PWD/${env.TEST_SOURCE}&quot;){
+          archiveArtifacts artifacts: &apos;Reports/**/*.*&apos;, fingerprint: true
+          junit &apos;Reports/**/JUnit_Report.xml&apos;
+        }
+      }
+      
+      if (params.IS_DEPLOY_TO_PRODUCTION &amp;&amp; !isFailed) {
+        stage(&apos;Deploy to production&apos;) {
+            dir(&quot;$PWD/${env.BUILD_SOURCE}&quot;) {
+                 sh &apos;docker-compose -f docker-compose.staging.yml -p staging_saleor up -d&apos;
+            }
+        }
+      }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>24011030316</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>204140913223</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>139829504889</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>126446486793</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>41693612497</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>131</iota>
+    <head>1:131</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

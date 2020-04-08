@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-02 11:23:01.242 UTC</timestamp>
+  <original>
+    <name>Katalon-Solution</name>
+    <number>70</number>
+  </original>
+  <md5sum>3b4b4a7074519d3cb9c95c40d616512a</md5sum>
+  <fileName>execution.properties</fileName>
+  <usages>
+    <entry>
+      <string>Katalon-Solution</string>
+      <ranges>70-76</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

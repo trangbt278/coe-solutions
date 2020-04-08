@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="290.354" tests="13" failures="0" errors="0">
+   <testsuite name="Regression" tests="13" failures="0" errors="0" time="290.354" timestamp="2020-04-05 16:13:03" hostname="trangbui - 192.168.0.12" id="Test Suites/Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/trangbui/Documents/ProjectWork/KMSSolution/katalon_automation/katalon-studio-solution/KatalonStudioSolution/Reports/20200405_161253/Regression/20200405_161253"/>
+         <property name="logFiles" value="/Users/trangbui/Documents/ProjectWork/KMSSolution/katalon_automation/katalon-studio-solution/KatalonStudioSolution/Reports/20200405_161253/Regression/20200405_161253/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="trangbui - 192.168.0.12"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Chrome 80.0.3987.163"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="4c17d30479451a8c42cbfc2742e6fa89"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged" time="50.018" classname="Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:13:04 - [TEST_CASE][PASSED] - Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged: Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="14.571" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:13:54 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="18.298" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:14:09 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="16.002" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:14:27 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="14.841" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:14:43 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="15.223" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:14:58 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="15.733" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:15:13 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="16.168" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:15:29 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="18.667" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:15:45 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="17.161" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:16:04 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="17.876" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:16:21 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Add to Cart" time="72.175" classname="Test Cases/Category/Add to Cart" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:16:39 - [TEST_CASE][PASSED] - Test Cases/Category/Add to Cart: Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web Service/Accessories - Search with Material" time="1.635" classname="Test Cases/Web Service/Accessories - Search with Material" status="PASSED">
+         <system-out><![CDATA[2020-04-05 16:17:51 - [TEST_CASE][PASSED] - Test Cases/Web Service/Accessories - Search with Material: Test Cases/Web Service/Accessories - Search with Material]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-05 16:13:03 - [TEST_SUITE][PASSED] - Regression: Test Cases/Web Service/Accessories - Search with Material]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

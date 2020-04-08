@@ -1,0 +1,401 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.28">
+  <suites>
+    <suite>
+      <file>/vagrant/katalon-solution-lab-offline/katalon-studio-solution/KatalonStudioSolution/Reports/20200405_203735/Regression/20200405_203735/JUnit_Report.xml</file>
+      <name>Regression</name>
+      <stdout>2020-04-05 20:38:23 - [TEST_SUITE][PASSED] - Regression: Test Cases/Web Service/Accessories - Search with Material</stdout>
+      <stderr></stderr>
+      <duration>545.319</duration>
+      <timestamp>2020-04-05 20:38:23</timestamp>
+      <id>Test Suites/Regression</id>
+      <time>545.319</time>
+      <nodeId>115</nodeId>
+      <enclosingBlocks>
+        <string>111</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Publish Results</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>221.005</duration>
+          <className>Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged</className>
+          <testName>Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:38:29 - [TEST_CASE][PASSED] - Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged: Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged
+
+2020-04-05 20:38:40 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: &apos;http://localhost:8000&apos;
+
+2020-04-05 20:39:10 - [MESSAGE][INFO] - Starting &apos;Chrome (headless)&apos; driver
+
+2020-04-05 20:39:11 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-05 20:40:21 - [MES
+...[truncated 11749 chars]...
+ Repository/AccountPage/imgCheckOutPirate&apos; is visible
+
+2020-04-05 20:42:09 - [MESSAGE][PASSED] - Object &apos;Object Repository/AccountPage/imgCheckOutPirate&apos; is visible
+
+2020-04-05 20:42:09 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:42:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:42:10 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:42:10 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>41.606</duration>
+          <className>Test Cases/Category/Search with Criteria</className>
+          <testName>Test Cases/Category/Search with Criteria</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:42:12 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:42:18 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:42:18 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:42:18 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:42:18 - [TEST_STEP][PASSED] - filterName = &lt;not implement
+...[truncated 4852 chars]...
+PASSED] - listProductAPI &lt;&lt; name.toLowerCase(): null
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:42:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:42:53 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:42:53 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>22.008</duration>
+          <className>Test Cases/Category/Search with Criteria</className>
+          <testName>Test Cases/Category/Search with Criteria</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:42:54 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:42:54 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:42:54 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:42:54 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:42:54 - [TEST_STEP][PASSED] - filterName = &lt;not implement
+...[truncated 5438 chars]...
+PASSED] - listProductAPI &lt;&lt; name.toLowerCase(): null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:43:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:43:16 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:43:16 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>28.09</duration>
+          <className>Test Cases/Category/Search with Criteria</className>
+          <testName>Test Cases/Category/Search with Criteria</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:43:17 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:43:18 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:43:18 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:43:18 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:43:18 - [TEST_STEP][PASSED] - filterName = &lt;not implement
+...[truncated 4870 chars]...
+PASSED] - listProductAPI &lt;&lt; name.toLowerCase(): null
+
+2020-04-05 20:43:44 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:43:44 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:43:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:43:45 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:43:45 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>27.326</duration>
+          <className>Test Cases/Category/Search with Criteria</className>
+          <testName>Test Cases/Category/Search with Criteria</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:43:45 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:43:46 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:43:46 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:43:46 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:43:46 - [TEST_STEP][PASSED] - filterName = &lt;not implement
+...[truncated 4632 chars]...
+PASSED] - listProductAPI &lt;&lt; name.toLowerCase(): null
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:44:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:44:13 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:44:13 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>24.934</duration>
+          <className>Test Cases/Category/Search with Criteria</className>
+          <testName>Test Cases/Category/Search with Criteria</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:44:14 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:44:15 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:44:15 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:44:15 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:44:15 - [TEST_STEP][PASSED] - filterName = &lt;not implement
+...[truncated 4644 chars]...
+PASSED] - listProductAPI &lt;&lt; name.toLowerCase(): null
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:44:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:44:39 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:44:39 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>21.8</duration>
+          <className>Test Cases/Category/Search with Criteria</className>
+          <testName>Test Cases/Category/Search with Criteria</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:44:40 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:44:40 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:44:40 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:44:40 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:44:40 - [TEST_STEP][PASSED] - filterName = &lt;not implement
+...[truncated 4836 chars]...
+PASSED] - listProductAPI &lt;&lt; name.toLowerCase(): null
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:45:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:45:02 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:45:02 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>30.582</duration>
+          <className>Test Cases/Category/Search with Criteria</className>
+          <testName>Test Cases/Category/Search with Criteria</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:45:03 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:45:03 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:45:03 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:45:03 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:45:03 - [TEST_STEP][PASSED] - filterName = &lt;not implement
+...[truncated 6212 chars]...
+PASSED] - listProductAPI &lt;&lt; name.toLowerCase(): null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:45:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:45:33 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:45:33 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>24.074</duration>
+          <className>Test Cases/Category/Search with Criteria</className>
+          <testName>Test Cases/Category/Search with Criteria</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:45:34 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:45:35 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:45:35 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:45:35 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:45:35 - [TEST_STEP][PASSED] - filterName = &lt;not implement
+...[truncated 7000 chars]...
+PASSED] - listProductAPI &lt;&lt; name.toLowerCase(): null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:45:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:45:58 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:45:58 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>21.947</duration>
+          <className>Test Cases/Category/Search with Criteria</className>
+          <testName>Test Cases/Category/Search with Criteria</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:45:59 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:46:00 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:46:00 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:46:00 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:46:00 - [TEST_STEP][PASSED] - filterName = &lt;not implement
+...[truncated 4826 chars]...
+PASSED] - listProductAPI &lt;&lt; name.toLowerCase(): null
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:46:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:46:21 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:46:21 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>26.751</duration>
+          <className>Test Cases/Category/Search with Criteria</className>
+          <testName>Test Cases/Category/Search with Criteria</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:46:22 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria
+
+2020-04-05 20:46:23 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2020-04-05 20:46:23 - [TEST_STEP][PASSED] - index = rand.nextInt(Integer.valueOf(toString().trim())): null
+
+2020-04-05 20:46:23 - [TEST_STEP][PASSED] - chkFilter = new com.kms.katalon.core.testobject.TestObject(): null
+
+2020-04-05 20:46:23 - [TEST_STEP][PASSED] - filterName = &lt;not implement
+...[truncated 6970 chars]...
+PASSED] - listProductAPI &lt;&lt; name.toLowerCase(): null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - assert listProductUI.sort() == listProductAPI.sort() == true: null
+
+2020-04-05 20:46:48 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:46:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:46:49 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:46:49 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>28.763</duration>
+          <className>Test Cases/Category/Add to Cart</className>
+          <testName>Test Cases/Category/Add to Cart</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:46:49 - [TEST_CASE][PASSED] - Test Cases/Category/Add to Cart: Test Cases/Category/Add to Cart
+
+2020-04-05 20:46:51 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: &apos;http://localhost:8000&apos;
+
+2020-04-05 20:46:51 - [MESSAGE][INFO] - Starting &apos;Chrome (headless)&apos; driver
+
+2020-04-05 20:46:58 - [MESSAGE][PASSED] - Browser is opened with url: &apos;http://localhost:8000&apos;
+
+2020-04-05 20:46:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase(&quot;Common Test Cases/Add an Item to
+...[truncated 5034 chars]...
+Object Repository/AccountPage/objOneItemCart&apos; is visible
+
+2020-04-05 20:47:17 - [MESSAGE][PASSED] - Object &apos;Object Repository/AccountPage/objOneItemCart&apos; is visible
+
+2020-04-05 20:47:17 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method &apos;tearDown&apos; complete successfully
+
+2020-04-05 20:47:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-05 20:47:18 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-05 20:47:18 - [MESSAGE][PASSED] - Method &apos;tearDown&apos; complete successfully</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>4.382</duration>
+          <className>Test Cases/Web Service/Accessories - Search with Material</className>
+          <testName>Test Cases/Web Service/Accessories - Search with Material</testName>
+          <skipped>false</skipped>
+          <stdout>2020-04-05 20:47:18 - [TEST_CASE][PASSED] - Test Cases/Web Service/Accessories - Search with Material: Test Cases/Web Service/Accessories - Search with Material
+
+2020-04-05 20:47:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject(&quot;Web Service/Search with Criteria&quot;, [&quot;filter&quot;:&quot;&quot;cushion-size:45cm-x-45cm&quot;&quot;])): Send request successfully
+
+2020-04-05 20:47:22 - [MESSAGE][INFO] - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/10.har
+
+2020-04-05 20:47:22
+...[truncated 254 chars]...
+- [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseText): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - for (def product : node): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - productName = name.toLowerCase(): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - if (!(productName.contains(&quot;cushion&quot;))): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - productName = name.toLowerCase(): null
+
+2020-04-05 20:47:22 - [TEST_STEP][PASSED] - if (!(productName.contains(&quot;cushion&quot;))): null</stdout>
+          <stderr></stderr>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>545.319</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Shaib
+Build-Jdk: 1.6.0_17
+Extension-Name: template-workflows
+Implementation-Title: template-workflows
+Implementation-Version: 1.2
+Group-Id: org.jenkins.plugin.templateWorkflows
+Short-Name: template-workflows
+Long-Name: Template Workflows
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Template+Workflows+Pl
+ ugin
+Plugin-Version: 1.2
+Hudson-Version: 1.477
+Jenkins-Version: 1.477
+Plugin-Developers: Shai Ben-Hur:shaib:shai.bhur@gmail.com
+

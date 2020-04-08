@@ -1,0 +1,178 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.36">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.6.0"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.6.0">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+    <org.jenkinsci.plugins.workflow.multibranch.JobPropertyTrackerAction plugin="workflow-multibranch@2.21">
+      <jobPropertyDescriptors>
+        <string>hudson.model.ParametersDefinitionProperty</string>
+      </jobPropertyDescriptors>
+    </org.jenkinsci.plugins.workflow.multibranch.JobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.BooleanParameterDefinition>
+          <name>IS_COLLECTION</name>
+          <description>Run suite collection</description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>IS_DEPLOY_TO_PRODUCTION</name>
+          <description>Deploy to production if all tests pass</description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>PROFILE</name>
+          <description>Execution Profile</description>
+          <defaultValue>default</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>RETRY</name>
+          <description>Retry</description>
+          <defaultValue>0</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>BROWSER</name>
+          <description>Browser</description>
+          <defaultValue>Chrome (headless)</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>SUITES</name>
+          <description>Paths to suites. Each is separated by a semicolon</description>
+          <defaultValue>Regression</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>KATALON_API_KEY</name>
+          <description>Katalon API key</description>
+          <defaultValue></defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>COLLECTION</name>
+          <description>Path to suite collection</description>
+          <defaultValue>RegressionSuite</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.80">
+    <script>def isFailed = false
+
+properties([
+  parameters(
+      [
+        booleanParam(name: &apos;IS_COLLECTION&apos;, defaultValue: false, description: &apos;Run suite collection&apos;),
+        booleanParam(name: &apos;IS_DEPLOY_TO_PRODUCTION&apos;, defaultValue: false, description: &apos;Deploy to production if all tests pass&apos;),
+        string(name: &apos;PROFILE&apos;, defaultValue: &apos;default&apos;, description: &apos;Execution Profile&apos;),
+        string(name: &apos;RETRY&apos;, defaultValue: &apos;0&apos;, description: &apos;Retry&apos;),
+        string(name: &apos;BROWSER&apos;, defaultValue: &apos;Chrome (headless)&apos;, description: &apos;Browser&apos;),
+        string(name: &apos;SUITES&apos;, defaultValue: &apos;Regression&apos;, description: &apos;Paths to suites. Each is separated by a semicolon&apos;),
+        string(name: &apos;KATALON_API_KEY&apos;, defaultValue: &apos;&apos;, description: &apos;Katalon API key&apos;),
+        string(name: &apos;COLLECTION&apos;, defaultValue: &apos;RegressionSuite&apos;, description: &apos;Path to suite collection&apos;)
+      ]
+    )
+  ])
+
+def waitForWebsiteDeployed() {
+    timeout(time: 300, unit: &apos;SECONDS&apos;) {    
+        waitUntil {      
+            try {
+                def isAvailable = sh (
+                    script: &quot;curl -s --head  --request GET  ${env.BASE_URL}:${env.SUT_PORT} | grep &apos;302&apos;&quot;,
+                    returnStdout: true
+                ).trim()
+                return true
+            }
+            catch(error) {
+                return false
+            }
+        }
+    }
+}
+
+env.BUILD_SOURCE = &quot;saleor&quot;
+env.TEST_SOURCE = &quot;katalon-studio-solution/KatalonStudioSolution&quot;
+env.BASE_URL = &quot;localhost&quot;
+env.SUT_PORT = 8000
+env.KATALON_API_KEY = KATALON_API_KEY
+
+node(&apos;vox&apos;) {
+    stage(&apos;Deploy SUT&apos;) {
+      dir(&quot;$PWD/${env.BUILD_SOURCE}&quot;) {
+        step([$class: &apos;DockerComposeBuilder&apos;, dockerComposeFile: &apos;docker-compose.yml&apos;, option: [$class: &apos;StartAllServices&apos;], useCustomDockerComposeFile: true])
+        waitForWebsiteDeployed()
+      }
+    }
+    
+    try {
+      stage(&apos;Execute Tests&apos;) {
+        dir(&quot;$PWD/${env.TEST_SOURCE}&quot;){
+          if (params.IS_COLLECTION) {
+            sh &quot;&quot;&quot;
+              docker run --network=&quot;host&quot; -t --rm \
+              -v &quot;${pwd()}/license&quot;:/root/.katalon/license \
+              -v &quot;${pwd()}&quot;:/tmp/project katalonstudio/katalon:7.2.1  katalonc.sh -projectPath=/tmp/project -retry=${RETRY} -testSuiteCollectionPath=&quot;Test Suites/${COLLECTION}&quot; -apiKey=&apos;${KATALON_API_KEY}&apos;
+            &quot;&quot;&quot;
+          }
+          else {
+            def suites = &quot;${params.SUITES}&quot;.split(&quot;;&quot;)
+            suites.each { path -&gt;
+              try {
+                sh &quot;&quot;&quot;
+                  docker run --network=&quot;host&quot; -t --rm \
+                  -v &quot;${pwd()}/license&quot;:/root/.katalon/license \
+                  -v &quot;${pwd()}&quot;:/tmp/project katalonstudio/katalon:7.2.1  katalonc.sh -projectPath=/tmp/project -retry=${RETRY} -testSuitePath=&quot;Test Suites/${path}&quot; -executionProfile=&apos;${PROFILE}&apos; -browserType=&apos;${BROWSER}&apos; -apiKey=&apos;${KATALON_API_KEY}&apos;
+                &quot;&quot;&quot;
+              }
+              catch(error) {
+                //Log errors
+                err = error
+                isFailed = true
+              }
+            }
+            if (isFailed) throw err
+          }    
+        }
+      }
+    }
+    catch(error) {
+      //Log errors
+      isFailed = true
+      throw error
+    }
+    finally {
+      stage(&apos;Publish Results&apos;) {
+        dir(&quot;$PWD/${env.TEST_SOURCE}&quot;){
+          archiveArtifacts artifacts: &apos;Reports/**/*.*&apos;, fingerprint: true
+          junit &apos;Reports/**/JUnit_Report.xml&apos;
+        }
+      }
+      
+      if (params.IS_DEPLOY_TO_PRODUCTION &amp;&amp; !isFailed) {
+        stage(&apos;Deploy to production&apos;) {
+            dir(&quot;$PWD/${env.BUILD_SOURCE}&quot;) {
+                 sh &apos;docker-compose -f docker-compose.staging.yml -p staging_saleor up -d&apos;
+            }
+        }
+      }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <authToken>99C2386F1FF21FDF</authToken>
+  <disabled>false</disabled>
+</flow-definition>

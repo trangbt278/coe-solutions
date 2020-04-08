@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-03 03:05:29.506 UTC</timestamp>
+  <original>
+    <name>Katalon-Solution</name>
+    <number>74</number>
+  </original>
+  <md5sum>448c3e4659670cf7091b902f9385a3c8</md5sum>
+  <fileName>JUnit_Report.xml</fileName>
+  <usages>
+    <entry>
+      <string>Katalon-Solution</string>
+      <ranges>74-76</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

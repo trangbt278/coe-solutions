@@ -1,0 +1,97 @@
+def isFailed = false
+
+properties([
+  parameters(
+      [
+        booleanParam(name: 'IS_COLLECTION', defaultValue: false, description: 'Run suite collection'),
+        string(name: 'PROFILE', defaultValue: 'default', description: 'Execution Profile'),
+        string(name: 'RETRY', defaultValue: '0', description: 'Retry'),
+        string(name: 'BROWSER', defaultValue: 'Chrome (headless)', description: 'Browser'),
+        string(name: 'SUITES', defaultValue: 'Regression', description: 'Paths to suites. Each is separated by a semicolon'),
+        string(name: 'KATALON_API_KEY', defaultValue: '', description: 'Katalon API key'),
+        string(name: 'COLLECTION', defaultValue: 'RegressionSuite', description: 'Path to suite collection')
+      ]
+    )
+  ])
+
+def waitForWebsiteDeployed() {
+    timeout(time: 300, unit: 'SECONDS') {    
+        waitUntil {      
+            try {
+                def isAvailable = sh (
+                    script: "curl -s --head  --request GET  ${env.BASE_URL}:${env.SUT_PORT} | grep '302'",
+                    returnStdout: true
+                ).trim()
+                return true
+            }
+            catch(error) {
+                return false
+            }
+        }
+    }
+}
+
+env.BUILD_SOURCE = "saleor"
+env.TEST_SOURCE = "katalon-studio-solution/KatalonStudioSolution"
+env.BASE_URL = "localhost"
+env.SUT_PORT = 8000
+env.KATALON_API_KEY = KATALON_API_KEY
+
+node('vox') {
+    stage('Deploy SUT') {
+      dir("$PWD/${env.BUILD_SOURCE}") {
+        step([$class: 'DockerComposeBuilder', dockerComposeFile: 'docker-compose.yml', option: [$class: 'StartAllServices'], useCustomDockerComposeFile: true])
+        waitForWebsiteDeployed()
+      }
+    }
+    
+    try {
+      stage('Execute Tests') {
+        dir("$PWD/${env.TEST_SOURCE}"){
+          if (params.IS_COLLECTION) {
+            sh """
+              docker run --network="host" -t --rm \
+              -v "${pwd()}/license":/root/.katalon/license \
+              -v "${pwd()}":/tmp/project katalonstudio/katalon:7.2.1  katalonc.sh -projectPath=/tmp/project -retry=${RETRY} -testSuiteCollectionPath="Test Suites/${COLLECTION}" -apiKey='${KATALON_API_KEY}'
+            """
+          }
+          else {
+            def suites = "${params.SUITES}".split(";")
+            suites.each { path ->
+              try {
+                sh """
+                  docker run --network="host" -t --rm \
+                  -v "${pwd()}/license":/root/.katalon/license \
+                  -v "${pwd()}":/tmp/project katalonstudio/katalon:7.2.1  katalonc.sh -projectPath=/tmp/project -retry=${RETRY} -testSuitePath="Test Suites/${path}" -executionProfile='${PROFILE}' -browserType='${BROWSER}' -apiKey='${KATALON_API_KEY}'
+                """
+              }
+              catch(error) {
+                //Log errors
+                err = error
+                isFailed = true
+              }
+            }
+            if (isFailed) throw err
+          }    
+        }
+      }
+    }
+    catch(error) {
+      //Log errors
+      isFailed = true
+      throw error
+    }
+    finally {
+      stage('Publish Results') {
+        dir("$PWD/${env.TEST_SOURCE}"){
+          archiveArtifacts artifacts: 'Reports/**/*.*', fingerprint: true
+          junit 'Reports/**/JUnit_Report.xml'
+        }
+      }
+      stage('Stop SUT') {
+        dir("$PWD/${env.BUILD_SOURCE}") {
+          step([$class: 'DockerComposeBuilder', dockerComposeFile: 'docker-compose.yml', option: [$class: 'StopAllServices'], useCustomDockerComposeFile: true])
+        }
+      }
+    }
+}

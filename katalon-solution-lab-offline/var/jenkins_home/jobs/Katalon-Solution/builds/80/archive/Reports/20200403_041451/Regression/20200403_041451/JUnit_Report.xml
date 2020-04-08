@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="267.541" tests="11" failures="0" errors="0">
+   <testsuite name="Regression" tests="11" failures="0" errors="0" time="267.541" timestamp="2020-04-03 04:15:02" hostname="trangbui - 10.23.0.59" id="Test Suites/Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/trangbui/Documents/ProjectWork/KMS Solution/katalon_automation/katalon-studio-solution/KatalonStudioSolution/Reports/20200403_041451/Regression/20200403_041451"/>
+         <property name="logFiles" value="/Users/trangbui/Documents/ProjectWork/KMS Solution/katalon_automation/katalon-studio-solution/KatalonStudioSolution/Reports/20200403_041451/Regression/20200403_041451/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="trangbui - 10.23.0.59"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Chrome 80.0.3987.163"/>
+         <property name="hostAddress" value="10.23.0.59"/>
+         <property name="sessionId" value="ebe1e47f8c0a27705749ba6a5288b1cb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Category/Search with Criteria" time="31.748" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-03 04:15:03 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="45.529" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-03 04:15:35 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="22.852" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-03 04:16:21 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="22.572" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-03 04:16:44 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="24.943" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-03 04:17:06 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="23.523" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-03 04:17:31 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="23.899" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-03 04:17:55 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="22.897" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-03 04:18:19 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="23.008" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-03 04:18:42 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Search with Criteria" time="23.135" classname="Test Cases/Category/Search with Criteria" status="PASSED">
+         <system-out><![CDATA[2020-04-03 04:19:05 - [TEST_CASE][PASSED] - Test Cases/Category/Search with Criteria: Test Cases/Category/Search with Criteria]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web Service/Accessories - Search with Material" time="1.822" classname="Test Cases/Web Service/Accessories - Search with Material" status="PASSED">
+         <system-out><![CDATA[2020-04-03 04:19:28 - [TEST_CASE][PASSED] - Test Cases/Web Service/Accessories - Search with Material: Test Cases/Web Service/Accessories - Search with Material]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-03 04:15:02 - [TEST_SUITE][PASSED] - Regression: Test Cases/Web Service/Accessories - Search with Material]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

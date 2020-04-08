@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Regression</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>de0d9677-c5f5-4901-a609-0f7f5578eade</testSuiteGuid>
+   <testCaseLink>
+      <guid>3e797f8b-20f6-4cda-9f00-39ffd0c6559c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e982be20-e873-405d-b67d-8b7d4c347f98</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Category/Search with Criteria</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f1d932b9-820e-4afc-8567-605ae2363ed5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/extdata_categoryfilter</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f1d932b9-820e-4afc-8567-605ae2363ed5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>category</value>
+         <variableId>8b14c809-47fe-47ac-b3a3-0ce063a2fee0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f1d932b9-820e-4afc-8567-605ae2363ed5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>preXpath</value>
+         <variableId>5221e692-5fb3-4026-91f8-8476a8c957fe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f1d932b9-820e-4afc-8567-605ae2363ed5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>numRandom</value>
+         <variableId>d5914673-fb3c-4d51-a31b-168d39972b47</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dc0813e6-b83b-49e5-a0a2-c0e789c61405</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>135c70ed-e490-4fca-bcd3-299a482d8b52</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Category/Add to Cart</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>421197bc-5ec6-4b5a-8922-2adfb3908b01</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web Service/Accessories - Search with Material</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

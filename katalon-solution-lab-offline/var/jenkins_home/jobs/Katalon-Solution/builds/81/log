@@ -1,0 +1,1529 @@
+Started by user [8mha:////4CIvk4iDDoaUVDRhS1Kas4wgj/eZrdGixxIgYgrFUb7dAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4L2LfKjAPC1oLTEA12NrUBJ0GKJGuNpVDUR1BRD040ICAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4KJPuHPSJadq40H8v7DENJj3X3Of5zf0u+ot/rbpBM7YAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbaGmsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfya1RxvAAAAA==[0m[Pipeline] properties
+[8mha:////4AdyTdkO36qVrUGGJxx4aaFxAsHF1s8M4KCyCjHE9fKYAAAApR+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SFSEHfiym3IxhPEJMa04f82SW1XnsireQejBVcODMwMDO/5gjpFOFJ0vLXYeUza8z6MriQ+UeyugSbe0oVrwkTBcmknScaeliopW1jEKlgJWFvUgZJHl2EjWnVXTVDomnOOZTsIqLwZ4AFMFHJWMX/LHGF7G00i/HH+AmDuM7Bd8f7zq9/WVBy+wAAAAA==[0m[Pipeline] node
+Running on [8mha:////4JX3kG0huSHvi9MshWacVg/ZQkZl7FsQFtXeGvWynhIYAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgY+/eT83ILSktQi/bL8Cn0AN+LCD8MAAAA=[0mvox in /vagrant/katalon-solution-lab-offline/workspace/workspace/Katalon-Solution
+[8mha:////4GccsDw1uR5SkNjowXD2wzFYOnhykI6j1AGATr4uih6qAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] {
+[8mha:////4JEyu6M/1RPuKiLcuciBFDg+gqBkzJu5pywFfl0o5P6fAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] stage
+[8mha:////4O6npP8k6jrUfIiNLhbqiioXRpxP7KOopdIHcpfAghxjAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] { (Deploy SUT)
+[8mha:////4Bm1e3xoWc3tePQFNNrbKvcK2RKqOkOx88yla0SwoxsTAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] dir
+Running in /vagrant/katalon-solution-lab-offline/saleor
+[8mha:////4PdmhtR5G1mYuuhIiWG27p8b5SQsjETkiGhW0CMvkvpJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
+[8mha:////4KhcuIekan+kyz004b/4e7l1SFqLsIL9a/SZHeQR14cDAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBEiEqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBjJ8j2gny37T6VOYoyvQAAAA==[0m[Pipeline] step
+$ docker-compose -f /vagrant/katalon-solution-lab-offline/saleor/docker-compose.yml up -d
+saleor_redis_1 is up-to-date
+saleor_db_1 is up-to-date
+Recreating saleor_celery_1
+Recreating saleor_web_1
+[8mha:////4AqUe3W+KllD/26adqzq0CxbOby8NRxX+lXjJscQqsuCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjlAhR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGYsdQNs3nWL0BFHriUcEAAAA=[0m[Pipeline] timeout
+Timeout set to expire in 5 min 0 sec
+[8mha:////4Iod9yxeIcJpLboPkfk4zdg2raDzDaPqV9bOoEt21h64AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] {
+[8mha:////4AD9pDI8PWsnKtOn7kN52N/6Ad8mHOgAbSGXJWbsFM4/AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] waitUntil
+[8mha:////4FoUWaMNMgXHzhn/rkWc1q0c1u3ztGvwR2NJVYL1Isy1AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] {
+[8mha:////4OZ/U4HxY66U11x1cXFvNcgfIN/8nEUAOZ/hR5K4y+8vAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8W7Eii+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4FkMNdZ4nwq6W3vR71QDfEAbZ0Hy+X7c7L44asRKd7P0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG9gN7HvgAAAA==[0m[Pipeline] }
+Will try again after 0.25 sec
+[8mha:////4L7K0RzX6/gVjyceqehHD2fHwf/5MC0vaQrL5C+U8ITMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiIEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAdJAuTwgAAAA==[0m[Pipeline] {
+[8mha:////4KOhOGfqBW3xMT67rGK3wJRsEYy/oJs/7cgZWrMGY6tfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4LJYP603+/WBrDqLI0n6XERn4UvXRPqGrLk8O25HjAkmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+Will try again after 0.3 sec
+[8mha:////4HNNf29/fc5cpAABPW79eS8+xBqIFd+620fYalEdXWAXAAAApx+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycoiUnxF1Yo26cILQhJA0eq8kKenEibgadyBQiQkPlm3J+p4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrNzgO5r/CAAAA[0m[Pipeline] {
+[8mha:////4GilnNjTZ36vP23uCcpv/0ghY5HO8J3VMWBNjcB8pGOoAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4BiB3h09GRxNnmcuzWEVM06umQHLkkCNa4l3mmGiXpGJAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJu8TlHX9qf0b7E/nQb4AAAA=[0m[Pipeline] }
+Will try again after 0.36 sec
+[8mha:////4HnCEemmmz0CtW3z40vpxG+YVRA8lXOuMUwbV8UfaSSPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU0BExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnLXZNs3n2f1BpZ8cjnCAAAA[0m[Pipeline] {
+[8mha:////4LuRH7+SsLF5tHI5jKtaQLwW4id5S1A8E/n9kGA0PDxSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4IzkMoHLMZbKQWICamnDF1pGCxDzBzRqxWVvg3aJX41UAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+Will try again after 0.43 sec
+[8mha:////4LxVbY6dgvrBE6SvQSKxbNmUjD0mLRcTCM5n2jFsCR54AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g0l7b9pwgAAAA==[0m[Pipeline] {
+[8mha:////4CFDwaJPkPjxozgcbzgr6AZt+gBiE559hNgI1vRS50wiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4ILOHyjbx7glXGRYy9RTZCAO4RWoBOEw6MiwWNnOwS+8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2/yR8JvgAAAA==[0m[Pipeline] }
+Will try again after 0.51 sec
+[8mha:////4PnemCYPTukz0YBdsi7oeC6DpLoIXV2A5WU9r51GxgFlAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3u2zb/edZvQHwX+mYwgAAAA==[0m[Pipeline] {
+[8mha:////4PrGdR9ycujDFsDDKQop31sL57P4BmQiR6CeJxlnvm50AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
++ grep 302+ curl -s --head --request GET localhost:8000
+
+[8mha:////4HUIQWlYHB9qnfwPr0UrHaXSIh076A9UgMvM9nhS5fMlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+Will try again after 0.62 sec
+[8mha:////4Inc9QviXtQpLlMnUlDA37yxR5inCSu+otMvgoVE6lHTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU0BExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnLXZGv2n2f1BoekWVTCAAAA[0m[Pipeline] {
+[8mha:////4JA+e9u31JeCN29mJL/07NHQs/w9MsY5lut49pg/FJCeAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4LIlhxrZcovWhf+YOt07EXOIejFRqwCqaiAa4kKxMhR3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+Will try again after 0.74 sec
+[8mha:////4FlwKEJiCREmNOWw4281VUZyTkBxBaXrcpvI4na/bBDPAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqGJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdma/edZvQE/lFxJwgAAAA==[0m[Pipeline] {
+[8mha:////4Est8w5CKQ8x3TARCp5+xxEahxHyg93oTtsjdAqSnu8FAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN6Ew6eS+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4EDiqnVafyBM5sdMMT7JQ070uhvgjw7/0Ao4EdITaEhJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQElECzevgAAAA==[0m[Pipeline] }
+Will try again after 0.89 sec
+[8mha:////4LXCuOYMLUHciPB86SGp+BDGHHVrZk+M6S6dZo6EHzBDAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqAsSYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlrsnW7D/P6g3hh8L1wgAAAA==[0m[Pipeline] {
+[8mha:////4Jsn4UO/ZdeKfNo9U/PL95nKmjDYQr7UdHZgI6Uv8An0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4NJYbzkWI5q2BeRhrYKJ1nnOY3rNfDol237GjW/kX9RyAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArmI/eL4AAAA=[0m[Pipeline] }
+Will try again after 1 sec
+[8mha:////4Iz2Ayft4sKy5NFrRXkhR1Rt3OV4P/TGbgdsdK1iz55wAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFWyIqWvUhROEJoSk0f8lSUknTsTVuAOBSkx4sGxL1nu+oAoejuQ1swoHg6E3bHSTzokl8sPFUWKWzqwnDOQU61TqSKp2qR1FBYuKElYc1gp7R8GgjrDhVtxF7QTq+hR93g4cSiNv8ICCZ3IUPn7L7GF7nWQg/HH+AmAeI5TNLtu++TyrN6foahfCAAAA[0m[Pipeline] {
+[8mha:////4MnU0ezm3/qkw58NHQqTduKGkv+RW9v2MC7MpsiNqxkzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBirOQHu+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4CIOiY+IntsWU4KWkPsSQT3JCyZJIMpa3KaiK/arOCxVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BmM+Nsi+AAAA[0m[Pipeline] }
+Will try again after 1.2 sec
+[8mha:////4AzAaVS9bPCMV2xagTOMNBZ3/dR6Mawai1jx2kTXJQoOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiG6IqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7fbam+TyrNxR5p0fCAAAA[0m[Pipeline] {
+[8mha:////4Ep7fkNrsvG+1TK3yO+xF7rSJjurnWeYV+7eLZ8Zx0RFAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4OmtyHsezkgwCXNjij4eluEbbPR1xnp1C+HxvMkM7FOHAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfX1uR6L4AAAA=[0m[Pipeline] }
+Will try again after 1.5 sec
+[8mha:////4Mva6hpiYKxGCU+nxuVUAW9heAp+JzmWNSwUCjBFM2MSAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCCQG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm+6CzPBwgAAAA==[0m[Pipeline] {
+[8mha:////4Je+unfqoQhYZQgZBAxuNVDzsU6cHNe3pOWkPqghZp6SAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4HKo0mws3s9QrjpcQvmUz5df7EPHGaYfqq5xikicrZtwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwuM6AvgAAAA==[0m[Pipeline] }
+Will try again after 1.8 sec
+[8mha:////4LQQSGj8+Kb0Zcxy3a66q0RyNebm+375DL/ELhLf5rLLAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUhJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3u2z7zedZvQG2MEF6wgAAAA==[0m[Pipeline] {
+[8mha:////4LlJiy9tFhNRtvv2x3BO6dJUWIZkiwU6Z1zLNna3MDgoAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvT8cju+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4LWvABLTV2TePdzVi2kDeoaoLl8HM7hJy2JQcHWLopWpAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN6XnAcu+AAAA[0m[Pipeline] }
+Will try again after 2.2 sec
+[8mha:////4LbPKN4W2xRo4rZbiBDVG/zsaHISQrTvCRtP1y+ZvuPjAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqGJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdn2zedZvQEYQtX8wgAAAA==[0m[Pipeline] {
+[8mha:////4AE0nf8Q3vW+gQyCbUm/F+KW4m0ffxnAhvo1q/Ac9gOsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBiwS7Xe+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4IgEbfCrPmTJ69CjNK2Bu71AW3wEoSR2UgakUtTFu4BrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoFSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BqeGDU++AAAA[0m[Pipeline] }
+Will try again after 2.6 sec
+[8mha:////4AZzyjytd2YNXQau5K5qz/PVQigS5wRE/OsBPASDwhxnAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCMGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wbb7T/P6g2r0xiswgAAAA==[0m[Pipeline] {
+[8mha:////4H1ZoPDjQnnCTKCsrnBD/A7hQF+diRAdfNOXnQQUDovpAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBkhu+A6+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4NF8muawGIbMH5J64fED+8PcfSkilG9x9sfc8zUPSRitAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N/Zh+YO+AAAA[0m[Pipeline] }
+Will try again after 3.1 sec
+[8mha:////4DvZTRBQW+0A/itlT9fK4afNkHmOJVZQF4Ia1yUA62WpAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDEg1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm9+YU5dwgAAAA==[0m[Pipeline] {
+[8mha:////4Nus4tzvTXAybffaySHv8j+8O2YgPz6so2/qPP9I7ceqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/Nre1vgAAAA==[0m[Pipeline] sh
++ grep 302+ curl -s --head --request GET localhost:8000
+
+[8mha:////4CNiFgoOz2Li6tvxQ0VyEKV0pRnC4ac/2RaFlUGcuf/vAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAMjehBb4AAAA=[0m[Pipeline] }
+Will try again after 3.8 sec
+[8mha:////4PKsfEBTY6gTJvC9dZz3nyvJ2p6F0VOAuQ/kJziOv6TrAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXbbz/P6g0gi2EGwgAAAA==[0m[Pipeline] {
+[8mha:////4HIZRHzptLQPD4Kn3tIj2JhBuIjF12O9CoKm1uIKyir1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAHlNhISvgAAAA==[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4Cy/ADyuAw0Z3FRsOiBg3eFuIEppvaoQmwEpiznRhf55AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHKLJPpvgAAAA==[0m[Pipeline] }
+Will try again after 4.6 sec
+[8mha:////4KTVVPGK00uERhyQryeeMJh/YaukCiv/PdQpc9dKYrJJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCMGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wbb7z7P6g2Yu2QbwgAAAA==[0m[Pipeline] {
+[8mha:////4DrFou15sinsGtFlHANlMem9qI9UYD0D0gBNa61PYyjYAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkQZR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fLvzCqr4AAAA=[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4K6JOCrnXFW8ga/ootyS4wKnMfDRI3xHHEfjq4H8e3/4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BsfLY/G+AAAA[0m[Pipeline] }
+Will try again after 5.5 sec
+[8mha:////4Mwon7JLpWKSiP8yLmEjuspJ4h7mAU5I96YXK764iaLcAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSRBBBunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm2223f7zrN5GqPqnwgAAAA==[0m[Pipeline] {
+[8mha:////4AvzzSaUXkOd/oPO+sjUV9bRX7IDHAlyxFEev/i7YCcWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBiGBjUy+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4Lw4cQH9s5zgPBX5azBEfRs6VoXz0VO4W3c3N1bt9H1hAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF2jKA0vgAAAA==[0m[Pipeline] }
+Will try again after 6.6 sec
+[8mha:////4IZsj2EmdvNQPbWUTAk+AjJrAx2VL2sCmf802QIx3OaFAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFQMDYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhls8u2bz7P6g068oImwgAAAA==[0m[Pipeline] {
+[8mha:////4GY6+oQ+lHqx+DUJ/p0zzWM0Cw4lCvoeRC2sy58oTNe1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5B3ife+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4DXRlWryDgYCF2Iz67MGHLGYeDdbor5Lbv1rdZpYN8LVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgE9d/PSvgAAAA==[0m[Pipeline] }
+Will try again after 7.9 sec
+[8mha:////4LN8FNIj1bN7yyPeBYJvaNI1vgT6NSmO+WvGFNUWkb+1AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCCQG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbfvd5Vm+JY092wgAAAA==[0m[Pipeline] {
+[8mha:////4J2CPTttScp83kx36kiPpQovySjVghf3/ySNPt07XwnmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN/DO8Oq+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4ODUKaomSC/YuJpRa2XW3ZAOljep7giQ8Fm9yAAiGBIVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbNwESVPK+AAAA[0m[Pipeline] }
+Will try again after 9.5 sec
+[8mha:////4BJ5J/WD6EFwXgHdoTW3aai+hBxUTRjrPlSfWJSJil+dAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiKEDYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g0nEdvwwgAAAA==[0m[Pipeline] {
+[8mha:////4COOcK5qBPIVrhCXEwh+rOFA3UF8HRXb33YkiYmCMmjnAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxhnHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3IKq2br4AAAA=[0m[Pipeline] sh
++ grep 302+ curl -s --head --request GET localhost:8000
+
+[8mha:////4F+WubMmh94+JmBwypGs4BeEaXw0WM4QD2kztYWo8YFIAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZhzHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3bvELmr4AAAA=[0m[Pipeline] }
+Will try again after 11 sec
+[8mha:////4N3+oDoGAhkLYfQj4eYPKZCykmb6v7dc06Jm2ukziaXfAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIKEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WXbbz7P6g12UZYbwgAAAA==[0m[Pipeline] {
+[8mha:////4Le61s+AMoob7Zs2W9Nx/w3ZUcVyTpmXyaxrxWiOwCcpAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICHRKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBnZ6r6i+AAAA[0m[Pipeline] sh
++ + curl -s --head --request GETgrep 302
+ localhost:8000
+[8mha:////4I0iUzqsUFWM9XgyS2obRAOyHtXQElA2p5LWnBEurkDBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbNyj4eB++AAAA[0m[Pipeline] }
+Will try again after 13 sec
+[8mha:////4JLIp8vhO3EoHw5m9KBIuITUUfH7bZJVJCrZ/phu0d4KAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqAsSYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlrsm2bz7P6g3YIwKdwgAAAA==[0m[Pipeline] {
+[8mha:////4OPGfrGMSzukCqL6nmcE4JZD43vNo9wfL9kNQW19LRJPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAGulDDkvgAAAA==[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4GFsSFTpmtKICvp36qxS40p/pHXPc9RNPl4rJ2WUVnxBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0qmXSbvgAAAA==[0m[Pipeline] }
+Will try again after 15 sec
+[8mha:////4EwdWBy4ySm/tMk+a85fyLTTAHalDmG3crOJP0oPDhlyAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSRBBBunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm222/e7zrN5rss/NwgAAAA==[0m[Pipeline] {
+[8mha:////4BzDXWgrCGSWf+FkgZIRY2qLCPB9IfViS/CA4UfudI48AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBsroJZ2+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4FDeYc+t2xAStXHVmDLLa5IPbvljSqDFRNnyk+2DLqGAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoUiIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/Bnt+gFe+AAAA[0m[Pipeline] }
+Will try again after 15 sec
+[8mha:////4NT99JdE3hXHfgAe0lIygN6PO4dLJu9O0dp5Hi82zLR+AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiAWEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wbb7T/P6g2+AJk8wgAAAA==[0m[Pipeline] {
+[8mha:////4BX2j5Sycxhs0AcuG6WmeVZBDHk2Y5UZRqqihOFU4e35AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCSYSo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMPsE5aHOVe/9B9Nk7iW+AAAA[0m[Pipeline] sh
++ grep 302
++ curl -s --head --request GET localhost:8000
+[8mha:////4Ep8l5wcctOiciA9lk2M1rxA2eo59U6pDIeCsG/kpf45AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOiJEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP5Y5R0a+AAAA[0m[Pipeline] }
+[8mha:////4EKghyQ9Wnj7tB5J7MFK3bBvwC1Hlxc1IqodRrAWZ7fzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDLtd2/wFvGcTxvgAAAA==[0m[Pipeline] // waitUntil
+[8mha:////4PUlQF+ZAvN60Rg0hh8YBSibyIyWVsc+QBF/PwIDNBZYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDPtd29wFc+p9NvgAAAA==[0m[Pipeline] }
+[8mha:////4D+3npsIwlQnZbzWbOUqgZPRFvDgD3S0NmZp3rH+qgatAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSDQIUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w9em5PJvgAAAA==[0m[Pipeline] // timeout
+[8mha:////4Jd7oJ0puMXeqFVggd4FLFVbCtr99zUQXRM0MuSChBSiAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJUFoxjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAJVpHiL0AAAA=[0m[Pipeline] }
+[8mha:////4GHVJMvh23J3GDhisz2AIaJOxuH9JYCLBALmok1NS1TxAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMLpEAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBYxDguL0AAAA=[0m[Pipeline] // dir
+[8mha:////4ADABTut4EC+xcQC+NvHRhrYBLu31BDGkJZkjgbQKsw1AAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KMxBgn14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk+1KQlR9CJD8VvQAAAA==[0m[Pipeline] }
+[8mha:////4CmMJBp/H8gOlHa17tBc3ooi+u2BGx9U7d3XiCGOf0fZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMLpEAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q73eCbPsBBYNo4L0AAAA=[0m[Pipeline] // stage
+[8mha:////4M2BNOjv3CwMUQmyPL85LGtcifbIWBEqjAdo4z4yFE9UAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTUUSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDuGoq4/x/IN2SREhMEAAAA=[0m[Pipeline] stage
+[8mha:////4IRdLSwPQFyoUMXpxAzUg6kPWaAvwQEEnZkx1cMNtaWSAAAApx+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6LgSIwTa8PiF9RSa6F5D9uHMPlF/pr/IEri5J3uucnNeb4gjwGOFKzoDPYOo3Zi8KNdmpgo9BdPk+joLDRhJG9EY6aGWlOv2BAbWJOkkEnYGNSeokPLsJWduqvCK7TFicOyHSSkrr3BAxK5mFkF/sIcYHcd20j48/wVwDwwpFXFkO3L8nPN3zgbWwvDAAAA[0m[Pipeline] { (Execute Tests)
+[8mha:////4Gn6ttQAOdv+A+VXHgfCfqiVB1ZyFCa9nppjX8c3v9LlAAAAph+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSB2Ti5Nl18gkprbWn+H9oiTD6Rr+Y7iJA4ecPl7pLL93pDGQOcKBjmNHYWY2tZ70ezJDZR6G6eJuboylrCSF4zoSdBSp+3Kihp2JTlUHDYaWw9RYsmwZ47+ZCVl2iqSwrLduSQWzXAEzK+kJMMaS1zgMN9VJHwx/kLgLlPUDR1vXrz/ZYfJWyAvsQAAAA=[0m[Pipeline] dir
+Running in /vagrant/katalon-solution-lab-offline/katalon-studio-solution/KatalonStudioSolution
+[8mha:////4PjTiTkctTye2KRfrkII07jO2wXnclt6hYHYF15jXYBVAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQRV+PE2rD4BLXUWmj+H9timXwiX813sELi5A2Xu0su3+sNpXdwIqdZr3Aw6KVho510SiySG66WIuvpwiShJ6tYq2JLnWrW2lJQsCrLoeCwUSgteYM6wJb34iEqK1BX5+DSduSQm+4OT8h4IgfhwlJmB7vb1HnCH+cvAOYxQFHv68UP32/5AeRSsaPEAAAA[0m[Pipeline] {
+[8mha:////4MdrPmDIib0m0A0iysW2rh45VgGQneU6iQ7FG0wDKYpyAAAApR+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYTDp0SpaK00nMDYxtixdoPt4FSciKtxB6JEomKK0bxp3vsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOwTVPvdYe5j/wUKhu8NwAAAAA==[0m[Pipeline] pwd
+[8mha:////4HRqFRX4+FsIu2vcceh/XbEcRc+epavPc0NKhevlbVNCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiA6lorXS8AJjG2PHugu2g1PxIr7GH4gSiYotVjvbzPsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOwTVPvdYe5j/wXNEK5CwAAAAA==[0m[Pipeline] pwd
+[8mha:////4JaxPGMFReXQIKHNRLjsNXTZLf4BpLqAY1zGAZDyMxg/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDSFQoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNrvDnMf+y+MIbVbwAAAAA==[0m[Pipeline] sh
++ docker run --network=host -t --rm -v /vagrant/katalon-solution-lab-offline/katalon-studio-solution/KatalonStudioSolution/license:/root/.katalon/license -v /vagrant/katalon-solution-lab-offline/katalon-studio-solution/KatalonStudioSolution:/tmp/project katalonstudio/katalon:7.2.1 katalonc.sh -projectPath=/tmp/project -retry=0 -testSuitePath=Test Suites/Regression -executionProfile=local -browserType=Chrome (headless) -apiKey=f9faa583-d0ea-48a9-b7dd-3b15fbb7e690
++ echo Entrypoint
+Entrypoint
++ '[' -z '' ']'
++ exec katalonc.sh -projectPath=/tmp/project -retry=0 '-testSuitePath=Test Suites/Regression' -executionProfile=local '-browserType=Chrome (headless)' -apiKey=f9faa583-d0ea-48a9-b7dd-3b15fbb7e690
++ echo 'Starting Katalon Studio'
+Starting Katalon Studio
++ cat /katalon/version
+Mozilla Firefox 71.0
+Google Chrome 79.0.3945.88 
+Katalon Studio 
++ args=("$KATALON_KATALON_INSTALL_DIR/katalonc" "$@")
++ xvfb-run -s '-screen 0 1024x768x24' /opt/katalonstudio/katalonc -projectPath=/tmp/project -retry=0 '-testSuitePath=Test Suites/Regression' -executionProfile=local '-browserType=Chrome (headless)' -apiKey=f9faa583-d0ea-48a9-b7dd-3b15fbb7e690
+Katalon workspace folder is set to default location: /tmp/session-9ab003c0
+Starting Groovy-Eclipse compiler resolver.  Specified compiler level: unspecified
+173 2.4.7.xx-201611170128-e46 = ACTIVE
+
+
+INFO: Katalon Version: 7.2.1
+INFO: Command-line arguments: -projectPath=/tmp/project -retry=0 -testSuitePath=Test Suites/Regression -executionProfile=local -browserType=Chrome (headless) -apiKey=******
+INFO: User working dir: /
+INFO: Error log: /tmp/session-9ab003c0/.metadata/.log
+INFO: Katalon TestOps server URL: https://analytics.katalon.com
+INFO: Katalon Store server URL: https://store.katalon.com
+INFO: User home: /root
+INFO: Java vendor: Private Build
+INFO: Java version: 1.8.0_232
+INFO: Local OS: Linux 64bit
+INFO: CPU load: 1%
+INFO: Total memory: 3855 MB
+INFO: Free memory: 620 MB
+INFO: Machine ID: 75ea7a692dc5efdb64c76924289112e9
+
+
+Activating...
+Start activating offline...
+Search for valid offline licenses in folder: /root/.katalon/license
+The number of valid offline licenses: 0
+Offline activation failed.
+Start activating online...
+Project path is a folder.
+Examine folder 'settings'.
+Examine file '.DS_Store'.
+Examine folder 'Drivers'.
+Examine folder 'license'.
+Examine folder 'bin'.
+Examine folder 'Test Listeners'.
+Examine folder 'Test Cases'.
+Examine folder 'Plugins'.
+Examine folder 'Include'.
+Examine folder 'Checkpoints'.
+Examine file 'console.properties'.
+Examine folder 'Test Suites'.
+Examine file '.classpath'.
+Examine folder 'Libs'.
+Examine file '.gitignore'.
+Examine folder '.settings'.
+Examine folder 'Object Repository'.
+Examine file '.project'.
+Examine folder 'Scripts'.
+Examine file 'build.gradle'.
+Examine folder 'Profiles'.
+Examine folder 'Keywords'.
+Examine folder 'Data Files'.
+Examine folder 'Reports'.
+Examine file 'KatalonStudioSolution.prj'.
+Found project file '/tmp/project/KatalonStudioSolution.prj'.
+Delete folder: bin
+Delete folder: Libs
+Cleaning up workspace
+Opening project file: /tmp/project/KatalonStudioSolution.prj
+Generating global variables...
+/%tmp%project%KatalonStudioSolution.prj/Keywords/utilities/WebUtils.groovy: 21 Groovy:unable to resolve class internal.GlobalVariable
+Parsing custom keywords...
+Project 'KatalonStudioSolution' opened
+Start reloading plugins...
+Katalon version: 7.2.1
+Plugin info URL: https://store.katalon.com/api/products/ks?appVersion=7.2.1&appType=ENGINE&licenseType=ENTERPRISE
+Plugin info: {
+  "expired": false,
+  "productId": 59,
+  "name": "Basic Report",
+  "id": 98640
+}
+Plugin info: {
+  "expired": false,
+  "productId": 2,
+  "name": "Basic Search For Dynamic Test Suite",
+  "id": 1815
+}
+Plugin name: Basic Report. Is online: true. Plugin location: /opt/katalonstudio/configuration/plugin/install/98640/1.0.7/katalon-studio-report-plugin.jar.
+Plugin name: Basic Search For Dynamic Test Suite. Is online: true. Plugin location: /opt/katalonstudio/configuration/plugin/install/1815/1.0.4/katalon-studio-dynamic-execution-plugin-1.0.7.jar.
+Plugin "Basic Report" has been installed.
+Plugin "Basic Search For Dynamic Test Suite" has been installed.
+Start check license task
+20:37:28.745 [main] DEBUG com.kms.katalon.core.testdata.TestDataFactory - Finding test data with id 'Data Files/extdata_categoryfilter'
+20:37:29.581 [main] DEBUG com.kms.katalon.core.testdata.TestDataFactory - Test data is excel file, reading excel file
+20:37:29.603 [main] DEBUG com.kms.katalon.core.testdata.TestDataFactory - Reading excel file with source file '/tmp/project/Data Files/categoryfilter.xlsx' and sheet name 'Sheet1'
+chromedriver is located at default location: /opt/katalonstudio/configuration/resources/drivers/chromedriver_linux64/chromedriver. In case your browser is updated to a newer version, please use this command to update chromdriver: --config -webui.autoUpdateDrivers=true
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:38:23.361 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Regression
+2020-04-05 20:38:24.209 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = root - vagrant.vm
+2020-04-05 20:38:24.269 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Linux 64bit
+2020-04-05 20:38:24.315 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.1.1
+2020-04-05 20:38:24.450 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 7.2.1.1
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:38:29.410 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:38:29.427 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged
+2020-04-05 20:38:40.246 DEBUG Existing User - Checkout - Fully Charged - 1: openBrowser(url)
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:39:10.918 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:39:11 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+2020-04-05 20:39:11.397 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 seconds
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 31307
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+Apr 05, 2020 8:39:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:39:55.738 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 93b3de7d976f42d5c2cc1276bcb9dc14
+2020-04-05 20:39:56.273 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:39:56.317 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:39:56.401 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:39:56.473 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:40:21.247 DEBUG Existing User - Checkout - Fully Charged - 2: callTestCase(findTestCase("Common Test Cases/Login"), ["username":userAdmin, "password":passwordAdmin], STOP_ON_FAILURE)
+2020-04-05 20:40:21.816 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:40:21.819 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common Test Cases/Login
+2020-04-05 20:40:21.937 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = admin@example.com
+2020-04-05 20:40:21.947 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = admin
+2020-04-05 20:40:24.440 DEBUG testcase.Login                           - 1: click(findTestObject("HomePage/linkLogIn"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:40:30.699 DEBUG testcase.Login                           - 2: setText(findTestObject("LoginPage/inputEmail"), username)
+2020-04-05 20:40:33.476 DEBUG testcase.Login                           - 3: setText(findTestObject("LoginPage/inputPassword"), password)
+2020-04-05 20:40:37.692 DEBUG testcase.Login                           - 4: click(findTestObject("LoginPage/btnLogIn"))
+2020-04-05 20:40:42.654 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common Test Cases/Login
+2020-04-05 20:40:42.685 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:40:42.745 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:40:42.806 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:40:42.859 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:40:42.951 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:40:43.390 DEBUG Existing User - Checkout - Fully Charged - 3: callTestCase(findTestCase("Common Test Cases/Add an Item to Cart"), [:], STOP_ON_FAILURE)
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:40:44.037 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:40:44.051 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common Test Cases/Add an Item to Cart
+2020-04-05 20:40:48.988 DEBUG testcase.Add an Item to Cart             - 1: rand = new java.util.Random()
+2020-04-05 20:40:49.130 DEBUG testcase.Add an Item to Cart             - 2: category = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:40:49.171 DEBUG testcase.Add an Item to Cart             - 3: preXpath = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:40:49.193 DEBUG testcase.Add an Item to Cart             - 4: numRandom = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:40:49.229 DEBUG testcase.Add an Item to Cart             - 5: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:40:49.341 DEBUG testcase.Add an Item to Cart             - 6: listItem = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:40:49.353 DEBUG testcase.Add an Item to Cart             - 7: countList = 0
+2020-04-05 20:40:49.419 DEBUG testcase.Add an Item to Cart             - 8: rowCount = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:40:49.438 DEBUG testcase.Add an Item to Cart             - 9: rowNum = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:40:49.476 DEBUG testcase.Add an Item to Cart             - 10: index = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:40:49.507 DEBUG testcase.Add an Item to Cart             - 11: listCategory = findTestData("Data Files/extdata_categoryfilter")
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:40:59.483 DEBUG testcase.Add an Item to Cart             - 12: rowCount = listCategory.getRowNumbers()
+2020-04-05 20:40:59.763 DEBUG testcase.Add an Item to Cart             - 13: while (countList == 0)
+2020-04-05 20:40:59.790 DEBUG testcase.Add an Item to Cart             - 1: rowNum = rand.nextInt(rowCount - 1) + 1
+2020-04-05 20:40:59.893 DEBUG testcase.Add an Item to Cart             - 2: category = listCategory.getValue("category", rowNum)
+2020-04-05 20:40:59.979 DEBUG testcase.Add an Item to Cart             - 3: preXpath = listCategory.getValue("preXpath", rowNum)
+2020-04-05 20:41:00.017 DEBUG testcase.Add an Item to Cart             - 4: numRandom = listCategory.getValue("numRandom", rowNum)
+2020-04-05 20:41:00.498 DEBUG testcase.Add an Item to Cart             - 5: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:41:00.707 DEBUG testcase.Add an Item to Cart             - 6: switch (category)
+2020-04-05 20:41:00.748 DEBUG testcase.Add an Item to Cart             - 1: case "Accessories":
+2020-04-05 20:41:00.892 DEBUG testcase.Add an Item to Cart             - 1: click(findTestObject("SaleorPage/linkAccessories"))
+2020-04-05 20:41:05.602 DEBUG testcase.Add an Item to Cart             - 2: break
+2020-04-05 20:41:05.700 DEBUG testcase.Add an Item to Cart             - 7: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:41:06.533 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:41:06.562 DEBUG testcase.Add an Item to Cart             - 8: utilities.WebUtils.filterOneCriteria(chkFilter)
+2020-04-05 20:41:11.850 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:41:11.858 DEBUG testcase.Add an Item to Cart             - 9: driver = getWebDriver()
+2020-04-05 20:41:12.059 DEBUG testcase.Add an Item to Cart             - 10: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list"))
+2020-04-05 20:41:12.692 DEBUG testcase.Add an Item to Cart             - 11: countList = list.size()
+2020-04-05 20:41:12.752 DEBUG testcase.Add an Item to Cart             - 12: if (countList != 0)
+2020-04-05 20:41:12.793 DEBUG testcase.Add an Item to Cart             - 1: rowNum = rand.nextInt(rowCount - 1) + 1
+2020-04-05 20:41:12.819 DEBUG testcase.Add an Item to Cart             - 2: category = listCategory.getValue("category", rowNum)
+2020-04-05 20:41:12.893 DEBUG testcase.Add an Item to Cart             - 3: preXpath = listCategory.getValue("preXpath", rowNum)
+2020-04-05 20:41:13.013 DEBUG testcase.Add an Item to Cart             - 4: numRandom = listCategory.getValue("numRandom", rowNum)
+2020-04-05 20:41:13.083 DEBUG testcase.Add an Item to Cart             - 5: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:41:13.113 DEBUG testcase.Add an Item to Cart             - 6: switch (category)
+2020-04-05 20:41:13.190 DEBUG testcase.Add an Item to Cart             - 2: case "Groceries":
+2020-04-05 20:41:13.215 DEBUG testcase.Add an Item to Cart             - 1: click(findTestObject("SaleorPage/linkGroceries"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:41:17.758 DEBUG testcase.Add an Item to Cart             - 2: break
+2020-04-05 20:41:17.832 DEBUG testcase.Add an Item to Cart             - 7: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:41:17.961 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:41:18.028 DEBUG testcase.Add an Item to Cart             - 8: utilities.WebUtils.filterOneCriteria(chkFilter)
+2020-04-05 20:41:25.234 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:41:25.241 DEBUG testcase.Add an Item to Cart             - 9: driver = getWebDriver()
+2020-04-05 20:41:25.262 DEBUG testcase.Add an Item to Cart             - 10: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list"))
+2020-04-05 20:41:25.489 DEBUG testcase.Add an Item to Cart             - 11: countList = list.size()
+2020-04-05 20:41:25.507 DEBUG testcase.Add an Item to Cart             - 12: if (countList != 0)
+2020-04-05 20:41:25.519 DEBUG testcase.Add an Item to Cart             - 1: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:41:25.525 DEBUG testcase.Add an Item to Cart             - 2: get(index).click()
+2020-04-05 20:41:27.241 DEBUG testcase.Add an Item to Cart             - 3: click(findTestObject("ProductPage/btnAddtoCart"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:41:30.182 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common Test Cases/Add an Item to Cart
+2020-04-05 20:41:30.200 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:41:30.225 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:41:30.227 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:41:30.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:41:30.237 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:41:30.247 DEBUG Existing User - Checkout - Fully Charged - 4: click(findTestObject("AccountPage/linkYourCart"))
+2020-04-05 20:41:35.566 DEBUG Existing User - Checkout - Fully Charged - 5: click(findTestObject("AccountPage/btnCheckOut"))
+2020-04-05 20:41:39.880 DEBUG Existing User - Checkout - Fully Charged - 6: click(findTestObject("AccountPage/btnContinue"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:41:44.738 DEBUG Existing User - Checkout - Fully Charged - 7: click(findTestObject("AccountPage/btnContinue"))
+2020-04-05 20:41:50.117 DEBUG Existing User - Checkout - Fully Charged - 8: click(findTestObject("AccountPage/btnOrder"))
+2020-04-05 20:41:54.968 DEBUG Existing User - Checkout - Fully Charged - 9: click(findTestObject("AccountPage/chkPaymentMethod"))
+2020-04-05 20:41:56.511 DEBUG Existing User - Checkout - Fully Charged - 10: click(findTestObject("AccountPage/btnProceedPayment"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............0/13(0%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:42:00.011 DEBUG Existing User - Checkout - Fully Charged - 11: click(findTestObject("AccountPage/chkFullChargeOption"))
+2020-04-05 20:42:03.045 DEBUG Existing User - Checkout - Fully Charged - 12: click(findTestObject("AccountPage/btnMakePayment"))
+2020-04-05 20:42:06.079 DEBUG Existing User - Checkout - Fully Charged - 13: verifyElementVisible(findTestObject("AccountPage/imgCheckOutPirate"))
+2020-04-05 20:42:09.807 DEBUG Existing User - Checkout - Fully Charged - 1: closeBrowser()
+2020-04-05 20:42:10.440 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Account Management/Your Cart/Existing User - Checkout - Fully Charged
+2020-04-05 20:42:10.457 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:42:10.475 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:42:10.497 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:42:10.533 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:42:12.224 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:42:12.232 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Category/Search with Criteria
+2020-04-05 20:42:12.626 INFO  c.k.katalon.core.main.TestCaseExecutor   - category = Accessories
+2020-04-05 20:42:12.638 INFO  c.k.katalon.core.main.TestCaseExecutor   - preXpath = id_material_
+2020-04-05 20:42:12.651 INFO  c.k.katalon.core.main.TestCaseExecutor   - numRandom = 3
+2020-04-05 20:42:13.093 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) filterAttribute = 
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............1/13(8%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:42:18.418 DEBUG testcase.Search with Criteria            - 1: rand = new java.util.Random()
+2020-04-05 20:42:18.439 DEBUG testcase.Search with Criteria            - 2: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:42:18.449 DEBUG testcase.Search with Criteria            - 3: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:42:18.468 DEBUG testcase.Search with Criteria            - 4: filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:42:18.474 DEBUG testcase.Search with Criteria            - 5: filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:42:18.487 DEBUG testcase.Search with Criteria            - 6: apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:42:18.496 DEBUG testcase.Search with Criteria            - 7: openBrowser(url)
+2020-04-05 20:42:18.519 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:42:18 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 3997
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 05, 2020 8:42:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:42:21.228 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fe6ed1e3f949074d450f7c80c2c0c1da
+2020-04-05 20:42:21.309 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:42:21.329 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:42:21.337 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:42:21.356 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+2020-04-05 20:42:26.405 DEBUG testcase.Search with Criteria            - 8: switch (category)
+2020-04-05 20:42:26.454 DEBUG testcase.Search with Criteria            - 1: case "Accessories":
+2020-04-05 20:42:26.477 DEBUG testcase.Search with Criteria            - 1: click(findTestObject("SaleorPage/linkAccessories"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............1/13(8%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:42:34.360 DEBUG testcase.Search with Criteria            - 2: apiID = apiAccessoriesID
+2020-04-05 20:42:34.480 DEBUG testcase.Search with Criteria            - 3: break
+2020-04-05 20:42:34.599 DEBUG testcase.Search with Criteria            - 9: chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index)
+2020-04-05 20:42:34.627 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterLabel is PASSED
+2020-04-05 20:42:34.652 DEBUG testcase.Search with Criteria            - 10: filterValue = trim().toLowerCase()
+2020-04-05 20:42:36.629 DEBUG testcase.Search with Criteria            - 11: filterValue = filterValue.replace(".", "")
+2020-04-05 20:42:36.690 DEBUG testcase.Search with Criteria            - 12: filterValue = filterValue.replace("%", "")
+2020-04-05 20:42:36.728 DEBUG testcase.Search with Criteria            - 13: filterValue = filterValue.replace(", ", "-")
+2020-04-05 20:42:36.953 DEBUG testcase.Search with Criteria            - 14: filterValue = filterValue.replace(" ", "-")
+2020-04-05 20:42:37.017 DEBUG testcase.Search with Criteria            - 15: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:42:37.093 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:42:37.120 DEBUG testcase.Search with Criteria            - 16: filterName = getAttribute(chkFilter, "name").toLowerCase()
+2020-04-05 20:42:37.848 DEBUG testcase.Search with Criteria            - 17: utilities.WebUtils.filterOneCriteria(chkFilter)
+2020-04-05 20:42:43.092 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:42:43.142 DEBUG testcase.Search with Criteria            - 18: driver = getWebDriver()
+2020-04-05 20:42:43.200 DEBUG testcase.Search with Criteria            - 19: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735............1/13(8%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:42:44.609 DEBUG testcase.Search with Criteria            - 20: countList = list.size()
+2020-04-05 20:42:44.693 DEBUG testcase.Search with Criteria            - 21: if (countList == 0)
+2020-04-05 20:42:44.714 DEBUG testcase.Search with Criteria            - 22: else
+2020-04-05 20:42:44.723 DEBUG testcase.Search with Criteria            - 1: listProductUI = ["product"]
+2020-04-05 20:42:44.756 DEBUG testcase.Search with Criteria            - 2: for (def i : (0..(countList - 1)))
+2020-04-05 20:42:44.975 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:42:45.207 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:42:45.408 DEBUG testcase.Search with Criteria            - 3: filterAttribute = """ + filterName + ":" + filterValue + """
+2020-04-05 20:42:45.446 DEBUG testcase.Search with Criteria            - 4: response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID]))
+2020-04-05 20:42:52.729 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/0.har
+2020-04-05 20:42:53.590 DEBUG testcase.Search with Criteria            - 5: responseText = response.getResponseText()
+2020-04-05 20:42:53.624 DEBUG testcase.Search with Criteria            - 6: listProductAPI = ["product"]
+2020-04-05 20:42:53.629 DEBUG testcase.Search with Criteria            - 7: slurper = new groovy.json.JsonSlurper()
+2020-04-05 20:42:53.659 DEBUG testcase.Search with Criteria            - 8: parsedJson = slurper.parseText(responseText)
+2020-04-05 20:42:53.693 DEBUG testcase.Search with Criteria            - 9: for (def product : node)
+2020-04-05 20:42:53.719 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:42:53.721 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:42:53.724 DEBUG testcase.Search with Criteria            - 10: assert listProductUI.sort() == listProductAPI.sort() == true
+2020-04-05 20:42:53.743 DEBUG testcase.Search with Criteria            - 1: closeBrowser()
+2020-04-05 20:42:53.840 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Category/Search with Criteria
+2020-04-05 20:42:53.849 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:42:53.852 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:42:53.863 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:42:53.873 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:42:54.092 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:42:54.093 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Category/Search with Criteria
+2020-04-05 20:42:54.149 INFO  c.k.katalon.core.main.TestCaseExecutor   - category = Accessories
+2020-04-05 20:42:54.155 INFO  c.k.katalon.core.main.TestCaseExecutor   - preXpath = id_bucket-size_
+2020-04-05 20:42:54.158 INFO  c.k.katalon.core.main.TestCaseExecutor   - numRandom = 3
+2020-04-05 20:42:54.288 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) filterAttribute = 
+2020-04-05 20:42:54.309 DEBUG testcase.Search with Criteria            - 1: rand = new java.util.Random()
+2020-04-05 20:42:54.317 DEBUG testcase.Search with Criteria            - 2: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:42:54.319 DEBUG testcase.Search with Criteria            - 3: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:42:54.327 DEBUG testcase.Search with Criteria            - 4: filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:42:54.329 DEBUG testcase.Search with Criteria            - 5: filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:42:54.338 DEBUG testcase.Search with Criteria            - 6: apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:42:54.345 DEBUG testcase.Search with Criteria            - 7: openBrowser(url)
+2020-04-05 20:42:54.535 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:42:54 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 29012
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 05, 2020 8:42:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:42:57.370 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fbe3fa4ea2631e65387ffa663f55feea
+2020-04-05 20:42:57.389 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:42:57.392 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:42:57.395 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:42:57.405 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........2/13(15%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:43:00.980 DEBUG testcase.Search with Criteria            - 8: switch (category)
+2020-04-05 20:43:01.011 DEBUG testcase.Search with Criteria            - 1: case "Accessories":
+2020-04-05 20:43:01.036 DEBUG testcase.Search with Criteria            - 1: click(findTestObject("SaleorPage/linkAccessories"))
+2020-04-05 20:43:04.407 DEBUG testcase.Search with Criteria            - 2: apiID = apiAccessoriesID
+2020-04-05 20:43:04.422 DEBUG testcase.Search with Criteria            - 3: break
+2020-04-05 20:43:04.447 DEBUG testcase.Search with Criteria            - 9: chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index)
+2020-04-05 20:43:04.551 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterLabel is PASSED
+2020-04-05 20:43:04.574 DEBUG testcase.Search with Criteria            - 10: filterValue = trim().toLowerCase()
+2020-04-05 20:43:05.949 DEBUG testcase.Search with Criteria            - 11: filterValue = filterValue.replace(".", "")
+2020-04-05 20:43:05.952 DEBUG testcase.Search with Criteria            - 12: filterValue = filterValue.replace("%", "")
+2020-04-05 20:43:05.962 DEBUG testcase.Search with Criteria            - 13: filterValue = filterValue.replace(", ", "-")
+2020-04-05 20:43:05.975 DEBUG testcase.Search with Criteria            - 14: filterValue = filterValue.replace(" ", "-")
+2020-04-05 20:43:05.986 DEBUG testcase.Search with Criteria            - 15: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:43:05.994 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:43:05.995 DEBUG testcase.Search with Criteria            - 16: filterName = getAttribute(chkFilter, "name").toLowerCase()
+2020-04-05 20:43:06.135 DEBUG testcase.Search with Criteria            - 17: utilities.WebUtils.filterOneCriteria(chkFilter)
+2020-04-05 20:43:10.162 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:43:10.175 DEBUG testcase.Search with Criteria            - 18: driver = getWebDriver()
+2020-04-05 20:43:10.214 DEBUG testcase.Search with Criteria            - 19: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name"))
+2020-04-05 20:43:11.345 DEBUG testcase.Search with Criteria            - 20: countList = list.size()
+2020-04-05 20:43:11.372 DEBUG testcase.Search with Criteria            - 21: if (countList == 0)
+2020-04-05 20:43:11.384 DEBUG testcase.Search with Criteria            - 22: else
+2020-04-05 20:43:11.409 DEBUG testcase.Search with Criteria            - 1: listProductUI = ["product"]
+2020-04-05 20:43:11.423 DEBUG testcase.Search with Criteria            - 2: for (def i : (0..(countList - 1)))
+2020-04-05 20:43:11.449 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:43:11.494 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:43:11.531 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:43:11.559 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:43:11.589 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:43:11.630 DEBUG testcase.Search with Criteria            - 3: filterAttribute = """ + filterName + ":" + filterValue + """
+2020-04-05 20:43:11.635 DEBUG testcase.Search with Criteria            - 4: response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID]))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........2/13(15%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:43:15.447 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/1.har
+2020-04-05 20:43:15.529 DEBUG testcase.Search with Criteria            - 5: responseText = response.getResponseText()
+2020-04-05 20:43:15.564 DEBUG testcase.Search with Criteria            - 6: listProductAPI = ["product"]
+2020-04-05 20:43:15.592 DEBUG testcase.Search with Criteria            - 7: slurper = new groovy.json.JsonSlurper()
+2020-04-05 20:43:15.655 DEBUG testcase.Search with Criteria            - 8: parsedJson = slurper.parseText(responseText)
+2020-04-05 20:43:15.679 DEBUG testcase.Search with Criteria            - 9: for (def product : node)
+2020-04-05 20:43:15.710 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:43:15.721 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:43:15.725 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:43:15.733 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:43:15.743 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:43:15.757 DEBUG testcase.Search with Criteria            - 10: assert listProductUI.sort() == listProductAPI.sort() == true
+2020-04-05 20:43:15.814 DEBUG testcase.Search with Criteria            - 1: closeBrowser()
+2020-04-05 20:43:16.092 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Category/Search with Criteria
+2020-04-05 20:43:16.119 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:43:16.127 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:43:16.136 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:43:16.157 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:43:17.174 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:43:17.191 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Category/Search with Criteria
+2020-04-05 20:43:17.615 INFO  c.k.katalon.core.main.TestCaseExecutor   - category = Accessories
+2020-04-05 20:43:17.642 INFO  c.k.katalon.core.main.TestCaseExecutor   - preXpath = id_cushion-size_
+2020-04-05 20:43:17.679 INFO  c.k.katalon.core.main.TestCaseExecutor   - numRandom = 2
+2020-04-05 20:43:17.912 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) filterAttribute = 
+2020-04-05 20:43:18.006 DEBUG testcase.Search with Criteria            - 1: rand = new java.util.Random()
+2020-04-05 20:43:18.013 DEBUG testcase.Search with Criteria            - 2: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:43:18.033 DEBUG testcase.Search with Criteria            - 3: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:43:18.053 DEBUG testcase.Search with Criteria            - 4: filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:43:18.103 DEBUG testcase.Search with Criteria            - 5: filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:43:18.132 DEBUG testcase.Search with Criteria            - 6: apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:43:18.173 DEBUG testcase.Search with Criteria            - 7: openBrowser(url)
+2020-04-05 20:43:18.311 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:43:18 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 25118
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 05, 2020 8:43:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:43:21.219 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 54d75698765e320f6fd61e483bb51ed9
+2020-04-05 20:43:21.300 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:43:21.307 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:43:21.312 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:43:21.328 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+2020-04-05 20:43:26.041 DEBUG testcase.Search with Criteria            - 8: switch (category)
+2020-04-05 20:43:26.075 DEBUG testcase.Search with Criteria            - 1: case "Accessories":
+2020-04-05 20:43:26.120 DEBUG testcase.Search with Criteria            - 1: click(findTestObject("SaleorPage/linkAccessories"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........3/13(23%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:43:30.949 DEBUG testcase.Search with Criteria            - 2: apiID = apiAccessoriesID
+2020-04-05 20:43:30.988 DEBUG testcase.Search with Criteria            - 3: break
+2020-04-05 20:43:31.096 DEBUG testcase.Search with Criteria            - 9: chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index)
+2020-04-05 20:43:31.232 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterLabel is PASSED
+2020-04-05 20:43:31.311 DEBUG testcase.Search with Criteria            - 10: filterValue = trim().toLowerCase()
+2020-04-05 20:43:32.822 DEBUG testcase.Search with Criteria            - 11: filterValue = filterValue.replace(".", "")
+2020-04-05 20:43:32.827 DEBUG testcase.Search with Criteria            - 12: filterValue = filterValue.replace("%", "")
+2020-04-05 20:43:32.839 DEBUG testcase.Search with Criteria            - 13: filterValue = filterValue.replace(", ", "-")
+2020-04-05 20:43:32.845 DEBUG testcase.Search with Criteria            - 14: filterValue = filterValue.replace(" ", "-")
+2020-04-05 20:43:32.853 DEBUG testcase.Search with Criteria            - 15: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:43:32.856 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:43:32.858 DEBUG testcase.Search with Criteria            - 16: filterName = getAttribute(chkFilter, "name").toLowerCase()
+2020-04-05 20:43:33.089 DEBUG testcase.Search with Criteria            - 17: utilities.WebUtils.filterOneCriteria(chkFilter)
+2020-04-05 20:43:38.525 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:43:38.557 DEBUG testcase.Search with Criteria            - 18: driver = getWebDriver()
+2020-04-05 20:43:38.628 DEBUG testcase.Search with Criteria            - 19: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name"))
+2020-04-05 20:43:40.173 DEBUG testcase.Search with Criteria            - 20: countList = list.size()
+2020-04-05 20:43:40.178 DEBUG testcase.Search with Criteria            - 21: if (countList == 0)
+2020-04-05 20:43:40.189 DEBUG testcase.Search with Criteria            - 22: else
+2020-04-05 20:43:40.198 DEBUG testcase.Search with Criteria            - 1: listProductUI = ["product"]
+2020-04-05 20:43:40.209 DEBUG testcase.Search with Criteria            - 2: for (def i : (0..(countList - 1)))
+2020-04-05 20:43:40.228 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:43:40.530 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:43:40.759 DEBUG testcase.Search with Criteria            - 3: filterAttribute = """ + filterName + ":" + filterValue + """
+2020-04-05 20:43:40.873 DEBUG testcase.Search with Criteria            - 4: response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID]))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........3/13(23%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:43:44.740 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/2.har
+2020-04-05 20:43:44.788 DEBUG testcase.Search with Criteria            - 5: responseText = response.getResponseText()
+2020-04-05 20:43:44.805 DEBUG testcase.Search with Criteria            - 6: listProductAPI = ["product"]
+2020-04-05 20:43:44.820 DEBUG testcase.Search with Criteria            - 7: slurper = new groovy.json.JsonSlurper()
+2020-04-05 20:43:44.835 DEBUG testcase.Search with Criteria            - 8: parsedJson = slurper.parseText(responseText)
+2020-04-05 20:43:44.847 DEBUG testcase.Search with Criteria            - 9: for (def product : node)
+2020-04-05 20:43:44.893 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:43:44.913 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:43:44.945 DEBUG testcase.Search with Criteria            - 10: assert listProductUI.sort() == listProductAPI.sort() == true
+2020-04-05 20:43:45.010 DEBUG testcase.Search with Criteria            - 1: closeBrowser()
+2020-04-05 20:43:45.283 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Category/Search with Criteria
+2020-04-05 20:43:45.303 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:43:45.317 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:43:45.324 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:43:45.327 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:43:45.739 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:43:45.741 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Category/Search with Criteria
+2020-04-05 20:43:46.155 INFO  c.k.katalon.core.main.TestCaseExecutor   - category = Groceries
+2020-04-05 20:43:46.217 INFO  c.k.katalon.core.main.TestCaseExecutor   - preXpath = id_abv_
+2020-04-05 20:43:46.235 INFO  c.k.katalon.core.main.TestCaseExecutor   - numRandom = 2
+2020-04-05 20:43:46.607 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) filterAttribute = 
+2020-04-05 20:43:46.715 DEBUG testcase.Search with Criteria            - 1: rand = new java.util.Random()
+2020-04-05 20:43:46.763 DEBUG testcase.Search with Criteria            - 2: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:43:46.787 DEBUG testcase.Search with Criteria            - 3: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:43:46.870 DEBUG testcase.Search with Criteria            - 4: filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:43:46.961 DEBUG testcase.Search with Criteria            - 5: filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:43:46.991 DEBUG testcase.Search with Criteria            - 6: apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:43:47.006 DEBUG testcase.Search with Criteria            - 7: openBrowser(url)
+2020-04-05 20:43:47.101 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:43:47 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 14669
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 05, 2020 8:43:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:43:50.942 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c00221ce11beb45df529154cc53ff50b
+2020-04-05 20:43:51.105 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:43:51.126 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:43:51.180 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:43:51.214 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+2020-04-05 20:43:57.329 DEBUG testcase.Search with Criteria            - 8: switch (category)
+2020-04-05 20:43:57.374 DEBUG testcase.Search with Criteria            - 2: case "Groceries":
+2020-04-05 20:43:57.403 DEBUG testcase.Search with Criteria            - 1: click(findTestObject("SaleorPage/linkGroceries"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........4/13(31%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:44:03.220 DEBUG testcase.Search with Criteria            - 2: apiID = apiGroceriesID
+2020-04-05 20:44:03.226 DEBUG testcase.Search with Criteria            - 3: break
+2020-04-05 20:44:03.232 DEBUG testcase.Search with Criteria            - 9: chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index)
+2020-04-05 20:44:03.254 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterLabel is PASSED
+2020-04-05 20:44:03.258 DEBUG testcase.Search with Criteria            - 10: filterValue = trim().toLowerCase()
+2020-04-05 20:44:05.298 DEBUG testcase.Search with Criteria            - 11: filterValue = filterValue.replace(".", "")
+2020-04-05 20:44:05.355 DEBUG testcase.Search with Criteria            - 12: filterValue = filterValue.replace("%", "")
+2020-04-05 20:44:05.457 DEBUG testcase.Search with Criteria            - 13: filterValue = filterValue.replace(", ", "-")
+2020-04-05 20:44:05.478 DEBUG testcase.Search with Criteria            - 14: filterValue = filterValue.replace(" ", "-")
+2020-04-05 20:44:05.490 DEBUG testcase.Search with Criteria            - 15: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:44:05.499 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:44:05.502 DEBUG testcase.Search with Criteria            - 16: filterName = getAttribute(chkFilter, "name").toLowerCase()
+2020-04-05 20:44:05.695 DEBUG testcase.Search with Criteria            - 17: utilities.WebUtils.filterOneCriteria(chkFilter)
+2020-04-05 20:44:09.102 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:44:09.104 DEBUG testcase.Search with Criteria            - 18: driver = getWebDriver()
+2020-04-05 20:44:09.111 DEBUG testcase.Search with Criteria            - 19: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name"))
+2020-04-05 20:44:09.285 DEBUG testcase.Search with Criteria            - 20: countList = list.size()
+2020-04-05 20:44:09.289 DEBUG testcase.Search with Criteria            - 21: if (countList == 0)
+2020-04-05 20:44:09.305 DEBUG testcase.Search with Criteria            - 22: else
+2020-04-05 20:44:09.309 DEBUG testcase.Search with Criteria            - 1: listProductUI = ["product"]
+2020-04-05 20:44:09.311 DEBUG testcase.Search with Criteria            - 2: for (def i : (0..(countList - 1)))
+2020-04-05 20:44:09.315 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:44:09.347 DEBUG testcase.Search with Criteria            - 3: filterAttribute = """ + filterName + ":" + filterValue + """
+2020-04-05 20:44:09.350 DEBUG testcase.Search with Criteria            - 4: response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID]))
+2020-04-05 20:44:12.690 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/3.har
+2020-04-05 20:44:12.700 DEBUG testcase.Search with Criteria            - 5: responseText = response.getResponseText()
+2020-04-05 20:44:12.706 DEBUG testcase.Search with Criteria            - 6: listProductAPI = ["product"]
+2020-04-05 20:44:12.713 DEBUG testcase.Search with Criteria            - 7: slurper = new groovy.json.JsonSlurper()
+2020-04-05 20:44:12.715 DEBUG testcase.Search with Criteria            - 8: parsedJson = slurper.parseText(responseText)
+2020-04-05 20:44:12.718 DEBUG testcase.Search with Criteria            - 9: for (def product : node)
+2020-04-05 20:44:12.725 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:44:12.731 DEBUG testcase.Search with Criteria            - 10: assert listProductUI.sort() == listProductAPI.sort() == true
+2020-04-05 20:44:12.765 DEBUG testcase.Search with Criteria            - 1: closeBrowser()
+2020-04-05 20:44:13.064 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Category/Search with Criteria
+2020-04-05 20:44:13.111 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:44:13.127 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:44:13.169 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:44:13.231 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........5/13(38%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:44:14.687 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:44:14.694 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Category/Search with Criteria
+2020-04-05 20:44:15.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - category = Groceries
+2020-04-05 20:44:15.062 INFO  c.k.katalon.core.main.TestCaseExecutor   - preXpath = id_flavor_
+2020-04-05 20:44:15.084 INFO  c.k.katalon.core.main.TestCaseExecutor   - numRandom = 8
+2020-04-05 20:44:15.447 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) filterAttribute = 
+2020-04-05 20:44:15.488 DEBUG testcase.Search with Criteria            - 1: rand = new java.util.Random()
+2020-04-05 20:44:15.493 DEBUG testcase.Search with Criteria            - 2: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:44:15.498 DEBUG testcase.Search with Criteria            - 3: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:44:15.519 DEBUG testcase.Search with Criteria            - 4: filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:44:15.558 DEBUG testcase.Search with Criteria            - 5: filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:44:15.572 DEBUG testcase.Search with Criteria            - 6: apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:44:15.594 DEBUG testcase.Search with Criteria            - 7: openBrowser(url)
+2020-04-05 20:44:15.639 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:44:15 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 2406
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 05, 2020 8:44:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:44:16.969 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 025683be8f1e9e2cb1b6dd8d389430fc
+2020-04-05 20:44:17.093 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:44:17.117 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:44:17.124 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:44:17.195 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+2020-04-05 20:44:21.975 DEBUG testcase.Search with Criteria            - 8: switch (category)
+2020-04-05 20:44:22.009 DEBUG testcase.Search with Criteria            - 2: case "Groceries":
+2020-04-05 20:44:22.059 DEBUG testcase.Search with Criteria            - 1: click(findTestObject("SaleorPage/linkGroceries"))
+2020-04-05 20:44:26.700 DEBUG testcase.Search with Criteria            - 2: apiID = apiGroceriesID
+2020-04-05 20:44:26.711 DEBUG testcase.Search with Criteria            - 3: break
+2020-04-05 20:44:26.723 DEBUG testcase.Search with Criteria            - 9: chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index)
+2020-04-05 20:44:26.800 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterLabel is PASSED
+2020-04-05 20:44:26.838 DEBUG testcase.Search with Criteria            - 10: filterValue = trim().toLowerCase()
+2020-04-05 20:44:27.694 DEBUG testcase.Search with Criteria            - 11: filterValue = filterValue.replace(".", "")
+2020-04-05 20:44:27.696 DEBUG testcase.Search with Criteria            - 12: filterValue = filterValue.replace("%", "")
+2020-04-05 20:44:27.701 DEBUG testcase.Search with Criteria            - 13: filterValue = filterValue.replace(", ", "-")
+2020-04-05 20:44:27.708 DEBUG testcase.Search with Criteria            - 14: filterValue = filterValue.replace(" ", "-")
+2020-04-05 20:44:27.718 DEBUG testcase.Search with Criteria            - 15: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:44:27.723 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:44:27.732 DEBUG testcase.Search with Criteria            - 16: filterName = getAttribute(chkFilter, "name").toLowerCase()
+2020-04-05 20:44:27.923 DEBUG testcase.Search with Criteria            - 17: utilities.WebUtils.filterOneCriteria(chkFilter)
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........5/13(38%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:44:32.120 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:44:32.124 DEBUG testcase.Search with Criteria            - 18: driver = getWebDriver()
+2020-04-05 20:44:32.136 DEBUG testcase.Search with Criteria            - 19: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name"))
+2020-04-05 20:44:33.964 DEBUG testcase.Search with Criteria            - 20: countList = list.size()
+2020-04-05 20:44:34.268 DEBUG testcase.Search with Criteria            - 21: if (countList == 0)
+2020-04-05 20:44:34.304 DEBUG testcase.Search with Criteria            - 22: else
+2020-04-05 20:44:34.325 DEBUG testcase.Search with Criteria            - 1: listProductUI = ["product"]
+2020-04-05 20:44:34.340 DEBUG testcase.Search with Criteria            - 2: for (def i : (0..(countList - 1)))
+2020-04-05 20:44:34.561 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:44:34.906 DEBUG testcase.Search with Criteria            - 3: filterAttribute = """ + filterName + ":" + filterValue + """
+2020-04-05 20:44:34.946 DEBUG testcase.Search with Criteria            - 4: response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID]))
+2020-04-05 20:44:39.106 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/4.har
+2020-04-05 20:44:39.177 DEBUG testcase.Search with Criteria            - 5: responseText = response.getResponseText()
+2020-04-05 20:44:39.199 DEBUG testcase.Search with Criteria            - 6: listProductAPI = ["product"]
+2020-04-05 20:44:39.213 DEBUG testcase.Search with Criteria            - 7: slurper = new groovy.json.JsonSlurper()
+2020-04-05 20:44:39.228 DEBUG testcase.Search with Criteria            - 8: parsedJson = slurper.parseText(responseText)
+2020-04-05 20:44:39.259 DEBUG testcase.Search with Criteria            - 9: for (def product : node)
+2020-04-05 20:44:39.286 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:44:39.293 DEBUG testcase.Search with Criteria            - 10: assert listProductUI.sort() == listProductAPI.sort() == true
+2020-04-05 20:44:39.338 DEBUG testcase.Search with Criteria            - 1: closeBrowser()
+2020-04-05 20:44:39.631 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Category/Search with Criteria
+2020-04-05 20:44:39.651 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:44:39.660 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:44:39.681 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:44:39.693 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:44:40.355 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:44:40.360 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Category/Search with Criteria
+2020-04-05 20:44:40.505 INFO  c.k.katalon.core.main.TestCaseExecutor   - category = Groceries
+2020-04-05 20:44:40.515 INFO  c.k.katalon.core.main.TestCaseExecutor   - preXpath = id_volume_
+2020-04-05 20:44:40.525 INFO  c.k.katalon.core.main.TestCaseExecutor   - numRandom = 1
+2020-04-05 20:44:40.891 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) filterAttribute = 
+2020-04-05 20:44:40.908 DEBUG testcase.Search with Criteria            - 1: rand = new java.util.Random()
+2020-04-05 20:44:40.910 DEBUG testcase.Search with Criteria            - 2: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:44:40.913 DEBUG testcase.Search with Criteria            - 3: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:44:40.927 DEBUG testcase.Search with Criteria            - 4: filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:44:40.933 DEBUG testcase.Search with Criteria            - 5: filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:44:40.942 DEBUG testcase.Search with Criteria            - 6: apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:44:40.944 DEBUG testcase.Search with Criteria            - 7: openBrowser(url)
+2020-04-05 20:44:40.974 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:44:40 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 19095
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 05, 2020 8:44:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:44:42.617 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 21cadc28275b01b7c4abb0f80946136d
+2020-04-05 20:44:42.765 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:44:42.774 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:44:42.787 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:44:42.833 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........6/13(46%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:44:46.568 DEBUG testcase.Search with Criteria            - 8: switch (category)
+2020-04-05 20:44:46.572 DEBUG testcase.Search with Criteria            - 2: case "Groceries":
+2020-04-05 20:44:46.588 DEBUG testcase.Search with Criteria            - 1: click(findTestObject("SaleorPage/linkGroceries"))
+2020-04-05 20:44:52.161 DEBUG testcase.Search with Criteria            - 2: apiID = apiGroceriesID
+2020-04-05 20:44:52.168 DEBUG testcase.Search with Criteria            - 3: break
+2020-04-05 20:44:52.177 DEBUG testcase.Search with Criteria            - 9: chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index)
+2020-04-05 20:44:52.187 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterLabel is PASSED
+2020-04-05 20:44:52.203 DEBUG testcase.Search with Criteria            - 10: filterValue = trim().toLowerCase()
+2020-04-05 20:44:52.536 DEBUG testcase.Search with Criteria            - 11: filterValue = filterValue.replace(".", "")
+2020-04-05 20:44:52.540 DEBUG testcase.Search with Criteria            - 12: filterValue = filterValue.replace("%", "")
+2020-04-05 20:44:52.545 DEBUG testcase.Search with Criteria            - 13: filterValue = filterValue.replace(", ", "-")
+2020-04-05 20:44:52.548 DEBUG testcase.Search with Criteria            - 14: filterValue = filterValue.replace(" ", "-")
+2020-04-05 20:44:52.551 DEBUG testcase.Search with Criteria            - 15: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:44:52.555 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:44:52.557 DEBUG testcase.Search with Criteria            - 16: filterName = getAttribute(chkFilter, "name").toLowerCase()
+2020-04-05 20:44:52.764 DEBUG testcase.Search with Criteria            - 17: utilities.WebUtils.filterOneCriteria(chkFilter)
+2020-04-05 20:44:56.612 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:44:56.615 DEBUG testcase.Search with Criteria            - 18: driver = getWebDriver()
+2020-04-05 20:44:56.618 DEBUG testcase.Search with Criteria            - 19: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name"))
+2020-04-05 20:44:56.813 DEBUG testcase.Search with Criteria            - 20: countList = list.size()
+2020-04-05 20:44:56.819 DEBUG testcase.Search with Criteria            - 21: if (countList == 0)
+2020-04-05 20:44:56.823 DEBUG testcase.Search with Criteria            - 22: else
+2020-04-05 20:44:56.826 DEBUG testcase.Search with Criteria            - 1: listProductUI = ["product"]
+2020-04-05 20:44:56.829 DEBUG testcase.Search with Criteria            - 2: for (def i : (0..(countList - 1)))
+2020-04-05 20:44:56.831 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:44:56.852 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:44:57.005 DEBUG testcase.Search with Criteria            - 3: filterAttribute = """ + filterName + ":" + filterValue + """
+2020-04-05 20:44:57.039 DEBUG testcase.Search with Criteria            - 4: response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID]))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........6/13(46%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:45:01.297 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/5.har
+2020-04-05 20:45:01.327 DEBUG testcase.Search with Criteria            - 5: responseText = response.getResponseText()
+2020-04-05 20:45:01.335 DEBUG testcase.Search with Criteria            - 6: listProductAPI = ["product"]
+2020-04-05 20:45:01.344 DEBUG testcase.Search with Criteria            - 7: slurper = new groovy.json.JsonSlurper()
+2020-04-05 20:45:01.366 DEBUG testcase.Search with Criteria            - 8: parsedJson = slurper.parseText(responseText)
+2020-04-05 20:45:01.384 DEBUG testcase.Search with Criteria            - 9: for (def product : node)
+2020-04-05 20:45:01.448 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:01.460 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:01.496 DEBUG testcase.Search with Criteria            - 10: assert listProductUI.sort() == listProductAPI.sort() == true
+2020-04-05 20:45:01.603 DEBUG testcase.Search with Criteria            - 1: closeBrowser()
+2020-04-05 20:45:02.163 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Category/Search with Criteria
+2020-04-05 20:45:02.203 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:45:02.215 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:45:02.226 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:45:02.252 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:45:03.317 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:45:03.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Category/Search with Criteria
+2020-04-05 20:45:03.532 INFO  c.k.katalon.core.main.TestCaseExecutor   - category = Groceries
+2020-04-05 20:45:03.538 INFO  c.k.katalon.core.main.TestCaseExecutor   - preXpath = id_bottle-size_
+2020-04-05 20:45:03.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - numRandom = 3
+2020-04-05 20:45:03.689 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) filterAttribute = 
+2020-04-05 20:45:03.708 DEBUG testcase.Search with Criteria            - 1: rand = new java.util.Random()
+2020-04-05 20:45:03.710 DEBUG testcase.Search with Criteria            - 2: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:45:03.715 DEBUG testcase.Search with Criteria            - 3: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:45:03.719 DEBUG testcase.Search with Criteria            - 4: filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:45:03.725 DEBUG testcase.Search with Criteria            - 5: filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:45:03.744 DEBUG testcase.Search with Criteria            - 6: apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:45:03.748 DEBUG testcase.Search with Criteria            - 7: openBrowser(url)
+2020-04-05 20:45:03.770 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:45:03 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 9388
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 05, 2020 8:45:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:45:06.155 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9a1cc4dfebebecdca11c4927390cdf5a
+2020-04-05 20:45:06.422 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:45:06.439 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:45:06.473 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:45:06.550 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+2020-04-05 20:45:11.411 DEBUG testcase.Search with Criteria            - 8: switch (category)
+2020-04-05 20:45:11.428 DEBUG testcase.Search with Criteria            - 2: case "Groceries":
+2020-04-05 20:45:11.451 DEBUG testcase.Search with Criteria            - 1: click(findTestObject("SaleorPage/linkGroceries"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........7/13(54%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:45:16.423 DEBUG testcase.Search with Criteria            - 2: apiID = apiGroceriesID
+2020-04-05 20:45:16.438 DEBUG testcase.Search with Criteria            - 3: break
+2020-04-05 20:45:16.485 DEBUG testcase.Search with Criteria            - 9: chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index)
+2020-04-05 20:45:16.527 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterLabel is PASSED
+2020-04-05 20:45:16.539 DEBUG testcase.Search with Criteria            - 10: filterValue = trim().toLowerCase()
+2020-04-05 20:45:17.846 DEBUG testcase.Search with Criteria            - 11: filterValue = filterValue.replace(".", "")
+2020-04-05 20:45:17.872 DEBUG testcase.Search with Criteria            - 12: filterValue = filterValue.replace("%", "")
+2020-04-05 20:45:17.922 DEBUG testcase.Search with Criteria            - 13: filterValue = filterValue.replace(", ", "-")
+2020-04-05 20:45:17.955 DEBUG testcase.Search with Criteria            - 14: filterValue = filterValue.replace(" ", "-")
+2020-04-05 20:45:17.988 DEBUG testcase.Search with Criteria            - 15: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:45:18.042 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:45:18.088 DEBUG testcase.Search with Criteria            - 16: filterName = getAttribute(chkFilter, "name").toLowerCase()
+2020-04-05 20:45:19.438 DEBUG testcase.Search with Criteria            - 17: utilities.WebUtils.filterOneCriteria(chkFilter)
+2020-04-05 20:45:24.139 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:45:24.147 DEBUG testcase.Search with Criteria            - 18: driver = getWebDriver()
+2020-04-05 20:45:24.159 DEBUG testcase.Search with Criteria            - 19: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name"))
+2020-04-05 20:45:25.723 DEBUG testcase.Search with Criteria            - 20: countList = list.size()
+2020-04-05 20:45:25.731 DEBUG testcase.Search with Criteria            - 21: if (countList == 0)
+2020-04-05 20:45:25.750 DEBUG testcase.Search with Criteria            - 22: else
+2020-04-05 20:45:25.783 DEBUG testcase.Search with Criteria            - 1: listProductUI = ["product"]
+2020-04-05 20:45:25.796 DEBUG testcase.Search with Criteria            - 2: for (def i : (0..(countList - 1)))
+2020-04-05 20:45:25.805 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:25.836 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:25.904 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:26.163 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:26.289 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:26.403 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:26.544 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:26.777 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:27.150 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:27.448 DEBUG testcase.Search with Criteria            - 3: filterAttribute = """ + filterName + ":" + filterValue + """
+2020-04-05 20:45:27.520 DEBUG testcase.Search with Criteria            - 4: response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID]))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........7/13(54%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:45:33.154 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/6.har
+2020-04-05 20:45:33.171 DEBUG testcase.Search with Criteria            - 5: responseText = response.getResponseText()
+2020-04-05 20:45:33.195 DEBUG testcase.Search with Criteria            - 6: listProductAPI = ["product"]
+2020-04-05 20:45:33.227 DEBUG testcase.Search with Criteria            - 7: slurper = new groovy.json.JsonSlurper()
+2020-04-05 20:45:33.247 DEBUG testcase.Search with Criteria            - 8: parsedJson = slurper.parseText(responseText)
+2020-04-05 20:45:33.266 DEBUG testcase.Search with Criteria            - 9: for (def product : node)
+2020-04-05 20:45:33.276 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:33.280 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:33.294 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:33.304 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:33.332 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:33.341 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:33.353 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:33.361 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:33.365 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:33.373 DEBUG testcase.Search with Criteria            - 10: assert listProductUI.sort() == listProductAPI.sort() == true
+2020-04-05 20:45:33.441 DEBUG testcase.Search with Criteria            - 1: closeBrowser()
+2020-04-05 20:45:33.905 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Category/Search with Criteria
+2020-04-05 20:45:33.941 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:45:33.952 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:45:33.985 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:45:34.002 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:45:34.893 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:45:34.896 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Category/Search with Criteria
+2020-04-05 20:45:35.164 INFO  c.k.katalon.core.main.TestCaseExecutor   - category = Apparel
+2020-04-05 20:45:35.168 INFO  c.k.katalon.core.main.TestCaseExecutor   - preXpath = id_shirt-material_
+2020-04-05 20:45:35.179 INFO  c.k.katalon.core.main.TestCaseExecutor   - numRandom = 1
+2020-04-05 20:45:35.268 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) filterAttribute = 
+2020-04-05 20:45:35.301 DEBUG testcase.Search with Criteria            - 1: rand = new java.util.Random()
+2020-04-05 20:45:35.305 DEBUG testcase.Search with Criteria            - 2: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:45:35.308 DEBUG testcase.Search with Criteria            - 3: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:45:35.313 DEBUG testcase.Search with Criteria            - 4: filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:45:35.320 DEBUG testcase.Search with Criteria            - 5: filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:45:35.325 DEBUG testcase.Search with Criteria            - 6: apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:45:35.331 DEBUG testcase.Search with Criteria            - 7: openBrowser(url)
+2020-04-05 20:45:35.353 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:45:35 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 30226
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 05, 2020 8:45:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:45:37.032 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 41154cbda470be47590a4102afe6ed58
+2020-04-05 20:45:37.300 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:45:37.309 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:45:37.315 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:45:37.342 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+2020-04-05 20:45:41.041 DEBUG testcase.Search with Criteria            - 8: switch (category)
+2020-04-05 20:45:41.045 DEBUG testcase.Search with Criteria            - 3: case "Apparel":
+2020-04-05 20:45:41.047 DEBUG testcase.Search with Criteria            - 1: click(findTestObject("SaleorPage/linkApparel"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........8/13(62%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:45:44.748 DEBUG testcase.Search with Criteria            - 2: apiID = apiApparelID
+2020-04-05 20:45:44.769 DEBUG testcase.Search with Criteria            - 3: break
+2020-04-05 20:45:44.794 DEBUG testcase.Search with Criteria            - 9: chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index)
+2020-04-05 20:45:44.833 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterLabel is PASSED
+2020-04-05 20:45:44.862 DEBUG testcase.Search with Criteria            - 10: filterValue = trim().toLowerCase()
+2020-04-05 20:45:46.667 DEBUG testcase.Search with Criteria            - 11: filterValue = filterValue.replace(".", "")
+2020-04-05 20:45:46.679 DEBUG testcase.Search with Criteria            - 12: filterValue = filterValue.replace("%", "")
+2020-04-05 20:45:46.733 DEBUG testcase.Search with Criteria            - 13: filterValue = filterValue.replace(", ", "-")
+2020-04-05 20:45:46.748 DEBUG testcase.Search with Criteria            - 14: filterValue = filterValue.replace(" ", "-")
+2020-04-05 20:45:46.758 DEBUG testcase.Search with Criteria            - 15: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:45:46.771 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:45:46.773 DEBUG testcase.Search with Criteria            - 16: filterName = getAttribute(chkFilter, "name").toLowerCase()
+2020-04-05 20:45:46.978 DEBUG testcase.Search with Criteria            - 17: utilities.WebUtils.filterOneCriteria(chkFilter)
+2020-04-05 20:45:51.676 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:45:51.684 DEBUG testcase.Search with Criteria            - 18: driver = getWebDriver()
+2020-04-05 20:45:51.700 DEBUG testcase.Search with Criteria            - 19: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name"))
+2020-04-05 20:45:51.919 DEBUG testcase.Search with Criteria            - 20: countList = list.size()
+2020-04-05 20:45:51.924 DEBUG testcase.Search with Criteria            - 21: if (countList == 0)
+2020-04-05 20:45:51.928 DEBUG testcase.Search with Criteria            - 22: else
+2020-04-05 20:45:51.934 DEBUG testcase.Search with Criteria            - 1: listProductUI = ["product"]
+2020-04-05 20:45:51.938 DEBUG testcase.Search with Criteria            - 2: for (def i : (0..(countList - 1)))
+2020-04-05 20:45:51.945 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:52.104 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:52.369 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:52.521 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:52.777 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:52.992 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:53.170 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:53.456 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:53.652 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:53.831 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:53.880 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:53.946 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:54.118 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:45:54.295 DEBUG testcase.Search with Criteria            - 3: filterAttribute = """ + filterName + ":" + filterValue + """
+2020-04-05 20:45:54.305 DEBUG testcase.Search with Criteria            - 4: response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID]))
+2020-04-05 20:45:58.205 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/7.har
+2020-04-05 20:45:58.217 DEBUG testcase.Search with Criteria            - 5: responseText = response.getResponseText()
+2020-04-05 20:45:58.243 DEBUG testcase.Search with Criteria            - 6: listProductAPI = ["product"]
+2020-04-05 20:45:58.256 DEBUG testcase.Search with Criteria            - 7: slurper = new groovy.json.JsonSlurper()
+2020-04-05 20:45:58.268 DEBUG testcase.Search with Criteria            - 8: parsedJson = slurper.parseText(responseText)
+2020-04-05 20:45:58.324 DEBUG testcase.Search with Criteria            - 9: for (def product : node)
+2020-04-05 20:45:58.369 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.379 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.388 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.405 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.416 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.428 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.436 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.444 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.455 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.466 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.479 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.511 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.531 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:45:58.551 DEBUG testcase.Search with Criteria            - 10: assert listProductUI.sort() == listProductAPI.sort() == true
+2020-04-05 20:45:58.630 DEBUG testcase.Search with Criteria            - 1: closeBrowser()
+2020-04-05 20:45:58.970 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Category/Search with Criteria
+2020-04-05 20:45:58.992 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:45:59.003 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:45:59.011 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:45:59.014 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........9/13(69%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:45:59.776 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:45:59.776 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Category/Search with Criteria
+2020-04-05 20:46:00.163 INFO  c.k.katalon.core.main.TestCaseExecutor   - category = Apparel
+2020-04-05 20:46:00.205 INFO  c.k.katalon.core.main.TestCaseExecutor   - preXpath = id_shoe-size_
+2020-04-05 20:46:00.219 INFO  c.k.katalon.core.main.TestCaseExecutor   - numRandom = 6
+2020-04-05 20:46:00.478 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) filterAttribute = 
+2020-04-05 20:46:00.505 DEBUG testcase.Search with Criteria            - 1: rand = new java.util.Random()
+2020-04-05 20:46:00.507 DEBUG testcase.Search with Criteria            - 2: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:46:00.522 DEBUG testcase.Search with Criteria            - 3: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:46:00.538 DEBUG testcase.Search with Criteria            - 4: filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:00.558 DEBUG testcase.Search with Criteria            - 5: filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:00.573 DEBUG testcase.Search with Criteria            - 6: apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:00.600 DEBUG testcase.Search with Criteria            - 7: openBrowser(url)
+2020-04-05 20:46:00.705 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:46:00 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 2103
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 05, 2020 8:46:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:46:02.861 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2a1535e275512ab143d5ea9f90011eff
+2020-04-05 20:46:03.067 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:46:03.077 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:46:03.091 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:46:03.102 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+2020-04-05 20:46:07.946 DEBUG testcase.Search with Criteria            - 8: switch (category)
+2020-04-05 20:46:07.984 DEBUG testcase.Search with Criteria            - 3: case "Apparel":
+2020-04-05 20:46:08.032 DEBUG testcase.Search with Criteria            - 1: click(findTestObject("SaleorPage/linkApparel"))
+2020-04-05 20:46:12.015 DEBUG testcase.Search with Criteria            - 2: apiID = apiApparelID
+2020-04-05 20:46:12.039 DEBUG testcase.Search with Criteria            - 3: break
+2020-04-05 20:46:12.095 DEBUG testcase.Search with Criteria            - 9: chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index)
+2020-04-05 20:46:12.164 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterLabel is PASSED
+2020-04-05 20:46:12.184 DEBUG testcase.Search with Criteria            - 10: filterValue = trim().toLowerCase()
+2020-04-05 20:46:12.951 DEBUG testcase.Search with Criteria            - 11: filterValue = filterValue.replace(".", "")
+2020-04-05 20:46:12.953 DEBUG testcase.Search with Criteria            - 12: filterValue = filterValue.replace("%", "")
+2020-04-05 20:46:12.960 DEBUG testcase.Search with Criteria            - 13: filterValue = filterValue.replace(", ", "-")
+2020-04-05 20:46:12.962 DEBUG testcase.Search with Criteria            - 14: filterValue = filterValue.replace(" ", "-")
+2020-04-05 20:46:12.964 DEBUG testcase.Search with Criteria            - 15: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:46:12.966 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:46:12.970 DEBUG testcase.Search with Criteria            - 16: filterName = getAttribute(chkFilter, "name").toLowerCase()
+2020-04-05 20:46:13.119 DEBUG testcase.Search with Criteria            - 17: utilities.WebUtils.filterOneCriteria(chkFilter)
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735...........9/13(69%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:46:16.792 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:46:16.794 DEBUG testcase.Search with Criteria            - 18: driver = getWebDriver()
+2020-04-05 20:46:16.799 DEBUG testcase.Search with Criteria            - 19: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name"))
+2020-04-05 20:46:17.668 DEBUG testcase.Search with Criteria            - 20: countList = list.size()
+2020-04-05 20:46:17.679 DEBUG testcase.Search with Criteria            - 21: if (countList == 0)
+2020-04-05 20:46:17.683 DEBUG testcase.Search with Criteria            - 22: else
+2020-04-05 20:46:17.703 DEBUG testcase.Search with Criteria            - 1: listProductUI = ["product"]
+2020-04-05 20:46:17.716 DEBUG testcase.Search with Criteria            - 2: for (def i : (0..(countList - 1)))
+2020-04-05 20:46:17.742 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:17.888 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:18.086 DEBUG testcase.Search with Criteria            - 3: filterAttribute = """ + filterName + ":" + filterValue + """
+2020-04-05 20:46:18.103 DEBUG testcase.Search with Criteria            - 4: response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID]))
+2020-04-05 20:46:21.332 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/8.har
+2020-04-05 20:46:21.340 DEBUG testcase.Search with Criteria            - 5: responseText = response.getResponseText()
+2020-04-05 20:46:21.348 DEBUG testcase.Search with Criteria            - 6: listProductAPI = ["product"]
+2020-04-05 20:46:21.359 DEBUG testcase.Search with Criteria            - 7: slurper = new groovy.json.JsonSlurper()
+2020-04-05 20:46:21.367 DEBUG testcase.Search with Criteria            - 8: parsedJson = slurper.parseText(responseText)
+2020-04-05 20:46:21.370 DEBUG testcase.Search with Criteria            - 9: for (def product : node)
+2020-04-05 20:46:21.376 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:21.380 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:21.391 DEBUG testcase.Search with Criteria            - 10: assert listProductUI.sort() == listProductAPI.sort() == true
+2020-04-05 20:46:21.486 DEBUG testcase.Search with Criteria            - 1: closeBrowser()
+2020-04-05 20:46:21.716 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Category/Search with Criteria
+2020-04-05 20:46:21.821 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:46:21.838 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:46:21.843 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:46:21.847 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:46:22.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:46:22.548 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Category/Search with Criteria
+2020-04-05 20:46:22.962 INFO  c.k.katalon.core.main.TestCaseExecutor   - category = Apparel
+2020-04-05 20:46:22.992 INFO  c.k.katalon.core.main.TestCaseExecutor   - preXpath = id_size_
+2020-04-05 20:46:23.006 INFO  c.k.katalon.core.main.TestCaseExecutor   - numRandom = 4
+2020-04-05 20:46:23.316 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) filterAttribute = 
+2020-04-05 20:46:23.361 DEBUG testcase.Search with Criteria            - 1: rand = new java.util.Random()
+2020-04-05 20:46:23.415 DEBUG testcase.Search with Criteria            - 2: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:46:23.558 DEBUG testcase.Search with Criteria            - 3: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:46:23.583 DEBUG testcase.Search with Criteria            - 4: filterName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:23.602 DEBUG testcase.Search with Criteria            - 5: filterValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:23.616 DEBUG testcase.Search with Criteria            - 6: apiID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:23.645 DEBUG testcase.Search with Criteria            - 7: openBrowser(url)
+2020-04-05 20:46:23.665 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:46:23 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 26820
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 05, 2020 8:46:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:46:26.143 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bd401311656e6d557f42198cf9f5106d
+2020-04-05 20:46:26.246 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:46:26.248 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:46:26.267 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:46:26.289 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735..........10/13(77%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:46:30.851 DEBUG testcase.Search with Criteria            - 8: switch (category)
+2020-04-05 20:46:30.858 DEBUG testcase.Search with Criteria            - 3: case "Apparel":
+2020-04-05 20:46:30.863 DEBUG testcase.Search with Criteria            - 1: click(findTestObject("SaleorPage/linkApparel"))
+2020-04-05 20:46:34.553 DEBUG testcase.Search with Criteria            - 2: apiID = apiApparelID
+2020-04-05 20:46:34.558 DEBUG testcase.Search with Criteria            - 3: break
+2020-04-05 20:46:34.564 DEBUG testcase.Search with Criteria            - 9: chkFilter = utilities.WebUtils.parameterizedFilterLabel(preXpath, index)
+2020-04-05 20:46:34.587 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterLabel is PASSED
+2020-04-05 20:46:34.602 DEBUG testcase.Search with Criteria            - 10: filterValue = trim().toLowerCase()
+2020-04-05 20:46:34.857 DEBUG testcase.Search with Criteria            - 11: filterValue = filterValue.replace(".", "")
+2020-04-05 20:46:34.863 DEBUG testcase.Search with Criteria            - 12: filterValue = filterValue.replace("%", "")
+2020-04-05 20:46:34.865 DEBUG testcase.Search with Criteria            - 13: filterValue = filterValue.replace(", ", "-")
+2020-04-05 20:46:34.870 DEBUG testcase.Search with Criteria            - 14: filterValue = filterValue.replace(" ", "-")
+2020-04-05 20:46:34.877 DEBUG testcase.Search with Criteria            - 15: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:46:35.048 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:46:35.057 DEBUG testcase.Search with Criteria            - 16: filterName = getAttribute(chkFilter, "name").toLowerCase()
+2020-04-05 20:46:35.583 DEBUG testcase.Search with Criteria            - 17: utilities.WebUtils.filterOneCriteria(chkFilter)
+2020-04-05 20:46:40.792 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:46:40.804 DEBUG testcase.Search with Criteria            - 18: driver = getWebDriver()
+2020-04-05 20:46:40.816 DEBUG testcase.Search with Criteria            - 19: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list .product-list-item-name"))
+2020-04-05 20:46:41.936 DEBUG testcase.Search with Criteria            - 20: countList = list.size()
+2020-04-05 20:46:41.956 DEBUG testcase.Search with Criteria            - 21: if (countList == 0)
+2020-04-05 20:46:41.971 DEBUG testcase.Search with Criteria            - 22: else
+2020-04-05 20:46:41.985 DEBUG testcase.Search with Criteria            - 1: listProductUI = ["product"]
+2020-04-05 20:46:41.994 DEBUG testcase.Search with Criteria            - 2: for (def i : (0..(countList - 1)))
+2020-04-05 20:46:42.041 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:42.115 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:42.195 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:42.346 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:42.555 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:42.729 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:42.921 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:43.099 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:43.313 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:43.381 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:43.540 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:43.626 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:43.699 DEBUG testcase.Search with Criteria            - 1: listProductUI = listProductUI << getText().toLowerCase()
+2020-04-05 20:46:43.901 DEBUG testcase.Search with Criteria            - 3: filterAttribute = """ + filterName + ":" + filterValue + """
+2020-04-05 20:46:43.933 DEBUG testcase.Search with Criteria            - 4: response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":filterAttribute, "id":apiID]))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735..........10/13(77%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:46:48.572 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/9.har
+2020-04-05 20:46:48.596 DEBUG testcase.Search with Criteria            - 5: responseText = response.getResponseText()
+2020-04-05 20:46:48.611 DEBUG testcase.Search with Criteria            - 6: listProductAPI = ["product"]
+2020-04-05 20:46:48.615 DEBUG testcase.Search with Criteria            - 7: slurper = new groovy.json.JsonSlurper()
+2020-04-05 20:46:48.634 DEBUG testcase.Search with Criteria            - 8: parsedJson = slurper.parseText(responseText)
+2020-04-05 20:46:48.645 DEBUG testcase.Search with Criteria            - 9: for (def product : node)
+2020-04-05 20:46:48.671 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.682 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.700 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.710 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.737 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.749 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.758 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.768 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.796 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.809 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.843 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.859 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.904 DEBUG testcase.Search with Criteria            - 1: listProductAPI << name.toLowerCase()
+2020-04-05 20:46:48.925 DEBUG testcase.Search with Criteria            - 10: assert listProductUI.sort() == listProductAPI.sort() == true
+2020-04-05 20:46:49.046 DEBUG testcase.Search with Criteria            - 1: closeBrowser()
+2020-04-05 20:46:49.326 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Category/Search with Criteria
+2020-04-05 20:46:49.347 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:46:49.364 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:46:49.369 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:46:49.384 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:46:49.608 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:46:49.615 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Category/Add to Cart
+2020-04-05 20:46:51.486 DEBUG testcase.Add to Cart                     - 1: openBrowser(url)
+2020-04-05 20:46:51.504 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 05, 2020 8:46:51 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 14628
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 05, 2020 8:46:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-05 20:46:53.883 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5901eafdee21324dd3e85f25a3e772b9
+2020-04-05 20:46:53.978 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-05 20:46:53.992 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-05 20:46:54.012 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-05 20:46:54.028 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+2020-04-05 20:46:58.932 DEBUG testcase.Add to Cart                     - 2: callTestCase(findTestCase("Common Test Cases/Add an Item to Cart"), [:], STOP_ON_FAILURE)
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735..........11/13(85%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:46:59.353 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:46:59.369 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common Test Cases/Add an Item to Cart
+2020-04-05 20:46:59.849 DEBUG testcase.Add an Item to Cart             - 1: rand = new java.util.Random()
+2020-04-05 20:46:59.851 DEBUG testcase.Add an Item to Cart             - 2: category = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:59.857 DEBUG testcase.Add an Item to Cart             - 3: preXpath = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:59.860 DEBUG testcase.Add an Item to Cart             - 4: numRandom = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:59.865 DEBUG testcase.Add an Item to Cart             - 5: chkFilter = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:46:59.869 DEBUG testcase.Add an Item to Cart             - 6: listItem = new com.kms.katalon.core.testobject.TestObject()
+2020-04-05 20:46:59.874 DEBUG testcase.Add an Item to Cart             - 7: countList = 0
+2020-04-05 20:46:59.888 DEBUG testcase.Add an Item to Cart             - 8: rowCount = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:59.893 DEBUG testcase.Add an Item to Cart             - 9: rowNum = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:59.900 DEBUG testcase.Add an Item to Cart             - 10: index = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2020-04-05 20:46:59.907 DEBUG testcase.Add an Item to Cart             - 11: listCategory = findTestData("Data Files/extdata_categoryfilter")
+2020-04-05 20:47:00.814 DEBUG testcase.Add an Item to Cart             - 12: rowCount = listCategory.getRowNumbers()
+2020-04-05 20:47:00.840 DEBUG testcase.Add an Item to Cart             - 13: while (countList == 0)
+2020-04-05 20:47:00.855 DEBUG testcase.Add an Item to Cart             - 1: rowNum = rand.nextInt(rowCount - 1) + 1
+2020-04-05 20:47:00.876 DEBUG testcase.Add an Item to Cart             - 2: category = listCategory.getValue("category", rowNum)
+2020-04-05 20:47:00.920 DEBUG testcase.Add an Item to Cart             - 3: preXpath = listCategory.getValue("preXpath", rowNum)
+2020-04-05 20:47:00.933 DEBUG testcase.Add an Item to Cart             - 4: numRandom = listCategory.getValue("numRandom", rowNum)
+2020-04-05 20:47:00.974 DEBUG testcase.Add an Item to Cart             - 5: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:47:01.009 DEBUG testcase.Add an Item to Cart             - 6: switch (category)
+2020-04-05 20:47:01.030 DEBUG testcase.Add an Item to Cart             - 1: case "Accessories":
+2020-04-05 20:47:01.062 DEBUG testcase.Add an Item to Cart             - 1: click(findTestObject("SaleorPage/linkAccessories"))
+2020-04-05 20:47:04.362 DEBUG testcase.Add an Item to Cart             - 2: break
+2020-04-05 20:47:04.371 DEBUG testcase.Add an Item to Cart             - 7: chkFilter = utilities.WebUtils.parameterizedFilterInput(preXpath, index)
+2020-04-05 20:47:04.421 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.parameterizedFilterInput is PASSED
+2020-04-05 20:47:04.438 DEBUG testcase.Add an Item to Cart             - 8: utilities.WebUtils.filterOneCriteria(chkFilter)
+2020-04-05 20:47:10.037 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - utilities.WebUtils.filterOneCriteria is PASSED
+2020-04-05 20:47:10.044 DEBUG testcase.Add an Item to Cart             - 9: driver = getWebDriver()
+2020-04-05 20:47:10.056 DEBUG testcase.Add an Item to Cart             - 10: list = driver.findElements(By.cssSelector(".product-list__header .row .product-list"))
+2020-04-05 20:47:11.547 DEBUG testcase.Add an Item to Cart             - 11: countList = list.size()
+2020-04-05 20:47:11.572 DEBUG testcase.Add an Item to Cart             - 12: if (countList != 0)
+2020-04-05 20:47:11.578 DEBUG testcase.Add an Item to Cart             - 1: index = rand.nextInt(Integer.valueOf(toString().trim()))
+2020-04-05 20:47:11.584 DEBUG testcase.Add an Item to Cart             - 2: get(index).click()
+2020-04-05 20:47:13.304 DEBUG testcase.Add an Item to Cart             - 3: click(findTestObject("ProductPage/btnAddtoCart"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735..........11/13(85%)
+--------------------------------------------------------------------------------
+
+2020-04-05 20:47:15.576 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common Test Cases/Add an Item to Cart
+2020-04-05 20:47:15.577 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:47:15.584 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:47:15.587 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:47:15.590 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:47:15.596 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:47:15.601 DEBUG testcase.Add to Cart                     - 3: verifyElementVisible(findTestObject("AccountPage/objOneItemCart"))
+2020-04-05 20:47:17.979 DEBUG testcase.Add to Cart                     - 1: closeBrowser()
+2020-04-05 20:47:18.366 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Category/Add to Cart
+2020-04-05 20:47:18.402 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:47:18.410 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:47:18.415 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:47:18.421 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:47:18.512 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-05 20:47:18.518 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Web Service/Accessories - Search with Material
+2020-04-05 20:47:19.362 DEBUG t.Accessories - Search with Material     - 1: response = sendRequest(findTestObject("Web Service/Search with Criteria", ["filter":""cushion-size:45cm-x-45cm""]))
+2020-04-05 20:47:22.838 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/requests/main/10.har
+2020-04-05 20:47:22.847 DEBUG t.Accessories - Search with Material     - 2: responseText = response.getResponseText()
+2020-04-05 20:47:22.853 DEBUG t.Accessories - Search with Material     - 3: slurper = new groovy.json.JsonSlurper()
+2020-04-05 20:47:22.859 DEBUG t.Accessories - Search with Material     - 4: parsedJson = slurper.parseText(responseText)
+2020-04-05 20:47:22.865 DEBUG t.Accessories - Search with Material     - 5: for (def product : node)
+2020-04-05 20:47:22.869 DEBUG t.Accessories - Search with Material     - 1: productName = name.toLowerCase()
+2020-04-05 20:47:22.874 DEBUG t.Accessories - Search with Material     - 2: if (!(productName.contains("cushion")))
+2020-04-05 20:47:22.885 DEBUG t.Accessories - Search with Material     - 1: productName = name.toLowerCase()
+2020-04-05 20:47:22.889 DEBUG t.Accessories - Search with Material     - 2: if (!(productName.contains("cushion")))
+2020-04-05 20:47:22.904 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Web Service/Accessories - Search with Material
+2020-04-05 20:47:22.911 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-05 20:47:22.916 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-05 20:47:22.918 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-05 20:47:22.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-05 20:47:26.297 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating HTML report folder at: /tmp/project/Reports/20200405_203735/Regression/20200405_203735...
+2020-04-05 20:47:26.884 INFO  com.kms.katalon.core.util.KeywordUtil    - HTML report generated
+2020-04-05 20:47:26.892 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating CSV report folder at: /tmp/project/Reports/20200405_203735/Regression/20200405_203735...
+2020-04-05 20:47:28.303 INFO  com.kms.katalon.core.util.KeywordUtil    - CSV report generated
+2020-04-05 20:47:28.940 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2020-04-05 20:47:28.946 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Regression
+2020-04-05 20:47:28.952 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
+Launcher status after execution process completed: Running
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735.........13/13(100%)
+--------------------------------------------------------------------------------
+
+Start writing execution.uuid file to folder: /tmp/project/Reports/20200405_203735/Regression/20200405_203735
+Start generating JUnit report folder at: /tmp/project/Reports/20200405_203735/Regression/20200405_203735...
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735.........13/13(100%)
+--------------------------------------------------------------------------------
+
+JUnit report were generated at folder: /tmp/project/Reports/20200405_203735/Regression/20200405_203735
+Uploading report to Katalon TestOps...
+Start sending test result to Katalon TestOps
+Uploading log files of test suite
+Sending file: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/execution.uuid
+Sending file: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/execution0.log
+Sending file: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/JUnit_Report.xml
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735.........13/13(100%)
+--------------------------------------------------------------------------------
+
+Sending file: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/execution.properties
+Sending file: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/20200405_203735.csv
+Sending file: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/20200405_203735.html
+Sending file: /tmp/project/Reports/20200405_203735/Regression/20200405_203735/katalon-analytics-tmp/hars-4179538461692052015.zip
+Katalon TestOps: Start uploading report to Katalon TestOps server: https://analytics.katalon.com
+Katalon TestOps - Execution URL: https://analytics.katalon.com/from-ks/execution-result?teamId=890&projectId=48419&id=6049703
+End sending to Katalon TestOps
+Report has been sent to Katalon TestOps
+Sending report to email: [katalonsolution@gmail.com]...
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735.........13/13(100%)
+--------------------------------------------------------------------------------
+
+Email sent.
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200405_203735.........13/13(100%)
+--------------------------------------------------------------------------------
+
+Execution completed. Exit code: 0.
+Start clean up session
+End check license task
+End clean up session
+Start release license task
+License released
+End release license task
+All launchers terminated
++ ret_code=0
++ exit 0
+[8mha:////4LEJhyUCNzajbEY7Vo8M8kclDNzeNRmoUXIxAkUyvQCxAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBELWycVLZMGk+AgAhh/o9AJJUn8mrewUwyY+UWO/u2ee8PrGKAhoJhTmNnMUrLej+YabFMobt5yszRlUnCSF6zVueWlD4v2FLSsKQooeKw1ig9RYsmwYY78RS1F2jqSwrTd+JQWvWAFxR8MicR0gxjgO19UJHw5/krgLHvE1T73XHuwxcYCTimwAAAAA==[0m[Pipeline] }
+[8mha:////4DloYXTw0qI9o7qZCb0XrSv16VxwZ0TgsLsT9ngLII/bAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7FIZeFY0WbSeIIYYgxkdjEJQuWJvJp3kIEZK3/x57/fvPcHNjHAmYPF1lDnKGqHvR/svHDk0N08j9jyFTVTZG9QmlFyY+oVJScDa7IcCgFbQ9pzdGQT7ESrnqr0imx5SWH+TgJy1zzgBZmYzUmFtMAUYH8fmsj08/wVwNT3CYrqcFy6+gIWU0aZwAAAAA==[0m[Pipeline] // dir
+[8mha:////4GUiCqK4s3BZ/o3NBmpvsKFKdZBcMDNXmJPTg9XlJWyRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQTOiREldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGbvE1SH5rh08wVpEwkYwAAAAA==[0m[Pipeline] }
+[8mha:////4LBjZbpAH/5MJQLovMsDGxDKjIq3Z2bgrwVkNrEtwF6AAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDZYSoaK00vMDExjix7ox9wal4EV/jD0REomKrnWnm9YZVinCkaEVvcHCYOieCH+38RKY4XD1l0dNFdISJvBGtyS1pc1qwJTawrCihkrA22HlKDi3DRvbqoWqv0NZnjrM7SCidvsMTCjmXWUX+whRhext1Ivx1/gZgCoGh2u8ahrJpPv/lpcq/AAAA[0m[Pipeline] // stage
+[8mha:////4Dw+tDaJuUXKoWLOKJZY+5FECY65uYA3rBVRQixn4Jz/AAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8giHFFSIitZKwwuMY4wT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhjgQMGKzmDvMGonBj/a1MREob94mkRHZ6EJI3kjGjM11Jrjgg2xgSVZDoWElUHtKTq0DGvZqbuqvEJbnTikbS8hd+0NHpDJZGYV+AtzgM11bCPhz/NXAPPAkO0Yirrefp7lG8EC3ALCAAAA[0m[Pipeline] stage
+[8mha:////4LyjWx2h4Uqi6v4LivOculBGVCjlaG8rhxVPrjEY73wBAAAAph+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApnRETa5SFE4QkhLTR/yVJaSdOxNW4A6GVmPBg2Zas93pDHQMcKVjWGewdRuXY4EebE5so9FdPE+vowhRhJG+YMJMgbU5rFZQMrCpKqDhsDCpP0aFNsOWdfMjGS7TNOYW8HTiUTt/hCQXP5CRDWsocYHcbdST8cf4CYB4SVG27X7z9fusPFL5hxcQAAAA=[0m[Pipeline] { (Publish Results)
+[8mha:////4MizvFfr5JjWEf5Ko/EYR9bl1eirgxVj1Y6FZzIkIXOoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpwoqYWKMunCA0ISSN/i9JSjtxIq7GHQitxIQHy7Zkvdcb6hjgSMEwp7G3GDvLBj+anNhEob96mpijC+sII3nNWj21pPRprS0lDauKEioBG42dp2jRJNgKJx+y8RJNc04hbwcBpVV3eEIhMjnJkJYyB9jdRhUJf5y/AJiHBBXnfPH991t/ANWAUNjEAAAA[0m[Pipeline] dir
+Running in /vagrant/katalon-solution-lab-offline/katalon-studio-solution/KatalonStudioSolution
+[8mha:////4PX+i93i4VHKVxCHipg8HO69SZrszPkrmsSXXyAYRdl9AAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJOhon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYq63i9++H7LD4CBkmTEAAAA[0m[Pipeline] {
+[8mha:////4KWNjHcH+9MNqAs647rbBoLyt5p3FKMhjd4bmNvMLowlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjCDpEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGafoGqaw9JH/wUnbr2YwAAAAA==[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+Recording fingerprints
+[8mha:////4ByK4QeKdeDFPqCFCNql4GylCT4PraT+ufBDt2By/r3NAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjCFEhqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTD7BFXTHJY++i9mX6aBwAAAAA==[0m[Pipeline] junit
+Recording test results
+[8mha:////4IP10cxSjzyfwDHvhOm73eJhWlDEalDst0XBM8LnppC1AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjCIkGUaW10vACExtjx7oztkNS8SK+xh+wEomKLVY728z7A5sY4ExBM6twMBh7w7wbdV5sojDcHE3M0pX1hJGcYp2aOpKqXbGjpGBNUULFYauwdxQN6gQ7bsVT1E6gri8p5O/EoTTyAS8oeDYnEdICc4D9fZSR8Of5K4DZ+wRV0xyXPnwBUQiOBMAAAAA=[0m[Pipeline] }
+[8mha:////4Jg08S2KwSMybm1xbKGtf6TrSiovhONXh5HO/XcLlmVGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSj0FAgqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTB7n6BqmuPShy9zM/7VwAAAAA==[0m[Pipeline] // dir
+[8mha:////4BnfoqxYEKl+kJK3iIJxe1KS0XI3HLv/47uqtOSfNsepAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjdEiIitZKwwtMYowd686cHZKKF/E1/oCVSFRssdrZZt4f2ESGE7ERTuNgMXZWBD+avMREPNw8TcLRVXSEkbwWrZ5a6vV5xZaShjVFCZWErcbOU7RoEuykU09Ve4WmviTO31FCafsHvKCQ2ZwUpwVmhv197CPhz/NXAHMICaqmOSzdfAEgEr+6wAAAAA==[0m[Pipeline] }
+[8mha:////4D3N7PmCQdMEY27xW8WlhQKLoMryoMFvjkS8kAlXSjoEAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7FI6ThWtJk0niCGGAOZXUyCUHkir+YdZGDGyl/8+e837/2BTQxw5mCxNdQ5itph7wc7Lxw5dDfPI7Z8Rc0U2RuUZpTcmHpFycnAmiyHQsDWkPYcHdkEO9Gqpyq9IlteUpi/k4DcNQ94QSZmc1IhLTAF2N+HJjL9PH8FMPV9gqKqjksfvgIpz2vAAAAA[0m[Pipeline] // stage
+[8mha:////4NYvDi6xLpTwSpAauJ3/QUA74FlxQmQVpC2LZzVgMeozAAAApx+LCAAAAAAAAP9tjTEOwjAQBM+JUtBS8ggHkKgQFa2VhheYxBgn1l2wLzgVL+Jr/IFAJCq22llpNc8XFDHAgYKVrcHOYayd7P1gpyYThe7iKcmWzrImjOSNrEyqqDHHGStiA3NEBrmChcHaU3RoGZaq1Xddeo22PHGYtr2CzDU3eIBQk5l14C+MAVbXoYmEP89fAYw9g9gx5Jvt+vMs3lwYNDPCAAAA[0m[Pipeline] stage
+[8mha:////4AbfN7Im0pfWWMWV8mii0DzygkgWppplRtuCszOGdb5AAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQRV+PE2rD4BLXUWmj+H9timXwiX813sELi5A2Xu0su3+sNpXdwIqdZr3Aw6KVho510SiySG66WIuvpwiShJ6tYq2JLnWrW2lJQsCrLoeCwUSgteYM6wJb34iEqK1BX5+DSduSQm+4OT8h4IgfhwlJmB7vb1HnCH+cvAOYxQFEf9ovX32/5AUfIQ0nEAAAA[0m[Pipeline] { (Deploy to production)
+[8mha:////4EvLAWi1Ds78YkO7LYONk8s7x4eDcbN2+/G9KnebFkn9AAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJrMbJteniE1Raa0vz/9AWYfKJfDXfQYTEyRsud5dcvtcbyhjgRMEwp7GzGFvLej+aJbGJQnfzNDFHV9YSRvKaCT0JUvq8VUFJw6Ysh4LDTmPrKVo0CfbcyYesvERTXVJYtiOH3KoBnpDxhZxkSGuZAxzuo4qEP85fAMx9gqJu6tWb77f8AIb2clTEAAAA[0m[Pipeline] dir
+Running in /vagrant/katalon-solution-lab-offline/saleor
+[8mha:////4PxkmgjuimK3t/JHr4RCgOQlxfV/lgeY1UGODWjKO7iPAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJOBon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYp9XS9++H7LD9P3sOjEAAAA[0m[Pipeline] {
+[8mha:////4FhF1aMziUVGBdEOm9PDkuYP0udVK/KLHaGqAv/xwd2KAAAApR+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQjPh1KRWul4QTGNsaOtRtsB6fiRFyNOxAlEhVTjOZN894fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNrtD3Mf+y+77HajwAAAAA==[0m[Pipeline] sh
++ docker-compose -f docker-compose.staging.yml -p staging_saleor up -d
+stagingsaleor_redis_1 is up-to-date
+stagingsaleor_db_1 is up-to-date
+stagingsaleor_celery_1 is up-to-date
+stagingsaleor_web_1 is up-to-date
+[8mha:////4GkeutMBorEdQhAALAmYIkEbdJoSlEqB29hleNVkBIyoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjQFQoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGPfJ6h2++Pchy/sRsSQwAAAAA==[0m[Pipeline] }
+[8mha:////4JZNAJg3ndpEBzcjPnM5uu6AjAJaETfTaC1Y2ymA3NP5AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GMFDaOFW0mjSeIIcZAZheTIFSeyKt5BxmYsfIXf/77zXt/YBMDnDlYbA11jqJ22PvBzgtHDt3N84gtX1EzRfYGpRklN6ZeUXIysCbLoRCwNaQ9R0c2wU606qlKr8iWlxTm7yQgd80DXpCJ2ZxUSAtMAfb3oYlMP89fAUx9n6A4VMelqy/nbCvWwAAAAA==[0m[Pipeline] // dir
+[8mha:////4B5qCBrokvELD5nSFoPMp7AzZPGfV71l7Q3iO1xiM925AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSj0FAgqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTB7n6BqDselmy/pNlXpwAAAAA==[0m[Pipeline] }
+[8mha:////4BAEIPVND4kKrEokMJlgpTFOCyYbQSlfhPZ2akjqFfFDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDVEgoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGPfJ6j2h+Pcuy+WdhpowAAAAA==[0m[Pipeline] // stage
+[8mha:////4F61Hnpz0FPmXreQTsHOqB1I1PzfSWqiScMUzXxVf4UuAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjkCgQoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmu2cQuw8Nux5/vgAAAA==[0m[Pipeline] }
+[8mha:////4Cz4tMcUfMSpDDLdwAl4LxDgvYVuf95hPwf62/uYpDF+AAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDgg5R0VppeIFxjHFi3QX7glPxIr7GH4iIRMVWO9PM6w2LFOFI0cnWYucxGS/7MLjpyUyxuwbKsqWLNISJgpW1zTU19jRjTWxhniigVLC0aAIlj45hpVr90FXQ6Kozx8kdFBS+ucMThJrKrCN/YYywvg1NIvx1/gZg7HuGcrvbMIj9B086Vc6+AAAA[0m[Pipeline] // node
+[8mha:////4IToaaEgHtv/xLL3QIVDFhpo+op/uyvbQPRtx7Kf5iXUAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjQImoaK00vMDExjix7oJ9wal4EV/jD0REomKrnWnm9YZVinCk6GRnsfeYWi+HMLr5yUyxvwbKsqOLbAkTBSsbmxsy9rRgQ2xhmSigVLC22AZKHh3DRnX6oaug0VVnjrM7KCi8ucMThJrLrCN/YYqwvY0mEf46fwMwDQNDWe9rBrH7AMq2Vhq+AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

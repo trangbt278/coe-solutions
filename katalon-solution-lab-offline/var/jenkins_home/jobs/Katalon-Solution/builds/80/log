@@ -1,0 +1,1346 @@
+Started by user [8mha:////4CIvk4iDDoaUVDRhS1Kas4wgj/eZrdGixxIgYgrFUb7dAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4L2LfKjAPC1oLTEA12NrUBJ0GKJGuNpVDUR1BRD040ICAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4KJPuHPSJadq40H8v7DENJj3X3Of5zf0u+ot/rbpBM7YAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbaGmsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfya1RxvAAAAA==[0m[Pipeline] properties
+[8mha:////4AdyTdkO36qVrUGGJxx4aaFxAsHF1s8M4KCyCjHE9fKYAAAApR+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SFSEHfiym3IxhPEJMa04f82SW1XnsireQejBVcODMwMDO/5gjpFOFJ0vLXYeUza8z6MriQ+UeyugSbe0oVrwkTBcmknScaeliopW1jEKlgJWFvUgZJHl2EjWnVXTVDomnOOZTsIqLwZ4AFMFHJWMX/LHGF7G00i/HH+AmDuM7Bd8f7zq9/WVBy+wAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+Waiting for next available executor on ‘vox’
+Running on [8mha:////4JX3kG0huSHvi9MshWacVg/ZQkZl7FsQFtXeGvWynhIYAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgY+/eT83ILSktQi/bL8Cn0AN+LCD8MAAAA=[0mvox in /vagrant/katalon-solution-lab-offline/workspace/workspace/Katalon-Solution
+[8mha:////4GccsDw1uR5SkNjowXD2wzFYOnhykI6j1AGATr4uih6qAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] {
+[8mha:////4JEyu6M/1RPuKiLcuciBFDg+gqBkzJu5pywFfl0o5P6fAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] stage
+[8mha:////4O6npP8k6jrUfIiNLhbqiioXRpxP7KOopdIHcpfAghxjAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] { (Deploy SUT)
+[8mha:////4Bm1e3xoWc3tePQFNNrbKvcK2RKqOkOx88yla0SwoxsTAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] dir
+Running in /vagrant/katalon-solution-lab-offline/saleor
+[8mha:////4PdmhtR5G1mYuuhIiWG27p8b5SQsjETkiGhW0CMvkvpJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
+[8mha:////4KhcuIekan+kyz004b/4e7l1SFqLsIL9a/SZHeQR14cDAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBEiEqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBjJ8j2gny37T6VOYoyvQAAAA==[0m[Pipeline] step
+$ docker-compose -f /vagrant/katalon-solution-lab-offline/saleor/docker-compose.yml up -d
+saleor_redis_1 is up-to-date
+saleor_db_1 is up-to-date
+saleor_celery_1 is up-to-date
+saleor_web_1 is up-to-date
+[8mha:////4AqUe3W+KllD/26adqzq0CxbOby8NRxX+lXjJscQqsuCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjlAhR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGYsdQNs3nWL0BFHriUcEAAAA=[0m[Pipeline] timeout
+Timeout set to expire in 5 min 0 sec
+[8mha:////4Iod9yxeIcJpLboPkfk4zdg2raDzDaPqV9bOoEt21h64AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] {
+[8mha:////4AD9pDI8PWsnKtOn7kN52N/6Ad8mHOgAbSGXJWbsFM4/AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] waitUntil
+[8mha:////4FoUWaMNMgXHzhn/rkWc1q0c1u3ztGvwR2NJVYL1Isy1AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] {
+[8mha:////4OZ/U4HxY66U11x1cXFvNcgfIN/8nEUAOZ/hR5K4y+8vAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8W7Eii+AAAA[0m[Pipeline] sh
++ grep+ curl 302
+ -s --head --request GET localhost:8000
+[8mha:////4FkMNdZ4nwq6W3vR71QDfEAbZ0Hy+X7c7L44asRKd7P0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG9gN7HvgAAAA==[0m[Pipeline] }
+[8mha:////4E43z/xDALFsKHf0irglIZCxm186i7UZYpuoFuYOF94lAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG7xuaSvgAAAA==[0m[Pipeline] // waitUntil
+[8mha:////4C3cB0AP9WRWVf/qZVi9Wi3j5kVabjhEOaGrqO+0KABNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N/hEtxS+AAAA[0m[Pipeline] }
+[8mha:////4BhW0bJBj/YLRvu4XZPPcEbSK1+g0ViW2DCK7lrK8N39AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKR3Hypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o358biRr4AAAA=[0m[Pipeline] // timeout
+[8mha:////4P+Lszj6IAbjI2a9QsdX3lKc+/4Ev7NNJleJBx3nDiNbAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBdAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BliVgKr0AAAA=[0m[Pipeline] }
+[8mha:////4MM0RHCkLEsB78+7SNWwxOkoMwWgnbaRcYoxhSHHYlYMAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPsDwHYL0AAAA=[0m[Pipeline] // dir
+[8mha:////4J0Yx0vKk73NcVKtNt3X2ECU2asOqV5iTPlBJN5O/cQPAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkLA7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0H8VsYt70AAAA=[0m[Pipeline] }
+[8mha:////4DhgdaVTvJgUjKIg8ijhGnoA7g/FjW4oNw9OlElt+gpMAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/ANdCf/29AAAA[0m[Pipeline] // stage
+[8mha:////4M5WtKaxzF2wb4BEcbH5xzsnKrYv14Y9iffecWsGCaSHAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIagQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZv/WPdOsEAAAA=[0m[Pipeline] stage
+[8mha:////4EYkIynDH+T62go1KT43LWeKP8yA4BQco/UmYdFlwELFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (Execute Tests)
+[8mha:////4MIrrcmCMdRbPtJq1UFh6azkJKRnGJfTInUYFEOtH2upAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] dir
+Running in /vagrant/katalon-solution-lab-offline/katalon-studio-solution/KatalonStudioSolution
+[8mha:////4DVvjgaBj/swIRLNEq2vX/maXt5Q2qZl9Hba/WqLLtFwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] {
+[8mha:////4F3lMFQgWKnzt8ueWAU1ABB4Tv89szKYJSbJPuP+LBE+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] pwd
+[8mha:////4L8vRL/rfN75bxbUYIEomfwQ2+RZEBI8pwEt3K3Io8UzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHuV4Y5vgAAAA==[0m[Pipeline] pwd
+[8mha:////4Ofp9fX9dB6yUclupDttEun6CnFIAdgt5CKTEJqQNLDMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+QhobpvgAAAA==[0m[Pipeline] sh
++ docker run --network=host -t --rm -v /vagrant/katalon-solution-lab-offline/katalon-studio-solution/KatalonStudioSolution/license:/root/.katalon/license -v /vagrant/katalon-solution-lab-offline/katalon-studio-solution/KatalonStudioSolution:/tmp/project katalonstudio/katalon:7.2.1 katalonc.sh -projectPath=/tmp/project -retry=0 -testSuitePath=Test Suites/Regression -executionProfile=default -browserType=Chrome (headless) -apiKey=f9faa583-d0ea-48a9-b7dd-3b15fbb7e690
++ echo Entrypoint
+Entrypoint
++ '[' -z '' ']'
++ exec katalonc.sh -projectPath=/tmp/project -retry=0 '-testSuitePath=Test Suites/Regression' -executionProfile=default '-browserType=Chrome (headless)' -apiKey=f9faa583-d0ea-48a9-b7dd-3b15fbb7e690
++ echo 'Starting Katalon Studio'
+Starting Katalon Studio
++ cat /katalon/version
+Mozilla Firefox 71.0
+Google Chrome 79.0.3945.88 
+Katalon Studio 
++ args=("$KATALON_KATALON_INSTALL_DIR/katalonc" "$@")
++ xvfb-run -s '-screen 0 1024x768x24' /opt/katalonstudio/katalonc -projectPath=/tmp/project -retry=0 '-testSuitePath=Test Suites/Regression' -executionProfile=default '-browserType=Chrome (headless)' -apiKey=f9faa583-d0ea-48a9-b7dd-3b15fbb7e690
+Katalon workspace folder is set to default location: /tmp/session-00444211
+Starting Groovy-Eclipse compiler resolver.  Specified compiler level: unspecified
+173 2.4.7.xx-201611170128-e46 = ACTIVE
+
+
+INFO: Katalon Version: 7.2.1
+INFO: Command-line arguments: -projectPath=/tmp/project -retry=0 -testSuitePath=Test Suites/Regression -executionProfile=default -browserType=Chrome (headless) -apiKey=******
+INFO: User working dir: /
+INFO: Error log: /tmp/session-00444211/.metadata/.log
+INFO: Katalon TestOps server URL: https://analytics.katalon.com
+INFO: Katalon Store server URL: https://store.katalon.com
+INFO: User home: /root
+INFO: Java vendor: Private Build
+INFO: Java version: 1.8.0_232
+INFO: Local OS: Linux 64bit
+INFO: CPU load: 2%
+INFO: Total memory: 3855 MB
+INFO: Free memory: 776 MB
+INFO: Machine ID: 75ea7a692dc5efdb64c76924289112e9
+
+
+Activating...
+Start activating offline...
+Search for valid offline licenses in folder: /root/.katalon/license
+Start checking license: KRE_6c25f16c49e2769c4ee5460527ab278f_21207226.lic
+Invalid license: KRE_6c25f16c49e2769c4ee5460527ab278f_21207226.lic. Reason: Incorrect machine ID.
+The number of valid offline licenses: 0
+Offline activation failed.
+Start activating online...
+Project path is a folder.
+Examine folder 'settings'.
+Examine file '.DS_Store'.
+Examine folder 'Drivers'.
+Examine folder 'license'.
+Examine folder 'bin'.
+Examine folder 'Test Listeners'.
+Examine folder 'Test Cases'.
+Examine folder 'Plugins'.
+Examine folder 'Include'.
+Examine folder 'Checkpoints'.
+Examine file 'console.properties'.
+Examine folder 'Test Suites'.
+Examine file '.classpath'.
+Examine folder 'Libs'.
+Examine file '.gitignore'.
+Examine folder '.settings'.
+Examine folder 'Object Repository'.
+Examine file '.project'.
+Examine folder 'Scripts'.
+Examine file 'build.gradle'.
+Examine folder 'Profiles'.
+Examine folder 'Keywords'.
+Examine folder 'Data Files'.
+Examine folder 'Reports'.
+Examine file 'KatalonStudioSolution.prj'.
+Found project file '/tmp/project/KatalonStudioSolution.prj'.
+Delete folder: bin
+Delete folder: Libs
+Cleaning up workspace
+Opening project file: /tmp/project/KatalonStudioSolution.prj
+/%tmp%project%KatalonStudioSolution.prj/Keywords/utilities/WebUtils.groovy: 21 Groovy:unable to resolve class internal.GlobalVariable
+Generating global variables...
+/%tmp%project%KatalonStudioSolution.prj/Keywords/utilities/WebUtils.groovy: 21 Groovy:unable to resolve class internal.GlobalVariable
+Parsing custom keywords...
+Project 'KatalonStudioSolution' opened
+Start reloading plugins...
+Katalon version: 7.2.1
+Plugin info URL: https://store.katalon.com/api/products/ks?appVersion=7.2.1&appType=ENGINE&licenseType=ENTERPRISE
+Plugin info: {
+  "expired": false,
+  "productId": 59,
+  "name": "Basic Report",
+  "id": 98640
+}
+Plugin info: {
+  "expired": false,
+  "productId": 2,
+  "name": "Basic Search For Dynamic Test Suite",
+  "id": 1815
+}
+Plugin name: Basic Report. Is online: true. Plugin location: /opt/katalonstudio/configuration/plugin/install/98640/1.0.7/katalon-studio-report-plugin.jar.
+Plugin name: Basic Search For Dynamic Test Suite. Is online: true. Plugin location: /opt/katalonstudio/configuration/plugin/install/1815/1.0.4/katalon-studio-dynamic-execution-plugin-1.0.7.jar.
+Plugin "Basic Report" has been installed.
+Plugin "Basic Search For Dynamic Test Suite" has been installed.
+Start check license task
+chromedriver is located at default location: /opt/katalonstudio/configuration/resources/drivers/chromedriver_linux64/chromedriver. In case your browser is updated to a newer version, please use this command to update chromdriver: --config -webui.autoUpdateDrivers=true
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+2020-04-03 18:27:44.176 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Regression
+2020-04-03 18:27:44.583 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = root - vagrant.vm
+2020-04-03 18:27:44.625 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Linux 64bit
+2020-04-03 18:27:44.648 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.1.1
+2020-04-03 18:27:44.661 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 7.2.1.1
+2020-04-03 18:27:51.128 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-03 18:27:51.128 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login_PASS
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+2020-04-03 18:27:57.698 DEBUG testcase.Login_PASS                      - 1: openBrowser("http://localhost:8000")
+2020-04-03 18:28:06.368 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 03, 2020 6:28:06 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+2020-04-03 18:28:07.081 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 seconds
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 8708
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+Apr 03, 2020 6:28:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-03 18:28:38.138 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 70b3d13e2bf989092bbd7fb92e7b354c
+2020-04-03 18:28:38.499 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-03 18:28:38.526 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-03 18:28:38.554 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-03 18:28:38.621 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+2020-04-03 18:28:47.287 DEBUG testcase.Login_PASS                      - 2: click(findTestObject("HomePage/linkLogIn"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+2020-04-03 18:28:56.381 DEBUG testcase.Login_PASS                      - 3: setText(findTestObject("LoginPage/inputEmail"), "admin@example.com")
+2020-04-03 18:29:02.407 DEBUG testcase.Login_PASS                      - 4: setEncryptedText(findTestObject("LoginPage/inputPassword"), "RAIVpflpDOg=")
+2020-04-03 18:29:06.458 DEBUG testcase.Login_PASS                      - 5: sendKeys(findTestObject("LoginPage/inputPassword"), Keys.chord(ENTER))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+2020-04-03 18:29:16.444 DEBUG testcase.Login_PASS                      - 6: verifyElementVisible(findTestObject("Object Repository/HomePage/linkYourAccount"))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605.............0/2(0%)
+--------------------------------------------------------------------------------
+
+2020-04-03 18:29:24.680 DEBUG testcase.Login_PASS                      - 1: closeBrowser()
+2020-04-03 18:29:25.412 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login_PASS
+2020-04-03 18:29:25.474 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-03 18:29:25.556 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-03 18:29:25.611 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-03 18:29:25.629 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+2020-04-03 18:29:26.095 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2020-04-03 18:29:26.099 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login_FAILED
+2020-04-03 18:29:30.053 DEBUG testcase.Login_FAILED                    - 1: openBrowser("http://localhost:8000")
+2020-04-03 18:29:30.646 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+Apr 03, 2020 6:29:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 29919
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 03, 2020 6:29:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-04-03 18:29:35.321 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0e6590af5de695dc796ca1baac1bae3d
+2020-04-03 18:29:35.363 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 79.0.3945.88
+2020-04-03 18:29:35.389 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2020-04-03 18:29:35.422 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2020-04-03 18:29:35.433 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605............1/2(50%)
+--------------------------------------------------------------------------------
+
+2020-04-03 18:29:45.290 DEBUG testcase.Login_FAILED                    - 2: click(findTestObject("HomePage/linkLogIn"))
+2020-04-03 18:29:51.666 DEBUG testcase.Login_FAILED                    - 3: setText(findTestObject("LoginPage/inputEmail"), "admin@example.com")
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605............1/2(50%)
+--------------------------------------------------------------------------------
+
+2020-04-03 18:29:58.387 DEBUG testcase.Login_FAILED                    - 4: setEncryptedText(findTestObject("LoginPage/inputPassword"), "RAIVpflpDOg=")
+2020-04-03 18:30:01.293 DEBUG testcase.Login_FAILED                    - 5: sendKeys(findTestObject("LoginPage/inputPassword"), Keys.chord(ENTER))
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605............1/2(50%)
+--------------------------------------------------------------------------------
+
+2020-04-03 18:30:09.862 DEBUG testcase.Login_FAILED                    - 6: verifyElementNotVisible(findTestObject("Object Repository/HomePage/linkYourAccount"))
+2020-04-03 18:30:18.167 ERROR c.k.k.core.keyword.internal.KeywordMain  - ? Object 'Object Repository/HomePage/linkYourAccount' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/HomePage/linkYourAccount' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Login_FAILED.run(Login_FAILED:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585938366357.run(TempTestSuite1585938366357.groovy:36)
+)
+2020-04-03 18:30:21.655 ERROR c.k.k.core.keyword.internal.KeywordMain  - ? Unable to verify object 'Object Repository/HomePage/linkYourAccount' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/HomePage/linkYourAccount' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Login_FAILED.run(Login_FAILED:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585938366357.run(TempTestSuite1585938366357.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/HomePage/linkYourAccount' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+2020-04-03 18:30:22.040 ERROR c.k.katalon.core.main.TestCaseExecutor   - ? Test Cases/Login_FAILED FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/HomePage/linkYourAccount' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Login_FAILED.run(Login_FAILED:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585938366357.run(TempTestSuite1585938366357.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/HomePage/linkYourAccount' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+2020-04-03 18:30:22.219 DEBUG testcase.Login_FAILED                    - 1: closeBrowser()
+2020-04-03 18:30:23.631 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login_FAILED
+2020-04-03 18:30:23.713 INFO  c.k.katalon.core.main.TestCaseExecutor   - =================== Smart XPath Report =======================
+2020-04-03 18:30:23.740 INFO  c.k.katalon.core.main.TestCaseExecutor   - Refer to the link below to preview and approve auto healing on broken test objects.
+2020-04-03 18:30:23.774 INFO  c.k.katalon.core.main.TestCaseExecutor   - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+2020-04-03 18:30:23.826 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===============================================================
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605...........2/2(100%)
+--------------------------------------------------------------------------------
+
+2020-04-03 18:30:29.738 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating HTML report folder at: /tmp/project/Reports/20200403_182604/Regression/20200403_182605...
+2020-04-03 18:30:31.249 INFO  com.kms.katalon.core.util.KeywordUtil    - HTML report generated
+2020-04-03 18:30:31.254 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating CSV report folder at: /tmp/project/Reports/20200403_182604/Regression/20200403_182605...
+2020-04-03 18:30:31.552 INFO  com.kms.katalon.core.util.KeywordUtil    - CSV report generated
+2020-04-03 18:30:32.128 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2020-04-03 18:30:32.131 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Regression
+2020-04-03 18:30:32.137 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
+Launcher status after execution process completed: Running
+Start writing execution.uuid file to folder: /tmp/project/Reports/20200403_182604/Regression/20200403_182605
+Start generating JUnit report folder at: /tmp/project/Reports/20200403_182604/Regression/20200403_182605...
+JUnit report were generated at folder: /tmp/project/Reports/20200403_182604/Regression/20200403_182605
+Uploading report to Katalon TestOps...
+Start sending test result to Katalon TestOps
+Uploading log files of test suite
+Sending file: /tmp/project/Reports/20200403_182604/Regression/20200403_182605/execution.uuid
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605...........2/2(100%)
+--------------------------------------------------------------------------------
+
+Sending file: /tmp/project/Reports/20200403_182604/Regression/20200403_182605/execution0.log
+Sending file: /tmp/project/Reports/20200403_182604/Regression/20200403_182605/1585938614180.png
+Sending file: /tmp/project/Reports/20200403_182604/Regression/20200403_182605/1585938618225.png
+Sending file: /tmp/project/Reports/20200403_182604/Regression/20200403_182605/JUnit_Report.xml
+Sending file: /tmp/project/Reports/20200403_182604/Regression/20200403_182605/execution.properties
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605...........2/2(100%)
+--------------------------------------------------------------------------------
+
+Sending file: /tmp/project/Reports/20200403_182604/Regression/20200403_182605/20200403_182605.html
+Sending file: /tmp/project/Reports/20200403_182604/Regression/20200403_182605/20200403_182605.csv
+Katalon TestOps: Start uploading report to Katalon TestOps server: https://analytics.katalon.com
+Katalon TestOps - Execution URL: https://analytics.katalon.com/from-ks/execution-result?teamId=890&projectId=48419&id=6036376
+End sending to Katalon TestOps
+Report has been sent to Katalon TestOps
+
+--------------------------------------------------------------------------------
+Test Suites/Regression - Chrome (headless) - 20200403_182605...........2/2(100%)
+--------------------------------------------------------------------------------
+
+Execution completed. Exit code: 1.
+Start clean up session
+End check license task
+End clean up session
+Start release license task
+License released
+End release license task
+All launchers terminated
++ ret_code=1
++ exit 1
+[8mha:////4LORSDSgTQEhw130YUYMwOeRrg+pGZOg5GM3K/uuPEMBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] }
+[8mha:////4KMZfHgi3pEswT+U+XTgoWJMKN262YBJYmB70s19DQ2TAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBYkGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9t4fMOvgAAAA==[0m[Pipeline] // dir
+[8mha:////4MyM3wQhDgFMLIOSme7Me/t407OCp8BD4uqcMgyjlmqeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFyY6ZcvgAAAA==[0m[Pipeline] }
+[8mha:////4IPGK9TQaYtj3X/8Q/CoDtEPfO8jIIxA0N+vdYxN8vGJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP1xjpDa+AAAA[0m[Pipeline] // stage
+[8mha:////4NRknBUCmqB3h0cJ7wprYsRtuLRbo/3qAuA99ws6dKT2AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRToFSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/IN7Lv2V8EAAAA=[0m[Pipeline] stage
+[8mha:////4KTaDs0SUom3DKHDN3HelrcB4hoH2C/LwQP8XB7uONSwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Publish Results)
+[8mha:////4B+L82qHAwur6d9G1/F1O5aFWu8zff4ytGt+tHdQKGDVAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] dir
+Running in /vagrant/katalon-solution-lab-offline/katalon-studio-solution/KatalonStudioSolution
+[8mha:////4D48NQBA15TbbnFoJJHrJFd9463r9FdrEvSfpGRBBXd5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4Jsn4UO/ZdeKfNo9U/PL95nKmjDYQr7UdHZgI6Uv8An0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+Recording fingerprints
+[8mha:////4L0wQuPdcsX1QLlWDmAcQDJuyj+wT8lw3i95OtK0Nn/IAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAYuAr1r4AAAA=[0m[Pipeline] junit
+Recording test results
+[8mha:////4MysO4Sq1dMvj/Wh6cvB4aY80o+BNP/nTLaws6NBhAgTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAC7Fjs74AAAA=[0m[Pipeline] }
+[8mha:////4ByPGhCFqBpUWpg7yAK3EsHGsky6gjW1Qd/xIFtvbz/iAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiARIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wANN5Ipb4AAAA=[0m[Pipeline] // dir
+[8mha:////4NWWwcaP8E0+IDY92CQCZZlZG319Z5JxniWI/EugnOGGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBNEgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEHPRMZvgAAAA==[0m[Pipeline] }
+[8mha:////4P8FCEZ+o9r5aGwM5w1CoQ90ADulD1Y020n44pbsxvdRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPgVcH52+AAAA[0m[Pipeline] // stage
+[8mha:////4DXxdmEpWZapsP0kSqsiyhbSklNmWdpfJWs7BU37acp4AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTkApR0VpueIFJjHFi3QX7QlLxIr7GHzBEomKrnZVW83xBmSIcKDrZWew9psbLIYwuNzlR7C+BJtnRWTaEiYKV2k6aWntcUBNbWCIKWClYW2wCJY+OYaM6czdVMOiqE8e87RUUvr3BA4TKZjaRvzBH2F7HNhH+PH8FMA8MomYodvXnWL4BYoVRksEAAAA=[0m[Pipeline] stage
+[8mha:////4OF/OOa4rCjFgtkdWJAiqLwVA0mJZnrOAvp1nCHnkXBbAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] { (Deploy to production)
+[8mha:////4LzxeiUFednFJ6MzzMAhei44U14yO9Wa4DrJsqGcKa3wAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] dir
+Running in /vagrant/katalon-solution-lab-offline/saleor
+[8mha:////4P44vKn1bqrbtqj9r820TXz6qL88Hn8ynYvpvuDVcP5mAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] {
+[8mha:////4NCjmNP0XA3g2hUsTeCnifv6xbA4g2pBCScvTv1VhLcsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] sh
++ docker-compose -f docker-compose.staging.yml -p staging_saleor up -d
+Building celery
+Step 1/33 : FROM python:3.7 as build-python
+ ---> 859d8ec7db6a
+Step 2/33 : RUN apt-get -y update   && apt-get install -y gettext   && apt-get clean   && rm -rf /var/lib/apt/lists/*
+ ---> Using cache
+ ---> 1c768f16b9c0
+Step 3/33 : COPY requirements_dev.txt /app/
+ ---> Using cache
+ ---> 528622a3bc41
+Step 4/33 : WORKDIR /app
+ ---> Using cache
+ ---> 50bae1a3d5b6
+Step 5/33 : RUN pip install -r requirements_dev.txt
+ ---> Running in 824917c70c60
+Ignoring dataclasses: markers 'python_version < "3.7"' don't match your environment
+Collecting amqp==2.5.1
+  Downloading amqp-2.5.1-py2.py3-none-any.whl (49 kB)
+Collecting aniso8601==7.0.0
+  Downloading aniso8601-7.0.0-py2.py3-none-any.whl (42 kB)
+Collecting apipkg==1.5
+  Downloading apipkg-1.5-py2.py3-none-any.whl (4.9 kB)
+Collecting appdirs==1.4.3
+  Downloading appdirs-1.4.3-py2.py3-none-any.whl (12 kB)
+Collecting aspy.yaml==1.3.0
+  Downloading aspy.yaml-1.3.0-py2.py3-none-any.whl (3.5 kB)
+Collecting astroid==2.3.1
+  Downloading astroid-2.3.1-py3-none-any.whl (205 kB)
+Collecting atomicwrites==1.3.0
+  Downloading atomicwrites-1.3.0-py2.py3-none-any.whl (5.9 kB)
+Collecting attrs==19.2.0
+  Downloading attrs-19.2.0-py2.py3-none-any.whl (40 kB)
+Collecting autopep8==1.4.4
+  Downloading autopep8-1.4.4.tar.gz (114 kB)
+Collecting babel==2.7.0
+  Downloading Babel-2.7.0-py2.py3-none-any.whl (8.4 MB)
+Collecting beautifulsoup4==4.7.1
+  Downloading beautifulsoup4-4.7.1-py3-none-any.whl (94 kB)
+Collecting beautifultable==0.7.0
+  Downloading beautifultable-0.7.0-py2.py3-none-any.whl (22 kB)
+Collecting billiard==3.6.1.0
+  Downloading billiard-3.6.1.0-py3-none-any.whl (89 kB)
+Collecting black==19.3b0
+  Downloading black-19.3b0-py36-none-any.whl (89 kB)
+Collecting bleach==2.1.4
+  Downloading bleach-2.1.4-py2.py3-none-any.whl (22 kB)
+Collecting boto3==1.9.247
+  Downloading boto3-1.9.247-py2.py3-none-any.whl (128 kB)
+Collecting botocore==1.12.247
+  Downloading botocore-1.12.247-py2.py3-none-any.whl (5.7 MB)
+Collecting braintree==3.49.0
+  Downloading braintree-3.49.0-py2.py3-none-any.whl (122 kB)
+Collecting cachetools==3.1.1
+  Downloading cachetools-3.1.1-py2.py3-none-any.whl (11 kB)
+Collecting cairocffi==1.1.0
+  Downloading cairocffi-1.1.0.tar.gz (68 kB)
+Collecting cairosvg==2.4.2
+  Downloading CairoSVG-2.4.2-py3-none-any.whl (50 kB)
+Collecting celery==4.3.0
+  Downloading celery-4.3.0-py2.py3-none-any.whl (413 kB)
+Collecting certifi==2019.9.11
+  Downloading certifi-2019.9.11-py2.py3-none-any.whl (154 kB)
+Collecting cffi==1.12.3
+  Downloading cffi-1.12.3-cp37-cp37m-manylinux1_x86_64.whl (430 kB)
+Collecting cfgv==2.0.1
+  Downloading cfgv-2.0.1-py2.py3-none-any.whl (7.4 kB)
+Collecting chardet==3.0.4
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting click==7.0
+  Downloading Click-7.0-py2.py3-none-any.whl (81 kB)
+Collecting codecov==2.0.15
+  Downloading codecov-2.0.15-py2.py3-none-any.whl (11 kB)
+Collecting colorama==0.4.1
+  Downloading colorama-0.4.1-py2.py3-none-any.whl (15 kB)
+Collecting coverage==4.5.4
+  Downloading coverage-4.5.4-cp37-cp37m-manylinux1_x86_64.whl (205 kB)
+Collecting cssselect2==0.2.2
+  Downloading cssselect2-0.2.2-py2.py3-none-any.whl (31 kB)
+Collecting defusedxml==0.6.0
+  Downloading defusedxml-0.6.0-py2.py3-none-any.whl (23 kB)
+Collecting dj-database-url==0.5.0
+  Downloading dj_database_url-0.5.0-py2.py3-none-any.whl (5.5 kB)
+Collecting dj-email-url==0.2.0
+  Downloading dj_email_url-0.2.0-py2.py3-none-any.whl (6.5 kB)
+Collecting django==2.2.6
+  Downloading Django-2.2.6-py3-none-any.whl (7.5 MB)
+Collecting django-appconf==1.0.3
+  Downloading django_appconf-1.0.3-py2.py3-none-any.whl (6.4 kB)
+Collecting django-babel==0.6.2
+  Downloading django_babel-0.6.2-py2.py3-none-any.whl (15 kB)
+Collecting django-bootstrap4==1.0.1
+  Downloading django-bootstrap4-1.0.1.tar.gz (6.8 MB)
+Collecting django-cache-url==3.0.0
+  Downloading django_cache_url-3.0.0-py2.py3-none-any.whl (3.0 kB)
+Collecting django-countries==5.5
+  Downloading django_countries-5.5-py2.py3-none-any.whl (764 kB)
+Collecting django-debug-toolbar==2.0
+  Downloading django_debug_toolbar-2.0-py3-none-any.whl (198 kB)
+Collecting django-debug-toolbar-request-history==0.1.0
+  Downloading django_debug_toolbar_request_history-0.1.0-py2.py3-none-any.whl (7.7 kB)
+Collecting django-elasticsearch-dsl==0.5.1
+  Downloading django_elasticsearch_dsl-0.5.1-py2.py3-none-any.whl (20 kB)
+Collecting django-extensions==2.2.3
+  Downloading django_extensions-2.2.3-py2.py3-none-any.whl (223 kB)
+Collecting django-filter==2.2.0
+  Downloading django_filter-2.2.0-py3-none-any.whl (69 kB)
+Collecting django-graphql-jwt==0.2.1
+  Downloading django-graphql-jwt-0.2.1.tar.gz (14 kB)
+Collecting django-impersonate==1.4.1
+  Downloading django-impersonate-1.4.1.tar.gz (22 kB)
+Collecting django-js-asset==1.2.2
+  Downloading django_js_asset-1.2.2-py2.py3-none-any.whl (5.8 kB)
+Collecting django-measurement==3.0.0
+  Downloading django-measurement-3.0.0.tar.gz (17 kB)
+Collecting django-mptt==0.10.0
+  Downloading django_mptt-0.10.0-py2.py3-none-any.whl (105 kB)
+Collecting django-phonenumber-field==2.4.0
+  Downloading django_phonenumber_field-2.4.0-py2.py3-none-any.whl (46 kB)
+Collecting django-prices==2.1.0
+  Downloading django-prices-2.1.0.tar.gz (7.3 kB)
+Collecting django-prices-openexchangerates==1.0.1
+  Downloading django-prices-openexchangerates-1.0.1.tar.gz (10 kB)
+Collecting django-prices-vatlayer==1.0.2
+  Downloading django-prices-vatlayer-1.0.2.tar.gz (4.5 kB)
+Collecting django-recaptcha==1.5.0
+  Downloading django_recaptcha-1.5.0-py2.py3-none-any.whl (19 kB)
+Collecting django-redis==4.10.0
+  Downloading django_redis-4.10.0-py2.py3-none-any.whl (19 kB)
+Collecting django-render-block==0.6
+  Downloading django_render_block-0.6-py2.py3-none-any.whl (10 kB)
+Collecting django-silk==2.0.0
+  Downloading django_silk-2.0.0-py2.py3-none-any.whl (1.8 MB)
+Collecting django-storages==1.7.2
+  Downloading django_storages-1.7.2-py2.py3-none-any.whl (45 kB)
+Collecting django-templated-email==2.3.0
+  Downloading django-templated-email-2.3.0.tar.gz (18 kB)
+Collecting django-versatileimagefield==1.10
+  Downloading django_versatileimagefield-1.10-py2.py3-none-any.whl (54 kB)
+Collecting django-webpack-loader==0.6.0
+  Downloading django_webpack_loader-0.6.0-py2.py3-none-any.whl (17 kB)
+Collecting docutils==0.15.2
+  Downloading docutils-0.15.2-py3-none-any.whl (547 kB)
+Collecting draftjs-sanitizer==1.0.0
+  Downloading draftjs-sanitizer-1.0.0.tar.gz (6.1 kB)
+Collecting elasticsearch==6.3.1
+  Downloading elasticsearch-6.3.1-py2.py3-none-any.whl (119 kB)
+Collecting elasticsearch-dsl==6.0.1
+  Downloading elasticsearch_dsl-6.0.1-py2.py3-none-any.whl (46 kB)
+Collecting entrypoints==0.3
+  Downloading entrypoints-0.3-py2.py3-none-any.whl (11 kB)
+Collecting execnet==1.7.1
+  Downloading execnet-1.7.1-py2.py3-none-any.whl (39 kB)
+Collecting faker==2.0.2
+  Downloading Faker-2.0.2-py2.py3-none-any.whl (879 kB)
+Collecting filelock==3.0.12
+  Downloading filelock-3.0.12-py3-none-any.whl (7.6 kB)
+Collecting flake8==3.7.8
+  Downloading flake8-3.7.8-py2.py3-none-any.whl (70 kB)
+Collecting freezegun==0.3.12
+  Downloading freezegun-0.3.12-py2.py3-none-any.whl (12 kB)
+Collecting google-api-core==1.14.3
+  Downloading google_api_core-1.14.3-py2.py3-none-any.whl (68 kB)
+Collecting google-auth==1.6.3
+  Downloading google_auth-1.6.3-py2.py3-none-any.whl (73 kB)
+Collecting google-cloud-core==1.0.3
+  Downloading google_cloud_core-1.0.3-py2.py3-none-any.whl (26 kB)
+Collecting google-cloud-storage==1.20.0
+  Downloading google_cloud_storage-1.20.0-py2.py3-none-any.whl (70 kB)
+Collecting google-i18n-address==2.3.5
+  Downloading google_i18n_address-2.3.5-py2.py3-none-any.whl (773 kB)
+Collecting google-measurement-protocol==1.0.0
+  Downloading google-measurement-protocol-1.0.0.tar.gz (2.8 kB)
+Collecting google-resumable-media==0.4.1
+  Downloading google_resumable_media-0.4.1-py2.py3-none-any.whl (38 kB)
+Collecting googleapis-common-protos==1.6.0
+  Downloading googleapis-common-protos-1.6.0.tar.gz (35 kB)
+Collecting gprof2dot==2016.10.13
+  Downloading gprof2dot-2016.10.13.tar.gz (22 kB)
+Collecting graphene==2.1.8
+  Downloading graphene-2.1.8-py2.py3-none-any.whl (107 kB)
+Collecting graphene-django==2.6.0
+  Downloading graphene_django-2.6.0-py2.py3-none-any.whl (68 kB)
+Collecting graphene-django-optimizer==0.6.1
+  Downloading graphene-django-optimizer-0.6.1.tar.gz (9.7 kB)
+Collecting graphene-federation==0.0.3
+  Downloading graphene-federation-0.0.3.tar.gz (4.5 kB)
+Collecting graphql-core==2.2.1
+  Downloading graphql_core-2.2.1-py2.py3-none-any.whl (250 kB)
+Collecting graphql-relay==2.0.0
+  Downloading graphql_relay-2.0.0-py3-none-any.whl (20 kB)
+Collecting html-to-draftjs==1.0.1
+  Downloading html-to-draftjs-1.0.1.tar.gz (6.7 kB)
+Collecting html5lib==1.0.1
+  Downloading html5lib-1.0.1-py2.py3-none-any.whl (117 kB)
+Collecting identify==1.4.7
+  Downloading identify-1.4.7-py2.py3-none-any.whl (97 kB)
+Collecting idna==2.8
+  Downloading idna-2.8-py2.py3-none-any.whl (58 kB)
+Collecting importlib-metadata==0.23
+  Downloading importlib_metadata-0.23-py2.py3-none-any.whl (28 kB)
+Collecting ipaddress==1.0.22
+  Downloading ipaddress-1.0.22-py2.py3-none-any.whl (18 kB)
+Collecting isort==4.3.21
+  Downloading isort-4.3.21-py2.py3-none-any.whl (42 kB)
+Collecting jinja2==2.10.3
+  Downloading Jinja2-2.10.3-py2.py3-none-any.whl (125 kB)
+Collecting jmespath==0.9.4
+  Downloading jmespath-0.9.4-py2.py3-none-any.whl (24 kB)
+Collecting jsonfield==2.0.2
+  Downloading jsonfield-2.0.2-py2.py3-none-any.whl (13 kB)
+Collecting kombu==4.6.5
+  Downloading kombu-4.6.5-py2.py3-none-any.whl (182 kB)
+Collecting lazy-object-proxy==1.4.2
+  Downloading lazy_object_proxy-1.4.2-cp37-cp37m-manylinux1_x86_64.whl (49 kB)
+Collecting lxml==4.4.1
+  Downloading lxml-4.4.1-cp37-cp37m-manylinux1_x86_64.whl (5.7 MB)
+Collecting markdown==3.1.1
+  Downloading Markdown-3.1.1-py2.py3-none-any.whl (87 kB)
+Collecting markupsafe==1.1.1
+  Downloading MarkupSafe-1.1.1-cp37-cp37m-manylinux1_x86_64.whl (27 kB)
+Collecting maxminddb==1.5.1
+  Downloading maxminddb-1.5.1.tar.gz (272 kB)
+Collecting maxminddb-geolite2==2018.703
+  Downloading maxminddb-geolite2-2018.703.tar.gz (26.1 MB)
+Collecting mccabe==0.6.1
+  Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting measurement==3.0.0
+  Downloading measurement-3.0.0.tar.gz (11 kB)
+Collecting more-itertools==7.2.0
+  Downloading more_itertools-7.2.0-py3-none-any.whl (57 kB)
+Collecting mpmath==1.1.0
+  Downloading mpmath-1.1.0.tar.gz (512 kB)
+Collecting multidict==4.5.2
+  Downloading multidict-4.5.2-cp37-cp37m-manylinux1_x86_64.whl (309 kB)
+Collecting nodeenv==1.3.3
+  Downloading nodeenv-1.3.3.tar.gz (34 kB)
+Collecting oauthlib==3.1.0
+  Downloading oauthlib-3.1.0-py2.py3-none-any.whl (147 kB)
+Collecting packaging==19.2
+  Downloading packaging-19.2-py2.py3-none-any.whl (30 kB)
+Collecting phonenumberslite==8.10.20
+  Downloading phonenumberslite-8.10.20-py2.py3-none-any.whl (442 kB)
+Collecting pillow==5.4.1
+  Downloading Pillow-5.4.1-cp37-cp37m-manylinux1_x86_64.whl (2.0 MB)
+Collecting pluggy==0.13.0
+  Downloading pluggy-0.13.0-py2.py3-none-any.whl (17 kB)
+Collecting pre-commit==1.18.3
+  Downloading pre_commit-1.18.3-py2.py3-none-any.whl (154 kB)
+Collecting prices==1.0.0
+  Downloading prices-1.0.0.tar.gz (6.0 kB)
+Collecting promise==2.2.1
+  Downloading promise-2.2.1.tar.gz (19 kB)
+Collecting protobuf==3.10.0
+  Downloading protobuf-3.10.0-cp37-cp37m-manylinux1_x86_64.whl (1.3 MB)
+Collecting psycopg2-binary==2.8.3
+  Downloading psycopg2_binary-2.8.3-cp37-cp37m-manylinux1_x86_64.whl (2.9 MB)
+Collecting purl==1.5
+  Downloading purl-1.5-py2.py3-none-any.whl (10 kB)
+Collecting py==1.8.0
+  Downloading py-1.8.0-py2.py3-none-any.whl (83 kB)
+Collecting pyasn1==0.4.7
+  Downloading pyasn1-0.4.7-py2.py3-none-any.whl (76 kB)
+Collecting pyasn1-modules==0.2.7
+  Downloading pyasn1_modules-0.2.7-py2.py3-none-any.whl (131 kB)
+Collecting pycodestyle==2.5.0
+  Downloading pycodestyle-2.5.0-py2.py3-none-any.whl (51 kB)
+Collecting pycparser==2.19
+  Downloading pycparser-2.19.tar.gz (158 kB)
+Collecting pydocstyle==4.0.1
+  Downloading pydocstyle-4.0.1-py3-none-any.whl (33 kB)
+Collecting pyflakes==2.1.1
+  Downloading pyflakes-2.1.1-py2.py3-none-any.whl (59 kB)
+Collecting pygments==2.4.2
+  Downloading Pygments-2.4.2-py2.py3-none-any.whl (883 kB)
+Collecting pyjwt==1.7.1
+  Downloading PyJWT-1.7.1-py2.py3-none-any.whl (18 kB)
+Collecting pylint==2.4.2
+  Downloading pylint-2.4.2-py3-none-any.whl (302 kB)
+Collecting pylint-celery==0.3
+  Downloading pylint-celery-0.3.tar.gz (1.9 kB)
+Collecting pylint-django==2.0.11
+  Downloading pylint_django-2.0.11-py3-none-any.whl (67 kB)
+Collecting pylint-plugin-utils==0.6
+  Downloading pylint_plugin_utils-0.6-py3-none-any.whl (10 kB)
+Collecting pyparsing==2.4.2
+  Downloading pyparsing-2.4.2-py2.py3-none-any.whl (65 kB)
+Collecting pyphen==0.9.5
+  Downloading Pyphen-0.9.5-py2.py3-none-any.whl (3.0 MB)
+Collecting pytest==5.2.1
+  Downloading pytest-5.2.1-py3-none-any.whl (226 kB)
+Collecting pytest-cov==2.8.1
+  Downloading pytest_cov-2.8.1-py2.py3-none-any.whl (18 kB)
+Collecting pytest-django==3.5.1
+  Downloading pytest_django-3.5.1-py2.py3-none-any.whl (18 kB)
+Collecting pytest-django-queries==1.1.0
+  Downloading pytest-django-queries-1.1.0.tar.gz (13 kB)
+Collecting pytest-forked==1.1.1
+  Downloading pytest-forked-1.1.1.tar.gz (7.2 kB)
+Collecting pytest-mock==1.11.1
+  Downloading pytest_mock-1.11.1-py2.py3-none-any.whl (10 kB)
+Collecting pytest-vcr==1.0.2
+  Downloading pytest_vcr-1.0.2-py2.py3-none-any.whl (4.1 kB)
+Collecting pytest-xdist==1.30.0
+  Downloading pytest_xdist-1.30.0-py2.py3-none-any.whl (35 kB)
+Collecting python-dateutil==2.8.0
+  Downloading python_dateutil-2.8.0-py2.py3-none-any.whl (226 kB)
+Collecting python-slugify==3.0.6
+  Downloading python-slugify-3.0.6.tar.gz (8.7 kB)
+Collecting python3-openid==3.1.0
+  Downloading python3_openid-3.1.0-py3-none-any.whl (130 kB)
+Collecting pytz==2019.3
+  Using cached pytz-2019.3-py2.py3-none-any.whl (509 kB)
+Collecting pyyaml==5.1.2
+  Downloading PyYAML-5.1.2.tar.gz (265 kB)
+Collecting razorpay==1.2.0
+  Downloading razorpay-1.2.0-py3-none-any.whl (162 kB)
+Collecting redis==3.3.10
+  Downloading redis-3.3.10-py2.py3-none-any.whl (66 kB)
+Collecting requests==2.22.0
+  Downloading requests-2.22.0-py2.py3-none-any.whl (57 kB)
+Collecting requests-oauthlib==1.2.0
+  Downloading requests_oauthlib-1.2.0-py2.py3-none-any.whl (22 kB)
+Collecting rsa==4.0
+  Downloading rsa-4.0-py2.py3-none-any.whl (38 kB)
+Collecting rx==1.6.1
+  Downloading Rx-1.6.1-py2.py3-none-any.whl (179 kB)
+Collecting s3transfer==0.2.1
+  Downloading s3transfer-0.2.1-py2.py3-none-any.whl (70 kB)
+Collecting sentry-sdk==0.12.3
+  Downloading sentry_sdk-0.12.3-py2.py3-none-any.whl (87 kB)
+Collecting singledispatch==3.4.0.3
+  Downloading singledispatch-3.4.0.3-py2.py3-none-any.whl (12 kB)
+Collecting six==1.12.0
+  Downloading six-1.12.0-py2.py3-none-any.whl (10 kB)
+Collecting snowballstemmer==2.0.0
+  Using cached snowballstemmer-2.0.0-py2.py3-none-any.whl (97 kB)
+Collecting social-auth-app-django==3.1.0
+  Downloading social_auth_app_django-3.1.0-py3-none-any.whl (23 kB)
+Collecting social-auth-core==3.2.0
+  Downloading social_auth_core-3.2.0-py3-none-any.whl (315 kB)
+Collecting soupsieve==1.9.4
+  Downloading soupsieve-1.9.4-py2.py3-none-any.whl (33 kB)
+Collecting sqlparse==0.3.0
+  Downloading sqlparse-0.3.0-py2.py3-none-any.whl (39 kB)
+Collecting stripe==2.37.2
+  Downloading stripe-2.37.2-py2.py3-none-any.whl (200 kB)
+Collecting sympy==1.4
+  Downloading sympy-1.4-py2.py3-none-any.whl (5.3 MB)
+Collecting text-unidecode==1.3
+  Downloading text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+Collecting tinycss2==1.0.2
+  Downloading tinycss2-1.0.2-py3-none-any.whl (61 kB)
+Collecting toml==0.10.0
+  Downloading toml-0.10.0-py2.py3-none-any.whl (25 kB)
+Collecting tox==3.14.0
+  Downloading tox-3.14.0-py2.py3-none-any.whl (80 kB)
+Collecting tqdm==4.36.1
+  Downloading tqdm-4.36.1-py2.py3-none-any.whl (52 kB)
+Collecting transifex-client==0.13.4
+  Downloading transifex-client-0.13.4.tar.gz (254 kB)
+Collecting typed-ast==1.4.0
+  Downloading typed_ast-1.4.0-cp37-cp37m-manylinux1_x86_64.whl (736 kB)
+Collecting typing==3.7.4.1
+  Downloading typing-3.7.4.1-py3-none-any.whl (25 kB)
+Collecting urllib3==1.25.6
+  Downloading urllib3-1.25.6-py2.py3-none-any.whl (125 kB)
+Collecting uwsgi==2.0.18
+  Downloading uwsgi-2.0.18.tar.gz (801 kB)
+Collecting vcrpy==2.1.0
+  Downloading vcrpy-2.1.0-py2.py3-none-any.whl (37 kB)
+Collecting vine==1.3.0
+  Downloading vine-1.3.0-py2.py3-none-any.whl (14 kB)
+Collecting virtualenv==16.7.5
+  Downloading virtualenv-16.7.5-py2.py3-none-any.whl (3.3 MB)
+Collecting wcwidth==0.1.7
+  Downloading wcwidth-0.1.7-py2.py3-none-any.whl (21 kB)
+Collecting weasyprint==50
+  Downloading WeasyPrint-50-py3-none-any.whl (356 kB)
+Collecting webencodings==0.5.1
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting wrapt==1.11.2
+  Downloading wrapt-1.11.2.tar.gz (27 kB)
+Collecting yapf==0.28.0
+  Downloading yapf-0.28.0-py2.py3-none-any.whl (180 kB)
+Collecting yarl==1.3.0
+  Downloading yarl-1.3.0.tar.gz (159 kB)
+Collecting zipp==0.6.0
+  Downloading zipp-0.6.0-py2.py3-none-any.whl (4.1 kB)
+Requirement already satisfied: setuptools>=39.2.0 in /usr/local/lib/python3.7/site-packages (from cairocffi==1.1.0->-r requirements_dev.txt (line 20)) (46.1.3)
+Building wheels for collected packages: autopep8, cairocffi, django-bootstrap4, django-graphql-jwt, django-impersonate, django-measurement, django-prices, django-prices-openexchangerates, django-prices-vatlayer, django-templated-email, draftjs-sanitizer, google-measurement-protocol, googleapis-common-protos, gprof2dot, graphene-django-optimizer, graphene-federation, html-to-draftjs, maxminddb, maxminddb-geolite2, measurement, mpmath, nodeenv, prices, promise, pycparser, pylint-celery, pytest-django-queries, pytest-forked, python-slugify, pyyaml, transifex-client, uwsgi, wrapt, yarl
+  Building wheel for autopep8 (setup.py): started
+  Building wheel for autopep8 (setup.py): finished with status 'done'
+  Created wheel for autopep8: filename=autopep8-1.4.4-py2.py3-none-any.whl size=42631 sha256=777668ec7c492618ae640b33b600643f7fb1ad62959a71c764f6aa0b90b12923
+  Stored in directory: /root/.cache/pip/wheels/05/e3/42/88a3f1bdd1f9af71117f5d5f96593c5c845c150322384125ce
+  Building wheel for cairocffi (setup.py): started
+  Building wheel for cairocffi (setup.py): finished with status 'done'
+  Created wheel for cairocffi: filename=cairocffi-1.1.0-py3-none-any.whl size=88588 sha256=4fe59c0f68ab3458d623f5fe0a1aa1165d7657552653162a6971966cf58cf1b2
+  Stored in directory: /root/.cache/pip/wheels/04/7d/d9/68956b3da44dbef65b150faff8a9810209588de332ebe1fa63
+  Building wheel for django-bootstrap4 (setup.py): started
+  Building wheel for django-bootstrap4 (setup.py): finished with status 'done'
+  Created wheel for django-bootstrap4: filename=django_bootstrap4-1.0.1-py3-none-any.whl size=158259 sha256=d0b3baf0a1a18249a19dd2d6632b969d958de67bf8b43628f05bfc5944b31bf7
+  Stored in directory: /root/.cache/pip/wheels/0b/c1/78/46559cbfe167349e7f31043f0ec5a40eb827de2450d367cf62
+  Building wheel for django-graphql-jwt (setup.py): started
+  Building wheel for django-graphql-jwt (setup.py): finished with status 'done'
+  Created wheel for django-graphql-jwt: filename=django_graphql_jwt-0.2.1-py2.py3-none-any.whl size=23631 sha256=cced026de55aad8047329d370b501de529e0de4fa0b926a7cacedcaf0b23a77d
+  Stored in directory: /root/.cache/pip/wheels/51/ec/56/6b08a04ef26ec89cf657b20bad14ad53242d8ea1ab46141ee6
+  Building wheel for django-impersonate (setup.py): started
+  Building wheel for django-impersonate (setup.py): finished with status 'done'
+  Created wheel for django-impersonate: filename=django_impersonate-1.4.1-py3-none-any.whl size=24508 sha256=bf5e5a7717f06c79ffebab34b3195459f8ec0b1f250c8d554c63b183e11aea34
+  Stored in directory: /root/.cache/pip/wheels/6e/62/fa/172e85378630f9b68ae03443277480c1d4e3e69907b6b1d363
+  Building wheel for django-measurement (setup.py): started
+  Building wheel for django-measurement (setup.py): finished with status 'done'
+  Created wheel for django-measurement: filename=django_measurement-3.0.0-py3-none-any.whl size=7519 sha256=87355ace0e42731ac1f14c97cd910a903b5d9b65ee057cf7a15f8deb1834731a
+  Stored in directory: /root/.cache/pip/wheels/02/b7/06/57d0293b38335b05ebf4243200a5d918948bc24a3667648351
+  Building wheel for django-prices (setup.py): started
+  Building wheel for django-prices (setup.py): finished with status 'done'
+  Created wheel for django-prices: filename=django_prices-2.1.0-py3-none-any.whl size=8466 sha256=1468c429840757532f75165b0c57b66cda8b868758c34cec73616bdd6caaa8c5
+  Stored in directory: /root/.cache/pip/wheels/95/21/eb/f5859f5cd956a138bc7816fd2c53eb9fe3870765a89f83a243
+  Building wheel for django-prices-openexchangerates (setup.py): started
+  Building wheel for django-prices-openexchangerates (setup.py): finished with status 'done'
+  Created wheel for django-prices-openexchangerates: filename=django_prices_openexchangerates-1.0.1-py3-none-any.whl size=18543 sha256=1b0a69ddc36d7759e4f2499050f346afb5a0befe8603e1d6904e57f85b308415
+  Stored in directory: /root/.cache/pip/wheels/60/2d/50/81f683df17256b80d53eab836a9867175befbb0311ef189075
+  Building wheel for django-prices-vatlayer (setup.py): started
+  Building wheel for django-prices-vatlayer (setup.py): finished with status 'done'
+  Created wheel for django-prices-vatlayer: filename=django_prices_vatlayer-1.0.2-py3-none-any.whl size=6572 sha256=74d31af6736d39f5560c575efef8df759bb49e348fe494fcd61519362ce4ed0b
+  Stored in directory: /root/.cache/pip/wheels/d9/42/20/cd44cf1f556d9a0bf101822fc69686b3ec732e9c1e517bf4d2
+  Building wheel for django-templated-email (setup.py): started
+  Building wheel for django-templated-email (setup.py): finished with status 'done'
+  Created wheel for django-templated-email: filename=django_templated_email-2.3.0-py3-none-any.whl size=15589 sha256=0b9707294569acc63df77abd599fafd16b7559349941ca21b1860c4f8a5112ff
+  Stored in directory: /root/.cache/pip/wheels/b4/28/d1/0272fa09dfa29ced835a24b727c24dfb9d04a8bba6a43987b8
+  Building wheel for draftjs-sanitizer (setup.py): started
+  Building wheel for draftjs-sanitizer (setup.py): finished with status 'done'
+  Created wheel for draftjs-sanitizer: filename=draftjs_sanitizer-1.0.0-py3-none-any.whl size=6330 sha256=769ad12ddc80378e095661fa6b9f7786015b141ac70dfc69bab984e8fba61462
+  Stored in directory: /root/.cache/pip/wheels/fb/33/3d/236808eeafca8f7887eab53599d3d5e12b4e40c5f607859e54
+  Building wheel for google-measurement-protocol (setup.py): started
+  Building wheel for google-measurement-protocol (setup.py): finished with status 'done'
+  Created wheel for google-measurement-protocol: filename=google_measurement_protocol-1.0.0-py3-none-any.whl size=4959 sha256=8d730423966d7d5088a0960009aded6e33ad54e6e1e563169afebfd39eb839b3
+  Stored in directory: /root/.cache/pip/wheels/32/a9/51/819284da1564c4d8238c8f55238c569483618061b38ce0f533
+  Building wheel for googleapis-common-protos (setup.py): started
+  Building wheel for googleapis-common-protos (setup.py): finished with status 'done'
+  Created wheel for googleapis-common-protos: filename=googleapis_common_protos-1.6.0-py3-none-any.whl size=77574 sha256=c5a96dbfbff4d4e9c66cd0f59bac195bc250ed8bd441577b5fc1b1fe708eb43e
+  Stored in directory: /root/.cache/pip/wheels/d4/8f/f8/0aa82958144f10d13972768e6fa7a1e4960d7f9e492a7e31f5
+  Building wheel for gprof2dot (setup.py): started
+  Building wheel for gprof2dot (setup.py): finished with status 'done'
+  Created wheel for gprof2dot: filename=gprof2dot-2016.10.13-py3-none-any.whl size=23171 sha256=9c9e219603ded96bb790bd97ff42bb79773837fcaa90c44602f195f3bb6417bc
+  Stored in directory: /root/.cache/pip/wheels/e9/8b/c6/f5602fea49a3c632fd51349335aea8e3eae93465ba3052b2e1
+  Building wheel for graphene-django-optimizer (setup.py): started
+  Building wheel for graphene-django-optimizer (setup.py): finished with status 'done'
+  Created wheel for graphene-django-optimizer: filename=graphene_django_optimizer-0.6.1-py2.py3-none-any.whl size=9262 sha256=f394c835145d94019064bc31b8e7793cbe460a5d80eec7ebd3797e501c720e0c
+  Stored in directory: /root/.cache/pip/wheels/7f/49/1d/38b3fee0328ab19c4b86e198658e7252a2350604a77fb6f918
+  Building wheel for graphene-federation (setup.py): started
+  Building wheel for graphene-federation (setup.py): finished with status 'done'
+  Created wheel for graphene-federation: filename=graphene_federation-0.0.3-py3-none-any.whl size=5835 sha256=cc13681d36bb726c20d94f06adb0214706712872f4ad2de54346682e1156be87
+  Stored in directory: /root/.cache/pip/wheels/86/5c/fb/263aa7bf6cff9d4aba5477baa0df82ec9d4f3d61ec7f8b1ccc
+  Building wheel for html-to-draftjs (setup.py): started
+  Building wheel for html-to-draftjs (setup.py): finished with status 'done'
+  Created wheel for html-to-draftjs: filename=html_to_draftjs-1.0.1-py3-none-any.whl size=6618 sha256=3f03ac6a2987e388580de8f6730e8cd34a12f232850f21e4a91e8f9104bacb6a
+  Stored in directory: /root/.cache/pip/wheels/eb/14/f6/56c8d89d4199c5ef18f4fb0ef8c7d0b88c9810643dcb500bf5
+  Building wheel for maxminddb (setup.py): started
+  Building wheel for maxminddb (setup.py): finished with status 'done'
+  Created wheel for maxminddb: filename=maxminddb-1.5.1-cp37-cp37m-linux_x86_64.whl size=44491 sha256=16a5bf01da85b3a86cad6f8b3b110b0884f7a30e9d06d3ae1726db8fb2a2ad65
+  Stored in directory: /root/.cache/pip/wheels/90/73/c0/d8c1e4552a71cbe720570a43716ac29dc0e8c542718bb81611
+  Building wheel for maxminddb-geolite2 (setup.py): started
+  Building wheel for maxminddb-geolite2 (setup.py): finished with status 'done'
+  Created wheel for maxminddb-geolite2: filename=maxminddb_geolite2-2018.703-py3-none-any.whl size=26407039 sha256=f16e416cd3fa6bf0de102950eef14bd0dc0df64b6b2d2a51e8ea8ba697cc74b9
+  Stored in directory: /root/.cache/pip/wheels/21/f8/f5/c3d091f638042b802aa461ae6087b6f4106df7bf9a46ad4114
+  Building wheel for measurement (setup.py): started
+  Building wheel for measurement (setup.py): finished with status 'done'
+  Created wheel for measurement: filename=measurement-3.0.0-py2.py3-none-any.whl size=15715 sha256=1432adf4eb9d3b13733a6bca3d0cb37a87beb54698058bef8bd7f8be3e9a14ab
+  Stored in directory: /root/.cache/pip/wheels/2f/6a/f3/72018179594151c4741d812bce44f68d7f739635c35f4b7d04
+  Building wheel for mpmath (setup.py): started
+  Building wheel for mpmath (setup.py): finished with status 'done'
+  Created wheel for mpmath: filename=mpmath-1.1.0-py3-none-any.whl size=532239 sha256=1b860f9a66b64ab74162c1dc4ae0b5b0e4b2fe26c57edcc9124479c248ef71b9
+  Stored in directory: /root/.cache/pip/wheels/e2/46/78/e78f76c356bca9277368f1f97a31b37a8cb937176d9511af31
+  Building wheel for nodeenv (setup.py): started
+  Building wheel for nodeenv (setup.py): finished with status 'done'
+  Created wheel for nodeenv: filename=nodeenv-1.3.3-py3-none-any.whl size=21346 sha256=8cd00d24be702af9cf5a7eccdab16511d0bfedf822e58a8cca7e3785abc54956
+  Stored in directory: /root/.cache/pip/wheels/13/d3/6f/0e01c0c62414f74a97916cc97047c088f6acc8ce617d1b37ff
+  Building wheel for prices (setup.py): started
+  Building wheel for prices (setup.py): finished with status 'done'
+  Created wheel for prices: filename=prices-1.0.0-py3-none-any.whl size=8816 sha256=282e825d8420825888565d8fc2a9e301d9ec443e488e775ead8964ca1996890b
+  Stored in directory: /root/.cache/pip/wheels/97/ff/7f/3138d81a0b0331404b58407f58235302da10ce7ccb8d79d335
+  Building wheel for promise (setup.py): started
+  Building wheel for promise (setup.py): finished with status 'done'
+  Created wheel for promise: filename=promise-2.2.1-py3-none-any.whl size=21291 sha256=9486d0b3430c75211e50e3bd21144e128dc84caf426a6ed852cd8de579b2ae96
+  Stored in directory: /root/.cache/pip/wheels/26/ab/f1/b59406f102f915e2adcf1e26ef9ada6e72469a61b29f3f60cf
+  Building wheel for pycparser (setup.py): started
+  Building wheel for pycparser (setup.py): finished with status 'done'
+  Created wheel for pycparser: filename=pycparser-2.19-py2.py3-none-any.whl size=111031 sha256=fef691827aafa56c7346ad9fd3835aaed26412149004071c428ea7ca9696b5aa
+  Stored in directory: /root/.cache/pip/wheels/0e/53/27/fee7fd9562e10dd046caccfc0340b8cf789b46846e660f3380
+  Building wheel for pylint-celery (setup.py): started
+  Building wheel for pylint-celery (setup.py): finished with status 'done'
+  Created wheel for pylint-celery: filename=pylint_celery-0.3-py3-none-any.whl size=1735 sha256=abcf9b4905c03e6ad25e67a50f88cea3d7f846a2e73c11bd8f6ce80fd09fe734
+  Stored in directory: /root/.cache/pip/wheels/d5/f0/17/5cb9bfb227881974f1fea6c24250a5a13f120ecb91a1a0c329
+  Building wheel for pytest-django-queries (setup.py): started
+  Building wheel for pytest-django-queries (setup.py): finished with status 'done'
+  Created wheel for pytest-django-queries: filename=pytest_django_queries-1.1.0-py3-none-any.whl size=13168 sha256=bc5a6b12aa749d7676d9e1e4d53205ae6a662ac80487aab2ab3589c208c361e2
+  Stored in directory: /root/.cache/pip/wheels/6c/c4/01/60121bbb1507b55234ae4687448ce8fcc720beeacd7f672fbf
+  Building wheel for pytest-forked (setup.py): started
+  Building wheel for pytest-forked (setup.py): finished with status 'done'
+  Created wheel for pytest-forked: filename=pytest_forked-1.1.1-py2.py3-none-any.whl size=4463 sha256=9682db6857c45e680181979c442ce2ef0f7ce89c364d2843f13ceed6b46e059f
+  Stored in directory: /root/.cache/pip/wheels/77/fd/e3/f8081a670a81aafd34fc27af9f9a51a112920c0871df388bac
+  Building wheel for python-slugify (setup.py): started
+  Building wheel for python-slugify (setup.py): finished with status 'done'
+  Created wheel for python-slugify: filename=python_slugify-3.0.6-py2.py3-none-any.whl size=5470 sha256=74eba3ae165ba686a25efba86963a73d123f5c03de1e93373521b3ed3abd90f5
+  Stored in directory: /root/.cache/pip/wheels/bd/df/bb/00d1673ce719a27744ac4312e882303177d827c1fa410266c9
+  Building wheel for pyyaml (setup.py): started
+  Building wheel for pyyaml (setup.py): finished with status 'done'
+  Created wheel for pyyaml: filename=PyYAML-5.1.2-cp37-cp37m-linux_x86_64.whl size=468687 sha256=60473e2286b07eba42f98f7001ba0d7363cbc983c3222db0a7bb129e095e5fb2
+  Stored in directory: /root/.cache/pip/wheels/23/b9/73/57aaccb6957d94ed63f474b51a9f7f992c5eff4635052c0557
+  Building wheel for transifex-client (setup.py): started
+  Building wheel for transifex-client (setup.py): finished with status 'done'
+  Created wheel for transifex-client: filename=transifex_client-0.13.4-py3-none-any.whl size=187662 sha256=5f5bcceb18c2a7a0d7cca255d592e3ad52916ee3dc626728503ad5c3c756c8f1
+  Stored in directory: /root/.cache/pip/wheels/ee/ca/f2/c3a85f961c416dec24fa3664ae0476d0e978298c2c1eb77715
+  Building wheel for uwsgi (setup.py): started
+  Building wheel for uwsgi (setup.py): still running...
+  Building wheel for uwsgi (setup.py): still running...
+  Building wheel for uwsgi (setup.py): finished with status 'done'
+  Created wheel for uwsgi: filename=uWSGI-2.0.18-cp37-cp37m-linux_x86_64.whl size=580222 sha256=277eed29196a4cd6ea5e63e8225896284e4bd0234111cb42c0d98d3b92ccc5a2
+  Stored in directory: /root/.cache/pip/wheels/e7/d0/f2/b93905969980eaf9fe18183b0c43470d63b13fcd3a1f6c8efe
+  Building wheel for wrapt (setup.py): started
+  Building wheel for wrapt (setup.py): finished with status 'done'
+  Created wheel for wrapt: filename=wrapt-1.11.2-cp37-cp37m-linux_x86_64.whl size=76130 sha256=152c70618941d1d96d82504d14a45780aef3a7a3f14e62189285b96ef2de2fe4
+  Stored in directory: /root/.cache/pip/wheels/23/5f/62/304b411f20be41821465a82bc98baabc5e68c3cdd1eb99db71
+  Building wheel for yarl (setup.py): started
+  Building wheel for yarl (setup.py): finished with status 'done'
+  Created wheel for yarl: filename=yarl-1.3.0-cp37-cp37m-linux_x86_64.whl size=264919 sha256=dc6f08a50e5f1e2d862e9b9146e17c302d901b45d8036149a691932764e4abf5
+  Stored in directory: /root/.cache/pip/wheels/4b/c1/ba/a513db30569ac269e885ed411b95b6c28c6f9d1fd54fced96e
+Successfully built autopep8 cairocffi django-bootstrap4 django-graphql-jwt django-impersonate django-measurement django-prices django-prices-openexchangerates django-prices-vatlayer django-templated-email draftjs-sanitizer google-measurement-protocol googleapis-common-protos gprof2dot graphene-django-optimizer graphene-federation html-to-draftjs maxminddb maxminddb-geolite2 measurement mpmath nodeenv prices promise pycparser pylint-celery pytest-django-queries pytest-forked python-slugify pyyaml transifex-client uwsgi wrapt yarl
+Installing collected packages: vine, amqp, aniso8601, apipkg, appdirs, pyyaml, aspy.yaml, lazy-object-proxy, wrapt, six, typed-ast, astroid, atomicwrites, attrs, pycodestyle, autopep8, pytz, babel, soupsieve, beautifulsoup4, beautifultable, billiard, click, toml, black, webencodings, html5lib, bleach, python-dateutil, jmespath, docutils, urllib3, botocore, s3transfer, boto3, idna, chardet, certifi, requests, braintree, cachetools, pycparser, cffi, cairocffi, tinycss2, cssselect2, defusedxml, pillow, cairosvg, more-itertools, zipp, importlib-metadata, kombu, celery, cfgv, coverage, codecov, colorama, dj-database-url, dj-email-url, sqlparse, django, django-appconf, django-babel, django-bootstrap4, django-cache-url, django-countries, django-debug-toolbar, django-debug-toolbar-request-history, ipaddress, elasticsearch, elasticsearch-dsl, django-elasticsearch-dsl, django-extensions, django-filter, singledispatch, promise, rx, graphql-core, graphql-relay, graphene, graphene-django, pyjwt, django-graphql-jwt, django-impersonate, django-js-asset, mpmath, sympy, measurement, django-measurement, django-mptt, django-phonenumber-field, typing, prices, django-prices, django-prices-openexchangerates, jsonfield, django-prices-vatlayer, django-recaptcha, redis, django-redis, django-render-block, pygments, gprof2dot, markupsafe, jinja2, django-silk, django-storages, django-templated-email, django-versatileimagefield, django-webpack-loader, draftjs-sanitizer, entrypoints, execnet, text-unidecode, faker, filelock, mccabe, pyflakes, flake8, freezegun, pyasn1, pyasn1-modules, rsa, google-auth, protobuf, googleapis-common-protos, google-api-core, google-cloud-core, google-resumable-media, google-cloud-storage, google-i18n-address, google-measurement-protocol, graphene-django-optimizer, graphene-federation, lxml, html-to-draftjs, identify, isort, markdown, maxminddb, maxminddb-geolite2, multidict, nodeenv, oauthlib, pyparsing, packaging, phonenumberslite, pluggy, virtualenv, pre-commit, psycopg2-binary, purl, py, snowballstemmer, pydocstyle, pylint, pylint-plugin-utils, pylint-celery, pylint-django, pyphen, wcwidth, pytest, pytest-cov, pytest-django, pytest-django-queries, pytest-forked, pytest-mock, yarl, vcrpy, pytest-vcr, pytest-xdist, python-slugify, python3-openid, razorpay, requests-oauthlib, sentry-sdk, social-auth-core, social-auth-app-django, stripe, tox, tqdm, transifex-client, uwsgi, weasyprint, yapf
+Successfully installed amqp-2.5.1 aniso8601-7.0.0 apipkg-1.5 appdirs-1.4.3 aspy.yaml-1.3.0 astroid-2.3.1 atomicwrites-1.3.0 attrs-19.2.0 autopep8-1.4.4 babel-2.7.0 beautifulsoup4-4.7.1 beautifultable-0.7.0 billiard-3.6.1.0 black-19.3b0 bleach-2.1.4 boto3-1.9.247 botocore-1.12.247 braintree-3.49.0 cachetools-3.1.1 cairocffi-1.1.0 cairosvg-2.4.2 celery-4.3.0 certifi-2019.9.11 cffi-1.12.3 cfgv-2.0.1 chardet-3.0.4 click-7.0 codecov-2.0.15 colorama-0.4.1 coverage-4.5.4 cssselect2-0.2.2 defusedxml-0.6.0 dj-database-url-0.5.0 dj-email-url-0.2.0 django-2.2.6 django-appconf-1.0.3 django-babel-0.6.2 django-bootstrap4-1.0.1 django-cache-url-3.0.0 django-countries-5.5 django-debug-toolbar-2.0 django-debug-toolbar-request-history-0.1.0 django-elasticsearch-dsl-0.5.1 django-extensions-2.2.3 django-filter-2.2.0 django-graphql-jwt-0.2.1 django-impersonate-1.4.1 django-js-asset-1.2.2 django-measurement-3.0.0 django-mptt-0.10.0 django-phonenumber-field-2.4.0 django-prices-2.1.0 django-prices-openexchangerates-1.0.1 django-prices-vatlayer-1.0.2 django-recaptcha-1.5.0 django-redis-4.10.0 django-render-block-0.6 django-silk-2.0.0 django-storages-1.7.2 django-templated-email-2.3.0 django-versatileimagefield-1.10 django-webpack-loader-0.6.0 docutils-0.15.2 draftjs-sanitizer-1.0.0 elasticsearch-6.3.1 elasticsearch-dsl-6.0.1 entrypoints-0.3 execnet-1.7.1 faker-2.0.2 filelock-3.0.12 flake8-3.7.8 freezegun-0.3.12 google-api-core-1.14.3 google-auth-1.6.3 google-cloud-core-1.0.3 google-cloud-storage-1.20.0 google-i18n-address-2.3.5 google-measurement-protocol-1.0.0 google-resumable-media-0.4.1 googleapis-common-protos-1.6.0 gprof2dot-2016.10.13 graphene-2.1.8 graphene-django-2.6.0 graphene-django-optimizer-0.6.1 graphene-federation-0.0.3 graphql-core-2.2.1 graphql-relay-2.0.0 html-to-draftjs-1.0.1 html5lib-1.0.1 identify-1.4.7 idna-2.8 importlib-metadata-0.23 ipaddress-1.0.22 isort-4.3.21 jinja2-2.10.3 jmespath-0.9.4 jsonfield-2.0.2 kombu-4.6.5 lazy-object-proxy-1.4.2 lxml-4.4.1 markdown-3.1.1 markupsafe-1.1.1 maxminddb-1.5.1 maxminddb-geolite2-2018.703 mccabe-0.6.1 measurement-3.0.0 more-itertools-7.2.0 mpmath-1.1.0 multidict-4.5.2 nodeenv-1.3.3 oauthlib-3.1.0 packaging-19.2 phonenumberslite-8.10.20 pillow-5.4.1 pluggy-0.13.0 pre-commit-1.18.3 prices-1.0.0 promise-2.2.1 protobuf-3.10.0 psycopg2-binary-2.8.3 purl-1.5 py-1.8.0 pyasn1-0.4.7 pyasn1-modules-0.2.7 pycodestyle-2.5.0 pycparser-2.19 pydocstyle-4.0.1 pyflakes-2.1.1 pygments-2.4.2 pyjwt-1.7.1 pylint-2.4.2 pylint-celery-0.3 pylint-django-2.0.11 pylint-plugin-utils-0.6 pyparsing-2.4.2 pyphen-0.9.5 pytest-5.2.1 pytest-cov-2.8.1 pytest-django-3.5.1 pytest-django-queries-1.1.0 pytest-forked-1.1.1 pytest-mock-1.11.1 pytest-vcr-1.0.2 pytest-xdist-1.30.0 python-dateutil-2.8.0 python-slugify-3.0.6 python3-openid-3.1.0 pytz-2019.3 pyyaml-5.1.2 razorpay-1.2.0 redis-3.3.10 requests-2.22.0 requests-oauthlib-1.2.0 rsa-4.0 rx-1.6.1 s3transfer-0.2.1 sentry-sdk-0.12.3 singledispatch-3.4.0.3 six-1.12.0 snowballstemmer-2.0.0 social-auth-app-django-3.1.0 social-auth-core-3.2.0 soupsieve-1.9.4 sqlparse-0.3.0 stripe-2.37.2 sympy-1.4 text-unidecode-1.3 tinycss2-1.0.2 toml-0.10.0 tox-3.14.0 tqdm-4.36.1 transifex-client-0.13.4 typed-ast-1.4.0 typing-3.7.4.1 urllib3-1.25.6 uwsgi-2.0.18 vcrpy-2.1.0 vine-1.3.0 virtualenv-16.7.5 wcwidth-0.1.7 weasyprint-50 webencodings-0.5.1 wrapt-1.11.2 yapf-0.28.0 yarl-1.3.0 zipp-0.6.0
+Removing intermediate container 824917c70c60
+ ---> 528c383d6f7d
+Step 6/33 : FROM node:10 as build-nodejs
+ ---> 01b816051d34
+Step 7/33 : ARG STATIC_URL
+ ---> Running in a0f321725d94
+Removing intermediate container a0f321725d94
+ ---> a2c7d486d5d8
+Step 8/33 : ENV STATIC_URL ${STATIC_URL:-/static/}
+ ---> Running in d4ebbb2c3da7
+Removing intermediate container d4ebbb2c3da7
+ ---> f71897edfade
+Step 9/33 : COPY webpack.config.js app.json package.json package-lock.json /app/
+ ---> 83a7c4aef225
+Step 10/33 : WORKDIR /app
+ ---> Running in c30ef81b4efc
+Removing intermediate container c30ef81b4efc
+ ---> 3edd5fef10a0
+Step 11/33 : RUN npm install
+ ---> Running in 804e1656ff88
+
+> node-sass@4.12.0 install /app/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.12.0/linux-x64-64_binding.node
+Download complete
+Binary saved to /app/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Caching binary to /root/.npm/node-sass/4.12.0/linux-x64-64_binding.node
+
+> core-js-pure@3.1.4 postinstall /app/node_modules/core-js-pure
+> node scripts/postinstall || echo "ignore"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> node-sass@4.12.0 postinstall /app/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /app/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Testing binary
+Binary is fine
+[91mnpm[0m[91m [0m[91mWARN[0m[91m saleor@0.0.0 No description
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91moptional[0m[91m SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/fsevents):
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mnotsup[0m[91m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91moptional[0m[91m SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 (node_modules/chokidar/node_modules/fsevents):
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mnotsup[0m[91m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.0.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[91m
+[0madded 1370 packages from 698 contributors and audited 17638 packages in 120.514s
+found 293 vulnerabilities (288 low, 5 moderate)
+  run `npm audit fix` to fix them, or `npm audit` for details
+Removing intermediate container 804e1656ff88
+ ---> 3db022b4858a
+Step 12/33 : COPY ./saleor/static /app/saleor/static/
+ ---> 73442c18ade7
+Step 13/33 : COPY ./templates /app/templates/
+ ---> ef333e6488e4
+Step 14/33 : RUN STATIC_URL=${STATIC_URL} npm run build-assets --production   && npm run build-emails --production
+ ---> Running in 2aa9bbf6ee4b
+
+> saleor@0.0.0 build-assets /app
+> webpack -p
+
+[91m(node:18) DeprecationWarning: Tapable.plugin is deprecated. Use new API on `.hooks` instead
+[0m[91mBrowserslist: caniuse-lite is outdated. Please run next command `npm update`
+[0mHash: 00ba5a112342364fe17c
+Version: webpack 4.35.3
+Time: 101495ms
+Built at: 04/03/2020 6:47:46 PM
+                                                Asset       Size  Chunks                    Chunk Names
+     Lato-Bold.061b572d02df38e00fc9978034ac09b8.woff2   28.1 KiB          [emitted]         
+       Lato-Bold.44dfe8cc676882243911a3197a50169e.ttf    119 KiB          [emitted]         
+      Lato-Bold.d0549ba90a0800d86d585f1e63df52b3.woff   36.1 KiB          [emitted]         
+     Lato-Light.067d56d83ba6202f296c6acd0fd107b1.woff   34.9 KiB          [emitted]         
+      Lato-Light.5b761f2d1e4259ea6ac7ab3ebf7f3c49.ttf    120 KiB          [emitted]         
+    Lato-Light.96b78ec9be61a9b1e91d455627636d53.woff2   31.6 KiB          [emitted]         
+   Lato-Regular.01f09144fb08c2185c04b46601a6894d.woff   36.9 KiB          [emitted]         
+  Lato-Regular.183bf2570509b4588f48227a1799c1bc.woff2   28.6 KiB          [emitted]         
+    Lato-Regular.7f690e503a254e0b8349aec0177e07aa.ttf    117 KiB          [emitted]         
+   Roboto-Bold.c0f1e4a4fdfb8048c72e86aadb2a247d.woff2   63.3 KiB          [emitted]         
+    Roboto-Bold.eed9aab5449cc9c8430d7d258108f602.woff   88.2 KiB          [emitted]         
+  Roboto-Light.3c37aa69cd77e6a53a067170fa8fe2e9.woff2   62.8 KiB          [emitted]         
+   Roboto-Light.ea36cd9a0e9eee97012a67b8a4570d7b.woff   87.6 KiB          [emitted]         
+ Roboto-Medium.1561b424aaef2f704bbd89155b3ce514.woff2   63.9 KiB          [emitted]         
+  Roboto-Medium.cf4d60bc0b1d4b2314085919a00e1724.woff   88.4 KiB          [emitted]         
+ Roboto-Regular.3cf6adf61054c328b1b0ddcd8f9ce24d.woff   87.7 KiB          [emitted]         
+Roboto-Regular.5136cbe62a63604402f2fedb97f246f8.woff2   63.3 KiB          [emitted]         
+   Roboto-Thin.1f35e6a11d27d2e10d28946d42332dc5.woff2   61.6 KiB          [emitted]         
+    Roboto-Thin.44b78f142603eb69f593ed4002ed7a4a.woff   86.1 KiB          [emitted]         
+    align_center.261490e2a4abf6925c5e533cacef7361.svg  239 bytes          [emitted]         
+   align_justify.2eecf9cbf6e5c9260e4c366e1f2b49b1.svg  238 bytes          [emitted]         
+      align_left.ab9f0ff87e27ff7b6a58106c012daf22.svg  240 bytes          [emitted]         
+     align_right.b45aa1ea0df06c6a9506b0cd3e8527fe.svg  239 bytes          [emitted]         
+    arrow-select.cf30a11fd56d142d7630b56f16fb0f65.svg  571 bytes          [emitted]         
+          block1.b6fb939e413b8a23addbde6341ce6b56.jpg    260 KiB          [emitted]  [big]  
+          block2.781788024131717ff285b55c9b65bc9b.jpg    193 KiB          [emitted]         
+          block3.32b6cc89f5782d49fcea30e7b50ef506.jpg    131 KiB          [emitted]         
+   chevron-right.b90a94d3bf483b8d97e4647049ecdaa2.svg  210 bytes          [emitted]         
+           close.ec0a5fedbc923f0763a1886366f4967c.svg  266 bytes          [emitted]         
+                   dashboard.cd1a0054678552b5c754.css    230 KiB       0  [emitted]         dashboard
+                    dashboard.cd1a0054678552b5c754.js    546 KiB       0  [emitted]  [big]  dashboard
+                    document.189abb08dc4c4fcc141d.css   2.55 KiB       1  [emitted]         document
+                     document.189abb08dc4c4fcc141d.js  997 bytes       1  [emitted]         document
+            done.6469e271be639f7e5f1e45ffbb16c876.svg  215 bytes          [emitted]         
+    format_clear.9ea4294f9494325a0a198b0201443e63.svg  296 bytes          [emitted]         
+     insert_link.9523768776537a425ceaf093d2dddb00.svg  375 bytes          [emitted]         
+    insert_photo.497fe7788e4adeb99de29152704b8d32.svg  284 bytes          [emitted]         
+  pass-invisible.d5a74fda0ae925038d3d4a2b9cb030d3.svg   1.67 KiB          [emitted]         
+    pass-visible.d7d2a2f14d58c56691160e88464dfdb5.svg   1.24 KiB          [emitted]         
+           quote.a519f24a889ca0c8830dccdd93a810b4.svg  204 bytes          [emitted]         
+                  storefront.de2a8e980125d75f9a6c.css    180 KiB       2  [emitted]         storefront
+                   storefront.de2a8e980125d75f9a6c.js    474 KiB       2  [emitted]  [big]  storefront
+Entrypoint dashboard [big] = dashboard.cd1a0054678552b5c754.css dashboard.cd1a0054678552b5c754.js
+Entrypoint document = document.189abb08dc4c4fcc141d.css document.189abb08dc4c4fcc141d.js
+Entrypoint storefront [big] = storefront.de2a8e980125d75f9a6c.css storefront.de2a8e980125d75f9a6c.js
+ [9] (webpack)/buildin/module.js 497 bytes {0} {2} [built]
+[10] (webpack)/buildin/global.js 472 bytes {2} [built]
+[18] ./saleor/static/images/pass-invisible.svg 97 bytes {2} [built]
+[20] ./saleor/static/js/stores/variantPicker.js 1.21 KiB {2} [built]
+[24] ./saleor/static/dashboard/images/editor/align_center.svg 95 bytes {0} [built]
+[25] ./saleor/static/dashboard/images/editor/align_justify.svg 96 bytes {0} [built]
+[36] ./saleor/static/images/pass-visible.svg 95 bytes {2} [built]
+[40] ./saleor/static/js/components/variantPicker/VariantPicker.js + 2 modules 17.8 KiB {2} [built]
+     |    3 modules
+[42] (webpack)/buildin/amd-options.js 80 bytes {0} [built]
+[44] ./saleor/static/dashboard/scss/dashboard.scss 39 bytes {0} [built]
+[65] ./saleor/static/dashboard/js/document.js 31 bytes {1} [built]
+[66] ./saleor/static/dashboard/scss/document.scss 39 bytes {1} [built]
+[67] ./saleor/static/js/storefront.js 508 bytes {2} [built]
+[70] ./saleor/static/scss/storefront.scss 39 bytes {2} [built]
+[90] ./saleor/static/dashboard/js/dashboard.js + 1 modules 589 bytes {0} [built]
+     | ./saleor/static/dashboard/js/dashboard.js 125 bytes [built]
+     |     + 1 hidden module
+    + 79 hidden modules
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  block1.b6fb939e413b8a23addbde6341ce6b56.jpg (260 KiB)
+  dashboard.cd1a0054678552b5c754.js (546 KiB)
+  storefront.de2a8e980125d75f9a6c.js (474 KiB)
+
+WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  dashboard (776 KiB)
+      dashboard.cd1a0054678552b5c754.css
+      dashboard.cd1a0054678552b5c754.js
+  storefront (654 KiB)
+      storefront.de2a8e980125d75f9a6c.css
+      storefront.de2a8e980125d75f9a6c.js
+
+
+WARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!saleor/static/dashboard/scss/dashboard.scss:
+    Entrypoint mini-css-extract-plugin = *
+     [0] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/lib??ref--5-2!./node_modules/sass-loader/lib/loader.js??ref--5-3!./saleor/static/dashboard/scss/dashboard.scss 665 KiB {0} [built]
+    [13] ./saleor/static/dashboard/images/chevron-right.svg 96 bytes {0} [built]
+        + 12 hidden modules
+Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!saleor/static/dashboard/scss/document.scss:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/lib??ref--5-2!./node_modules/sass-loader/lib/loader.js??ref--5-3!./saleor/static/dashboard/scss/document.scss 7.29 KiB {0} [built]
+        + 1 hidden module
+Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!saleor/static/scss/storefront.scss:
+    Entrypoint mini-css-extract-plugin = *
+     [0] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/lib??ref--5-2!./node_modules/sass-loader/lib/loader.js??ref--5-3!./saleor/static/scss/storefront.scss 703 KiB {0} [built]
+     [3] ./saleor/static/images/arrow-select.svg 95 bytes {0} [built]
+     [4] ./saleor/static/fonts/Lato-Light.woff2 95 bytes {0} [built]
+     [5] ./saleor/static/fonts/Lato-Light.woff 94 bytes {0} [built]
+     [6] ./saleor/static/fonts/Lato-Light.ttf 93 bytes {0} [built]
+     [7] ./saleor/static/fonts/Lato-Regular.woff2 97 bytes {0} [built]
+     [8] ./saleor/static/fonts/Lato-Regular.woff 96 bytes {0} [built]
+     [9] ./saleor/static/fonts/Lato-Regular.ttf 95 bytes {0} [built]
+    [10] ./saleor/static/fonts/Lato-Bold.woff2 94 bytes {0} [built]
+    [11] ./saleor/static/fonts/Lato-Bold.woff 93 bytes {0} [built]
+    [12] ./saleor/static/fonts/Lato-Bold.ttf 92 bytes {0} [built]
+    [13] ./saleor/static/images/block1.jpg 89 bytes {0} [built]
+    [14] ./saleor/static/images/block2.jpg 89 bytes {0} [built]
+    [15] ./saleor/static/images/block3.jpg 89 bytes {0} [built]
+        + 2 hidden modules
+
+> saleor@0.0.0 build-emails /app
+> mjml --config.beautify false -l skip "templates/templated_email/source/*.mjml" -o templates/templated_email/compiled
+
+Removing intermediate container 2aa9bbf6ee4b
+ ---> 7156dc1b6d1f
+Step 15/33 : FROM python:3.7-slim
+ ---> 74ac77e9873a
+Step 16/33 : ARG STATIC_URL
+ ---> Using cache
+ ---> 147323bcfa68
+Step 17/33 : ENV STATIC_URL ${STATIC_URL:-/static/}
+ ---> Using cache
+ ---> 566024363bed
+Step 18/33 : RUN groupadd -r saleor && useradd -r -g saleor saleor
+ ---> Using cache
+ ---> 98afdca6df54
+Step 19/33 : RUN apt-get update   && apt-get install -y     libxml2     libssl1.1     libcairo2     libpango-1.0-0     libpangocairo-1.0-0     libgdk-pixbuf2.0-0     shared-mime-info     mime-support   && apt-get clean   && rm -rf /var/lib/apt/lists/*
+ ---> Using cache
+ ---> a9f5eb1619a9
+Step 20/33 : COPY . /app
+ ---> 19635528000d
+Step 21/33 : COPY --from=build-python /usr/local/lib/python3.7/site-packages/ /usr/local/lib/python3.7/site-packages/
+ ---> c74c838fd680
+Step 22/33 : COPY --from=build-python /usr/local/bin/ /usr/local/bin/
+ ---> 2fa3395a2ea0
+Step 23/33 : COPY --from=build-nodejs /app/saleor/static /app/saleor/static
+ ---> 0e7325ae2763
+Step 24/33 : COPY --from=build-nodejs /app/webpack-bundle.json /app/
+ ---> 674c44727f76
+Step 25/33 : COPY --from=build-nodejs /app/templates /app/templates
+ ---> 5439d18cbf11
+Step 26/33 : WORKDIR /app
+ ---> Running in 8313800fcb48
+Removing intermediate container 8313800fcb48
+ ---> 9f0c2c83c0f6
+Step 27/33 : RUN SECRET_KEY=dummy STATIC_URL=${STATIC_URL} python3 manage.py collectstatic --no-input
+ ---> Running in 7cfc054a94e2
+
+428 static files copied to '/app/static'.
+Removing intermediate container 7cfc054a94e2
+ ---> dfd2e41762bf
+Step 28/33 : RUN mkdir -p /app/media /app/static   && chown -R saleor:saleor /app/
+ ---> Running in 4d28dde13fcd
+Removing intermediate container 4d28dde13fcd
+ ---> 7a23a21d9f75
+Step 29/33 : EXPOSE 8000
+ ---> Running in 2e97b33a86e4
+Removing intermediate container 2e97b33a86e4
+ ---> f1ab2832f9a7
+Step 30/33 : ENV PORT 8000
+ ---> Running in f7c409450db2
+Removing intermediate container f7c409450db2
+ ---> 346e67d0f797
+Step 31/33 : ENV PYTHONUNBUFFERED 1
+ ---> Running in cb83d25ffa2d
+Removing intermediate container cb83d25ffa2d
+ ---> 725a53071050
+Step 32/33 : ENV PROCESSES 4
+ ---> Running in 4522f6a78e66
+Removing intermediate container 4522f6a78e66
+ ---> 017058b3de22
+Step 33/33 : CMD ["uwsgi", "--ini", "/app/saleor/wsgi/uwsgi.ini"]
+ ---> Running in fd69b940b999
+Removing intermediate container fd69b940b999
+ ---> 59542028401a
+Successfully built 59542028401a
+Successfully tagged stagingsaleor_celery:latest
+Image for service celery was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.
+Building web
+Step 1/33 : FROM python:3.7 as build-python
+ ---> 859d8ec7db6a
+Step 2/33 : RUN apt-get -y update   && apt-get install -y gettext   && apt-get clean   && rm -rf /var/lib/apt/lists/*
+ ---> Using cache
+ ---> 1c768f16b9c0
+Step 3/33 : COPY requirements_dev.txt /app/
+ ---> Using cache
+ ---> 528622a3bc41
+Step 4/33 : WORKDIR /app
+ ---> Using cache
+ ---> 50bae1a3d5b6
+Step 5/33 : RUN pip install -r requirements_dev.txt
+ ---> Using cache
+ ---> 528c383d6f7d
+Step 6/33 : FROM node:10 as build-nodejs
+ ---> 01b816051d34
+Step 7/33 : ARG STATIC_URL
+ ---> Using cache
+ ---> a2c7d486d5d8
+Step 8/33 : ENV STATIC_URL ${STATIC_URL:-/static/}
+ ---> Using cache
+ ---> f71897edfade
+Step 9/33 : COPY webpack.config.js app.json package.json package-lock.json /app/
+ ---> Using cache
+ ---> 83a7c4aef225
+Step 10/33 : WORKDIR /app
+ ---> Using cache
+ ---> 3edd5fef10a0
+Step 11/33 : RUN npm install
+ ---> Using cache
+ ---> 3db022b4858a
+Step 12/33 : COPY ./saleor/static /app/saleor/static/
+ ---> Using cache
+ ---> 73442c18ade7
+Step 13/33 : COPY ./templates /app/templates/
+ ---> Using cache
+ ---> ef333e6488e4
+Step 14/33 : RUN STATIC_URL=${STATIC_URL} npm run build-assets --production   && npm run build-emails --production
+ ---> Using cache
+ ---> 7156dc1b6d1f
+Step 15/33 : FROM python:3.7-slim
+ ---> 74ac77e9873a
+Step 16/33 : ARG STATIC_URL
+ ---> Using cache
+ ---> 147323bcfa68
+Step 17/33 : ENV STATIC_URL ${STATIC_URL:-/static/}
+ ---> Using cache
+ ---> 566024363bed
+Step 18/33 : RUN groupadd -r saleor && useradd -r -g saleor saleor
+ ---> Using cache
+ ---> 98afdca6df54
+Step 19/33 : RUN apt-get update   && apt-get install -y     libxml2     libssl1.1     libcairo2     libpango-1.0-0     libpangocairo-1.0-0     libgdk-pixbuf2.0-0     shared-mime-info     mime-support   && apt-get clean   && rm -rf /var/lib/apt/lists/*
+ ---> Using cache
+ ---> a9f5eb1619a9
+Step 20/33 : COPY . /app
+ ---> Using cache
+ ---> 19635528000d
+Step 21/33 : COPY --from=build-python /usr/local/lib/python3.7/site-packages/ /usr/local/lib/python3.7/site-packages/
+ ---> Using cache
+ ---> c74c838fd680
+Step 22/33 : COPY --from=build-python /usr/local/bin/ /usr/local/bin/
+ ---> Using cache
+ ---> 2fa3395a2ea0
+Step 23/33 : COPY --from=build-nodejs /app/saleor/static /app/saleor/static
+ ---> Using cache
+ ---> 0e7325ae2763
+Step 24/33 : COPY --from=build-nodejs /app/webpack-bundle.json /app/
+ ---> Using cache
+ ---> 674c44727f76
+Step 25/33 : COPY --from=build-nodejs /app/templates /app/templates
+ ---> Using cache
+ ---> 5439d18cbf11
+Step 26/33 : WORKDIR /app
+ ---> Using cache
+ ---> 9f0c2c83c0f6
+Step 27/33 : RUN SECRET_KEY=dummy STATIC_URL=${STATIC_URL} python3 manage.py collectstatic --no-input
+ ---> Using cache
+ ---> dfd2e41762bf
+Step 28/33 : RUN mkdir -p /app/media /app/static   && chown -R saleor:saleor /app/
+ ---> Using cache
+ ---> 7a23a21d9f75
+Step 29/33 : EXPOSE 8000
+ ---> Using cache
+ ---> f1ab2832f9a7
+Step 30/33 : ENV PORT 8000
+ ---> Using cache
+ ---> 346e67d0f797
+Step 31/33 : ENV PYTHONUNBUFFERED 1
+ ---> Using cache
+ ---> 725a53071050
+Step 32/33 : ENV PROCESSES 4
+ ---> Using cache
+ ---> 017058b3de22
+Step 33/33 : CMD ["uwsgi", "--ini", "/app/saleor/wsgi/uwsgi.ini"]
+ ---> Using cache
+ ---> 59542028401a
+Successfully built 59542028401a
+Successfully tagged stagingsaleor_web:latest
+Image for service web was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.
+Creating stagingsaleor_redis_1
+Creating stagingsaleor_db_1
+Creating stagingsaleor_celery_1
+Creating stagingsaleor_web_1
+[8mha:////4Cb9ceJ58ThNoNct+vj6tmq9is9Xc/NLBA4Nry0dabxiAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA3f8Jkb4AAAA=[0m[Pipeline] }
+[8mha:////4IECdkeoBZsToodDLoxb4q3ilE4Ssj4obPNzzbl5BSzpAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] // dir
+[8mha:////4KlN6qMzL6McrIl4obm7X2fJB5ATcS+B4MyoPT/YbqPDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Rc3k7vgAAAA==[0m[Pipeline] }
+[8mha:////4HjoLerv791EAiJQlSrNArj7XCbKFyLCgnIIqYKIW2RkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP87xLGm+AAAA[0m[Pipeline] // stage
+[8mha:////4OYDhRV423ubZeBRGnQLSkhQJGJ2Ha+XQJHrjMNcIFKxAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0UjlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/F/1PLvQAAAA==[0m[Pipeline] }
+[8mha:////4PxD5HcG8ltDYoyiuToWd8V0jsk7s3S+fPdLbH3hlyzcAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0UjlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w/j5jSBvQAAAA==[0m[Pipeline] // node
+[8mha:////4G+7lEQmlc7pn0MWuSx6Kywi4UXo3xAoXPzg9SOaE8GPAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkKBBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AAY59y+9AAAA[0m[Pipeline] End of Pipeline
+Finished: UNSTABLE
